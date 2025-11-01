@@ -81,7 +81,7 @@ function getImageUrl(entity, defaultPath = '/images/deities/general.png') {
     <% deities.forEach(deity => { %>
       <a href="/read/deity/<%= deity.name_sanskrit %>" class="card-item">
         <div class="card-image-wrapper">
-          <img src="<%= deity.image_url && deity.image_url !== '' ? deity.image_url : '/images/deities/general.png' %>" alt="<%= deity.name_sanskrit %>" class="card-image">
+          <img src="<%= deity.image_url && deity.image_url !== '' ? deity.image_url : '/images/general.png' %>" alt="<%= deity.name_sanskrit %>" class="card-image">
         </div>
         <div class="card-content">
           <h3><%= deity.name_sanskrit %></h3>
