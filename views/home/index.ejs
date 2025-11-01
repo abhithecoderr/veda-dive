@@ -1,0 +1,136 @@
+<%# views/home/index.ejs %>
+
+<!-- ======================= -->
+<!-- 1. INTRO SECTION  -->
+<!-- ======================= -->
+<section class="home-intro">
+    <div class="intro-text">
+        <h1>The Living Rigveda</h1>
+        <p class="subtitle">An ancient collection of hymns, reimagined for the modern world.</p>
+        <p>
+            Explore the oldest sacred text of Hinduism, a universe of poetry, philosophy, and ritual. This project provides a comprehensive platform to read, search, and analyze the 1,028 hymns of the Rigveda.
+        </p>
+        <a href="/read" class="cta-button">Explore the Hymns</a>
+    </div>
+    <div class="intro-image-container">
+        <img src="/images/home/rigveda_cover.jpg" alt="Vedic ritual with sacred fire">
+    </div>
+</section>
+
+
+<!-- ======================= -->
+<!-- 2. FEATURED HYMNS       -->
+<!-- ======================= -->
+<% if (locals.featuredHymns && locals.featuredHymns.length > 0) { %>
+<section class="home-section">
+    <h2 class="home-section-title">Featured Hymns</h2>
+    <div class="card-row-container">
+        <% featuredHymns.forEach(hymn => { %>
+            <a href="/hymn/<%= hymn.location_index %>" class="home-card hymn-card">
+                <div class="card-content">
+                    <p class="card-meta">Hymn <%= hymn.location_index %></p>
+                    <h3 class="card-title"><%= hymn.addressee || 'A Vedic Hymn' %></h3>
+                    <p class="card-description"><%= hymn.summary %></p>
+                </div>
+            </a>
+        <% }); %>
+    </div>
+</section>
+<% } %>
+
+
+<!-- ======================= -->
+<!-- 3. KEY DEITIES          -->
+<!-- ======================= -->
+<% if (locals.featuredDeities && locals.featuredDeities.length > 0) { %>
+<section class="home-section">
+    <h2 class="home-section-title">Key Deities</h2>
+    <div class="card-row-container">
+        <% featuredDeities.forEach(deity => { %>
+            <a href="/read/deity/<%= deity.name_sanskrit %>" class="home-card">
+                <div class="card-image-wrapper">
+                    <img src="<%= deity.image_url || '/images/general.png' %>" alt="<%= deity.name_sanskrit %>" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title"><%= deity.name_sanskrit %></h3>
+                    <p class="card-meta">Hymns: <span><%= deity.hymn_count %>+</span></p>
+                    <p class="card-description"><%= deity.bio_summary %></p>
+                </div>
+            </a>
+        <% }); %>
+    </div>
+</section>
+<% } %>
+
+
+<!-- ======================= -->
+<!-- 4. THE RISHIS           -->
+<!-- ======================= -->
+<% if (locals.featuredRishis && locals.featuredRishis.length > 0) { %>
+<section class="home-section">
+    <h2 class="home-section-title">The Rishis</h2>
+    <div class="card-row-container">
+        <% featuredRishis.forEach(rishi => { %>
+            <a href="/read/rishi/<%= rishi.name_sanskrit %>" class="home-card">
+                <div class="card-image-wrapper">
+                    <img src="<%= rishi.image_url || '/images/general.png' %>" alt="<%= rishi.name_sanskrit %>" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title"><%= rishi.name_sanskrit %></h3>
+                    <p class="card-meta">Family: <span><%= rishi.family %></span> | Hymns: <span><%= rishi.hymn_count %>+</span></p>
+                    <p class="card-description"><%= rishi.bio_summary %></p>
+                </div>
+            </a>
+        <% }); %>
+    </div>
+</section>
+<% } %>
+
+
+<!-- ======================= -->
+<!-- 5. CREATURES & CONCEPTS -->
+<!-- ======================= -->
+<% if (locals.featuredCreaturesAndObjects && locals.featuredCreaturesAndObjects.length > 0) { %>
+<section class="home-section">
+    <h2 class="home-section-title">Creatures & Concepts</h2>
+    <div class="card-row-container">
+        <% featuredCreaturesAndObjects.forEach(entity => { %>
+            <a href="/read/<%= entity.category.toLowerCase() %>/<%= entity.name_sanskrit %>" class="home-card">
+                <div class="card-image-wrapper">
+                    <img src="<%= entity.image_url || '/images/general.png' %>" alt="<%= entity.name_sanskrit %>" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title"><%= entity.name_sanskrit %></h3>
+                    <p class="card-meta">Category: <span><%= entity.category %></span></p>
+                    <p class="card-description"><%= entity.bio_summary %></p>
+                </div>
+            </a>
+        <% }); %>
+    </div>
+</section>
+<% } %>
+
+
+<!-- ======================= -->
+<!-- 6. INTERESTING INSIGHTS -->
+<!-- ======================= -->
+<% if (locals.featuredInsights && locals.featuredInsights.length > 0) { %>
+<section class="home-section">
+    <h2 class="home-section-title">Interesting Insights</h2>
+    <div class="card-row-container">
+        <% featuredInsights.forEach(insight => { %>
+            <a href="<%= insight.link %>" class="home-card">
+                <div class="card-image-wrapper">
+                    <img src="<%= insight.imageUrl || '/images/general.png' %>" alt="<%= insight.title %>" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title"><%= insight.title %></h3>
+                    <p class="card-description"><%= insight.description %></p>
+                </div>
+            </a>
+        <% }); %>
+    </div>
+</section>
+<% } %>
+
+

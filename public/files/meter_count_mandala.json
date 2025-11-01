@@ -1,0 +1,372 @@
+[
+  {
+    "mandala_num": 1,
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 731
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 472
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 353
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 107
+      },
+      {
+        "meter": "Dvipada",
+        "totalCount": 61
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 58
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 43
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 37
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 16
+      }
+    ]
+  },
+  {
+    "mandala_num": 2,
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 226
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 142
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 37
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 14
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 1
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "mandala_num": 3,
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 399
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 104
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 49
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 22
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 22
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 10
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 4
+      }
+    ]
+  },
+  {
+    "mandala_num": 4,
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 403
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 113
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 33
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 26
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 3
+      }
+    ]
+  },
+  {
+    "mandala_num": 5,
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 281
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 155
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 104
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 79
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 61
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 15
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 9
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 8
+      },
+      {
+        "meter": "Dvipada",
+        "totalCount": 4
+      }
+    ]
+  },
+  {
+    "mandala_num": 6,
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 476
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 137
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 45
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 38
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 24
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 13
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 8
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 7
+      },
+      {
+        "meter": "Dvipada",
+        "totalCount": 3
+      }
+    ]
+  },
+  {
+    "mandala_num": 7,
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 585
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 57
+      },
+      {
+        "meter": "Dvipada",
+        "totalCount": 40
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 38
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 33
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 29
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 8
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 4
+      }
+    ]
+  },
+  {
+    "mandala_num": 8,
+    "meters": [
+      {
+        "meter": "Gayatri",
+        "totalCount": 738
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 211
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 203
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 157
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 113
+      },
+      {
+        "meter": "Tristubh",
+        "totalCount": 65
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 35
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 30
+      },
+      {
+        "meter": "Dvipada",
+        "totalCount": 13
+      }
+    ]
+  },
+  {
+    "mandala_num": 9,
+    "meters": [
+      {
+        "meter": "Gayatri",
+        "totalCount": 598
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 166
+      },
+      {
+        "meter": "Tristubh",
+        "totalCount": 149
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 49
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 40
+      },
+      {
+        "meter": "Dvipada",
+        "totalCount": 27
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 19
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 19
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 15
+      }
+    ]
+  },
+  {
+    "mandala_num": 10,
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 861
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 336
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 256
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 108
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 39
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 11
+      },
+      {
+        "meter": "Dvipada",
+        "totalCount": 9
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 4
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 3
+      }
+    ]
+  }
+]

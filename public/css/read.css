@@ -1,0 +1,242 @@
+
+.back-arrow {
+    position: absolute;
+    top: 135px;
+    left: 70px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-bg-description-box);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 1.25rem;
+    color: var(--color-heading-warm);
+    text-decoration: none;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.back-arrow:hover {
+    transform: scale(1.05);
+}
+
+.read-title {
+    width: 2600px;
+    align-content: center;
+}
+
+.flex-row-container {
+    display: grid;
+    /* This creates 4 equal-width columns */
+    grid-template-columns: repeat(4, 1fr);
+    /* A slightly smaller gap works better for 4 columns */
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+    max-width: 2600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 var(--spacing-md);
+    justify-content: center;
+}
+
+/* INDIVIDUAL CARD STYLING */
+.card-item {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow-subtle);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    text-align: left;
+    color: var(--color-text-primary);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-decoration: none;
+    height: 100%;
+    width: 300px;
+}
+
+.card-item:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--box-shadow-focus);
+    background-color: var(--color-bg-card-hover);
+    border-color: var(--color-card-border-strong);
+}
+
+.card-image-wrapper {
+    width: 100%;
+    /* Reduced height for a better aspect ratio in a 4-column grid */
+    height: 250px;
+    overflow: hidden;
+    border-top-left-radius: var(--border-radius-md);
+    border-top-right-radius: var(--border-radius-md);
+    background-color: var(--color-bg-card-hover);
+    background-image: var(--image-wrapper-texture);
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--color-bg-card-hover);
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-item:hover .card-image {
+    transform: scale(1.05);
+}
+
+.card-content {
+    background-color: var(--color-bg-card);
+    padding: var(--spacing-md);
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+    border-bottom-left-radius: var(--border-radius-md);
+    border-bottom-right-radius: var(--border-radius-md);
+    min-height: 200px;
+}
+
+/* CARD HEADER -- Adjusted for smaller space */
+.card-item h3 {
+    font-family: var(--font-heading);
+    color: var(--color-heading-warm);
+    /* Slightly smaller font size to prevent wrapping */
+    font-size: 1.3rem;
+    margin-bottom: var(--spacing-xs);
+    line-height: 1.2;
+    text-align: center;
+    word-break: break-word;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-meta-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--spacing-xs);
+    padding-bottom: var(--spacing-xs);
+    margin-bottom: var(--spacing-xs);
+}
+
+.card-meta {
+    font-family: var(--font-body);
+    /* Smaller font for meta details to save space */
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-top: var(--spacing-xs);
+    margin-bottom: var(--spacing-xs);
+    line-height: 1.4;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+/* Meta label/value colors */
+.card-meta.hymn-count-line b,
+.card-meta.rishi-line b,
+.card-meta.family-line b {
+    font-weight: 600;
+    margin-right: 3px;
+    letter-spacing: 0.2px;
+}
+
+.card-meta.hymn-count-line b { color: var(--color-text-hymn-label); }
+.card-meta.hymn-count-line { color: var(--color-text-hymn-value); font-weight: 600; }
+
+.card-meta.rishi-line b { color: var(--color-text-rishi-label); }
+.card-meta.rishi-line { color: var(--color-text-rishi-value); font-weight: 500; }
+
+.card-meta.family-line b { color: var(--color-text-family-label); }
+.card-meta.family-line { color: var(--color-text-family-value); font-weight: 500; }
+
+/* DESCRIPTION BOX */
+.card-description-box {
+    background-color: var(--color-bg-description-box);
+    flex-grow: 1;
+    margin-left: calc(var(--spacing-md) * -1);
+    margin-right: calc(var(--spacing-md) * -1);
+    padding: var(--spacing-md);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+    border-top: none;
+    border-bottom-left-radius: var(--border-radius-md);
+    border-bottom-right-radius: var(--border-radius-md);
+    min-height: 50px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-description-box p {
+    /* Adjusted font size and line height */
+    font-size: 0.9rem;
+    color: var(--color-text-description);
+    line-height: 1.5;
+    margin: 0;
+    /* The following properties truncate text after a few lines */
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* --- RESPONSIVE ADJUSTMENTS for Grid Layout --- */
+
+/* For smaller desktops and large tablets (3 columns) */
+@media (max-width: 1400px) {
+    .flex-row-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* For standard tablets (2 columns) */
+@media (max-width: 992px) {
+    .flex-row-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-item h3 {
+        font-size: 1.25rem; /* Text can be a bit larger */
+    }
+    .card-image-wrapper {
+        height: 220px;
+    }
+    .card-meta, .card-description-box p {
+        font-size: 0.9rem; /* Restore slightly larger font */
+    }
+}
+
+/* For mobile phones (1 column) */
+@media (max-width: 576px) {
+    .flex-row-container {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+        padding: 0 var(--spacing-md);
+    }
+    .card-item {
+        max-width: 350px; /* Constrain width in single column for readability */
+        margin: 0 auto;
+    }
+    .card-image-wrapper {
+        height: 200px;
+    }
+    .card-item h3 {
+        font-size: 1.4rem;
+    }
+    .card-meta, .card-description-box p {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,361 @@
+/* Contains all styles related to the stanza cards, including layout, */
+
+.stanza-col-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-lg);
+  align-items: center;
+}
+.stanza-card-item {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-md);
+  box-shadow: var(--box-shadow-subtle);
+  transition: box-shadow 0.2s, background-color 0.2s;
+  text-align: left;
+  color: var(--color-text-primary);
+  position: relative;
+  width: 100%;
+  max-width: 850px;
+  flex-grow: 1;
+}
+.stanza-card-item:hover {
+  box-shadow: var(--box-shadow-focus);
+}
+
+.stanza-header-row {
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+}
+.audio-control-wrapper {
+  position: absolute;
+  top: var(--spacing-md);
+  right: var(--spacing-md);
+  z-index: 10;
+}
+.play-stanza-btn {
+  background: none;
+  border: none;
+  padding: var(--spacing-xs);
+  cursor: pointer;
+  color: var(--color-icon-primary);
+  font-size: 1.1rem;
+  transition: color 0.15s, transform 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--color-bg-body);
+  box-shadow: var(--box-shadow-subtle);
+}
+.play-stanza-btn:hover {
+  transform: scale(1.05);
+  background-color: var(--color-bg-card);
+}
+.play-stanza-btn:active {
+  transform: scale(0.95);
+}
+.play-stanza-btn.is-playing {
+  color: var(--color-accent-playing);
+}
+
+.stanza-core-text.interlinear {
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-sm);
+  margin: var(--spacing-md);
+  margin-bottom: var(--spacing-xs);
+}
+.interlinear-line-group {
+  margin: var(--spacing-md);
+  margin-bottom: 2rem;
+}
+.sanskrit-line {
+  font-family: var(--font-sanskrit);
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
+  text-align: center;
+  color: var(--color-text-primary);
+  margin: var(--spacing-xs);
+  line-height: 1.4;
+  font-weight: 500;
+  transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease,
+    font-weight 0.3s ease;
+}
+.sanskrit-line.highlight {
+  color: var(--color-sanskrit-highlight);
+  font-weight: 700;
+  transform: scale(1.05);
+}
+.translit-line-aufrecht {
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--color-heading-warm);
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  margin-top: var(--spacing-xs);
+  line-height: 1.2;
+}
+
+.stanza-controls-pane {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-xs);
+}
+.controls-nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--color-border-subtle);
+  margin-bottom: var(--spacing-sm);
+  overflow-x: auto;
+  padding-bottom: 0;
+}
+.control-tab {
+  background: none;
+  border: none;
+  padding: var(--spacing-sm) var(--spacing-md);
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-bottom-color 0.2s;
+  white-space: nowrap;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.control-tab:hover {
+  color: var(--color-heading-warm);
+}
+.control-tab.active {
+  color: var(--color-heading-cool);
+  border-bottom-color: var(--color-heading-cool);
+  font-weight: 700;
+}
+
+.translation-filter-wrapper {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  padding: 0 var(--spacing-sm);
+  line-height: 1;
+  height: 100%;
+}
+.translation-filter-select {
+  padding: 4px 8px;
+  margin-left: var(--spacing-sm);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--border-radius-md);
+  background-color: var(--color-bg-body);
+  font-family: var(--font-body);
+}
+
+.dynamic-content-area {
+  padding: var(--spacing-sm);
+  min-height: 80px;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 300px;
+  border-radius: var(--border-radius-md);
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+}
+.dynamic-content-area::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.dynamic-content-area::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+  border-radius: 10px;
+}
+.dynamic-content-area::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color);
+  border-radius: 10px;
+}
+.dynamic-content-area::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover-color);
+}
+
+.translation-text-primary {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  text-align: center;
+  padding: var(--spacing-sm) 0;
+}
+.stanza-summary-text {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+/* Word Meanings Grid */
+.word-meanings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+  padding: 0;
+  list-style: none;
+}
+.word-meaning-box {
+  background-color: var(--color-bg-body);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-sm);
+  box-shadow: var(--box-shadow-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  text-align: center;
+}
+.word-part {
+  margin: 0 0 var(--spacing-xs) 0;
+  line-height: 1.3;
+  display: block;
+}
+.word-sanskrit {
+  font-family: var(--font-sanskrit);
+  font-size: 1.2rem;
+  color: var(--color-heading-cool);
+  font-weight: 500;
+  vertical-align: middle;
+}
+.word-translit {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.95rem;
+  color: var(--color-heading-warm);
+  margin-left: 0.25rem;
+  vertical-align: middle;
+}
+.word-meaning-box-text {
+  font-size: 1rem;
+  color: var(--color-text-primary);
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Padas List */
+.pada-list-detailed {
+  list-style: none;
+  margin-top: var(--spacing-md);
+  padding: 0;
+}
+.meter-info {
+  font-size: 1.1rem;
+}
+.meter-name {
+  font-size: 1.2rem;
+}
+.pada-item {
+  margin-bottom: var(--spacing-sm);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--border-radius-md);
+  background-color: var(--color-bg-body);
+  box-shadow: var(--box-shadow-subtle);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.pada-label {
+  font-weight: 700;
+  color: var(--color-heading-cool);
+  margin-right: var(--spacing-sm);
+  font-size: 1.1rem;
+  flex-basis: 20px;
+  flex-shrink: 0;
+}
+.pada-sanskrit {
+  font-family: var(--font-sanskrit);
+  font-size: 1.2rem;
+  color: var(--color-text-primary);
+  font-weight: 500;
+  margin-right: var(--spacing-sm);
+  flex-grow: 1;
+  flex-basis: auto;
+  min-width: 150px;
+  text-align: left;
+}
+.pada-transliteration {
+  font-size: 1rem;
+  color: var(--color-heading-warm);
+  font-family: "Roboto Mono", monospace;
+  flex-grow: 1;
+  flex-basis: auto;
+  min-width: 150px;
+  text-align: left;
+}
+.pada-syllables {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  margin-left: var(--spacing-sm);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .sanskrit-line {
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
+  }
+  .translit-line-aufrecht {
+    font-size: 0.9rem;
+  }
+  .dynamic-content-area {
+    max-height: 250px; 
+  }
+  .pada-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pada-label {
+    margin-bottom: var(--spacing-xs);
+  }
+  .pada-sanskrit,
+  .pada-transliteration,
+  .pada-syllables {
+    margin-right: 0;
+    margin-left: var(--spacing-lg);
+    text-align: left;
+    width: auto;
+  }
+  .pada-syllables {
+    margin-top: var(--spacing-xs);
+  }
+}
+
+p.sanskrit-line[data-continuous="true"],
+p.translit-line-aufrecht[data-continuous="true"] {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin: var(--spacing-xs) 0;
+}
+
+p.translit-line-aufrecht[data-continuous="true"] {
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+
+/* Highlight style for the segment in continuous view */
+.sanskrit-segment.highlight {
+  color: var(--color-sanskrit-highlight);
+  font-weight: 700;
+}
+
+.sanskrit-segment:not(:last-child) {
+  margin-right: 0.3em;
+}
+
+.translit-segment:not(:last-child) {
+  margin-right: 0.1em;
+}
+
+.continuous-view-content .interlinear-line-group {
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+}

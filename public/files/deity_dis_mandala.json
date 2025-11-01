@@ -1,0 +1,720 @@
+[
+  {
+    "mandala_num": 1,
+    "deities": [
+      {
+        "deity_name": "Indra",
+        "hymn_count": 57
+      },
+      {
+        "deity_name": "Agni",
+        "hymn_count": 48
+      },
+      {
+        "deity_name": "Asvins",
+        "hymn_count": 18
+      },
+      {
+        "deity_name": "Maruts",
+        "hymn_count": 16
+      },
+      {
+        "deity_name": "All the Gods",
+        "hymn_count": 9
+      },
+      {
+        "deity_name": "Varuna",
+        "hymn_count": 9
+      },
+      {
+        "deity_name": "Usas",
+        "hymn_count": 7
+      },
+      {
+        "deity_name": "Mitra",
+        "hymn_count": 6
+      },
+      {
+        "deity_name": "Ribhus",
+        "hymn_count": 4
+      },
+      {
+        "deity_name": "Soma",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Vayu",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Apri Hymn",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Vishnu",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Savitri",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Pusan",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Diverse Gods",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Brahmanaspati",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Rudra",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Agni Vaisvanara",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Surya",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Adityas",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Brihaspati",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Sarasvati",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Sadasaspati",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Agni Giver of Goods",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Surya the Sun-God",
+        "hymn_count": 1
+      }
+    ]
+  },
+  {
+    "mandala_num": 2,
+    "deities": [
+      {
+        "deity_name": "Indra",
+        "hymn_count": 13
+      },
+      {
+        "deity_name": "Agni",
+        "hymn_count": 9
+      },
+      {
+        "deity_name": "Brahmanaspati",
+        "hymn_count": 4
+      },
+      {
+        "deity_name": "Diverse Gods",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "All the Gods",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Soma",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Asvins",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Varuna",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Maruts",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Savitri",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Pusan",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Apri Hymn",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Adityas",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Rudra",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Apam Napat",
+        "hymn_count": 1
+      }
+    ]
+  },
+  {
+    "mandala_num": 3,
+    "deities": [
+      {
+        "deity_name": "Indra",
+        "hymn_count": 25
+      },
+      {
+        "deity_name": "Agni",
+        "hymn_count": 24
+      },
+      {
+        "deity_name": "All the Gods",
+        "hymn_count": 5
+      },
+      {
+        "deity_name": "Agni Vaisvanara",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Asvins",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Mitra",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Usas",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Ribhus",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Apri Hymn",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Diverse Gods",
+        "hymn_count": 1
+      }
+    ]
+  },
+  {
+    "mandala_num": 4,
+    "deities": [
+      {
+        "deity_name": "Indra",
+        "hymn_count": 22
+      },
+      {
+        "deity_name": "Agni",
+        "hymn_count": 12
+      },
+      {
+        "deity_name": "Ribhus",
+        "hymn_count": 5
+      },
+      {
+        "deity_name": "Asvins",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Vayu",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Dadhikra",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Soma",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Varuna",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Usas",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Savitri",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Brihaspati",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "All the Gods",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Agni Vaisvanara",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Aditi",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Agni Killer of Demons",
+        "hymn_count": 1
+      }
+    ]
+  },
+  {
+    "mandala_num": 5,
+    "deities": [
+      {
+        "deity_name": "Agni",
+        "hymn_count": 28
+      },
+      {
+        "deity_name": "Indra",
+        "hymn_count": 13
+      },
+      {
+        "deity_name": "Varuna",
+        "hymn_count": 12
+      },
+      {
+        "deity_name": "All the Gods",
+        "hymn_count": 11
+      },
+      {
+        "deity_name": "Maruts",
+        "hymn_count": 11
+      },
+      {
+        "deity_name": "Mitra",
+        "hymn_count": 11
+      },
+      {
+        "deity_name": "Asvins",
+        "hymn_count": 6
+      },
+      {
+        "deity_name": "Usas",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Savitri",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Apri Hymn",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Surya",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Parjanya",
+        "hymn_count": 1
+      }
+    ]
+  },
+  {
+    "mandala_num": 6,
+    "deities": [
+      {
+        "deity_name": "Indra",
+        "hymn_count": 36
+      },
+      {
+        "deity_name": "Agni",
+        "hymn_count": 16
+      },
+      {
+        "deity_name": "Pusan",
+        "hymn_count": 7
+      },
+      {
+        "deity_name": "All the Gods",
+        "hymn_count": 4
+      },
+      {
+        "deity_name": "Soma",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Agni Vaisvanara",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Asvins",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Varuna",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Maruts",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Usas",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Mitra",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Savitri",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Diverse Gods",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Brihaspati",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Vishnu",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Rudra",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Sarasvati",
+        "hymn_count": 1
+      }
+    ]
+  },
+  {
+    "mandala_num": 7,
+    "deities": [
+      {
+        "deity_name": "Indra",
+        "hymn_count": 27
+      },
+      {
+        "deity_name": "Agni",
+        "hymn_count": 15
+      },
+      {
+        "deity_name": "Varuna",
+        "hymn_count": 14
+      },
+      {
+        "deity_name": "All the Gods",
+        "hymn_count": 8
+      },
+      {
+        "deity_name": "Asvins",
+        "hymn_count": 8
+      },
+      {
+        "deity_name": "Usas",
+        "hymn_count": 7
+      },
+      {
+        "deity_name": "Mitra",
+        "hymn_count": 6
+      },
+      {
+        "deity_name": "Maruts",
+        "hymn_count": 4
+      },
+      {
+        "deity_name": "Diverse Gods",
+        "hymn_count": 4
+      },
+      {
+        "deity_name": "Vayu",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Agni Vaisvanara",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Surya",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Adityas",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Savitri",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Vishnu",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Sarasvati",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Parjanya",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Sarasvat",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Soma",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Ribhus",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Apri Hymn",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Brihaspati",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Rudra",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Dadhikra",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Bhaga",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Vastospati",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Mitra-Varuna",
+        "hymn_count": 1
+      }
+    ]
+  },
+  {
+    "mandala_num": 8,
+    "deities": [
+      {
+        "deity_name": "Indra",
+        "hymn_count": 56
+      },
+      {
+        "deity_name": "Agni",
+        "hymn_count": 16
+      },
+      {
+        "deity_name": "Asvins",
+        "hymn_count": 13
+      },
+      {
+        "deity_name": "All the Gods",
+        "hymn_count": 6
+      },
+      {
+        "deity_name": "Varuna",
+        "hymn_count": 4
+      },
+      {
+        "deity_name": "Maruts",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Adityas",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Soma",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Diverse Gods",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Mitra",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Vayu",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Vak",
+        "hymn_count": 1
+      }
+    ]
+  },
+  {
+    "mandala_num": 9,
+    "deities": [
+      {
+        "deity_name": "Soma",
+        "hymn_count": 113
+      },
+      {
+        "deity_name": "Apri Hymn",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Diverse Gods",
+        "hymn_count": 1
+      }
+    ]
+  },
+  {
+    "mandala_num": 10,
+    "deities": [
+      {
+        "deity_name": "Indra",
+        "hymn_count": 44
+      },
+      {
+        "deity_name": "Agni",
+        "hymn_count": 29
+      },
+      {
+        "deity_name": "All the Gods",
+        "hymn_count": 21
+      },
+      {
+        "deity_name": "Asvins",
+        "hymn_count": 6
+      },
+      {
+        "deity_name": "Surya",
+        "hymn_count": 5
+      },
+      {
+        "deity_name": "Diverse Gods",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Brihaspati",
+        "hymn_count": 3
+      },
+      {
+        "deity_name": "Maruts",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Apri Hymn",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Yama",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Visvakarman",
+        "hymn_count": 2
+      },
+      {
+        "deity_name": "Soma",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Varuna",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Mitra",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Vayu",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Savitri",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Pusan",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Aditi",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Yami",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Ancestors",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Manyu (Wrath)",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Manyu",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Vaisvanara",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Urvasi",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Vena",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Vac (Speech)",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Aranyani",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Vata (The Storm)",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Tarksya",
+        "hymn_count": 1
+      },
+      {
+        "deity_name": "Agni Jatavedas",
+        "hymn_count": 1
+      }
+    ]
+  }
+]

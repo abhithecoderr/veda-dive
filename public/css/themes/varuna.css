@@ -1,0 +1,63 @@
+/* ================================
+   Varuna Theme – Calm Ocean Day
+   ================================ */
+
+:root {
+    --color-bg-card: rgba(0, 30, 50, 0.55);
+    --color-bg-body: #062033;
+
+    --color-text-primary: #d4f3ff;
+    --color-text-secondary: #93d4ff;
+    --color-icon-primary: #a8e0ff;
+
+    --color-heading-warm: #2fb8ff;
+    --color-heading-cool: #5fd4ff;
+    --color-accent-gold: #b5eeff;
+    --color-accent-playing: #69e2ff;
+
+    --color-border-subtle: rgba(80, 170, 230, 0.3);
+    --color-card-glow: 0 0 8px rgba(60, 170, 255, 0.25),
+                       0 0 4px rgba(0, 60, 120, 0.3);
+
+    --scrollbar-track-color: rgba(10, 30, 50, 0.6);
+    --scrollbar-thumb-color: #3fa9ff;
+    --scrollbar-thumb-hover-color: #73ccff;
+}
+
+.hymn-nav-section,
+.stanza-card-item,
+.stanza-nav-footer {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: 12px;
+    box-shadow: var(--color-card-glow);
+    backdrop-filter: blur(4px) saturate(150%);
+}
+
+/* --- Text --- */
+.sanskrit-line {
+    color: #e1f9ff;
+    text-shadow: 0 0 6px rgba(0, 50, 100, 0.6);
+}
+.translit-line-aufrecht {
+    color: #93d4ff;
+}
+
+/* --- Interlinear --- */
+.stanza-core-text.interlinear {
+    background: linear-gradient(145deg, rgba(10, 40, 60, 0.85), rgba(5, 25, 40, 0.85));
+    border: 1px solid rgba(80, 160, 220, 0.3);
+    border-radius: 10px;
+    padding: 1.2rem;
+    color: #d4f3ff;
+    box-shadow: inset 0 0 10px rgba(60, 140, 200, 0.3);
+}
+
+/* --- Dynamic Content --- */
+.dynamic-content-area {
+    background: rgba(15, 35, 55, 0.8);
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    color: #d4f3ff;
+    border: 1px solid rgba(80, 160, 220, 0.25);
+}

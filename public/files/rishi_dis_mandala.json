@@ -1,0 +1,300 @@
+[
+  {
+    "mandala_num": 1,
+    "rishis": [
+      {
+        "rishi_name": "Agastya",
+        "hymn_count": 27
+      },
+      {
+        "rishi_name": "Dirghatamas",
+        "hymn_count": 25
+      },
+      {
+        "rishi_name": "Medhatithi",
+        "hymn_count": 24
+      },
+      {
+        "rishi_name": "Kutsa Angirasa",
+        "hymn_count": 22
+      },
+      {
+        "rishi_name": "Gotama",
+        "hymn_count": 20
+      },
+      {
+        "rishi_name": "Parucchepa",
+        "hymn_count": 13
+      },
+      {
+        "rishi_name": "Madhucchandas",
+        "hymn_count": 11
+      },
+      {
+        "rishi_name": "Kaksivat",
+        "hymn_count": 11
+      },
+      {
+        "rishi_name": "Parasa",
+        "hymn_count": 9
+      },
+      {
+        "rishi_name": "Kanva",
+        "hymn_count": 8
+      },
+      {
+        "rishi_name": "Nodhas",
+        "hymn_count": 7
+      },
+      {
+        "rishi_name": "Praskanva",
+        "hymn_count": 7
+      },
+      {
+        "rishi_name": "Savya",
+        "hymn_count": 7
+      }
+    ]
+  },
+  {
+    "mandala_num": 2,
+    "rishis": [
+      {
+        "rishi_name": "Gritsamada Saunahotra",
+        "hymn_count": 43
+      }
+    ]
+  },
+  {
+    "mandala_num": 3,
+    "rishis": [
+      {
+        "rishi_name": "Vishvamitra Gathina",
+        "hymn_count": 62
+      }
+    ]
+  },
+  {
+    "mandala_num": 4,
+    "rishis": [
+      {
+        "rishi_name": "Vamadeva Gautama",
+        "hymn_count": 58
+      }
+    ]
+  },
+  {
+    "mandala_num": 5,
+    "rishis": [
+      {
+        "rishi_name": "Atri Bhauma",
+        "hymn_count": 87
+      }
+    ]
+  },
+  {
+    "mandala_num": 6,
+    "rishis": [
+      {
+        "rishi_name": "Bharadvaja Barhaspatya",
+        "hymn_count": 75
+      }
+    ]
+  },
+  {
+    "mandala_num": 7,
+    "rishis": [
+      {
+        "rishi_name": "Vasishtha Maitravaruni",
+        "hymn_count": 104
+      }
+    ]
+  },
+  {
+    "mandala_num": 8,
+    "rishis": [
+      {
+        "rishi_name": "Others",
+        "hymn_count": 41
+      },
+      {
+        "rishi_name": "Sons of Kanva",
+        "hymn_count": 17
+      },
+      {
+        "rishi_name": "Virupa",
+        "hymn_count": 11
+      },
+      {
+        "rishi_name": "Priyamedha",
+        "hymn_count": 10
+      },
+      {
+        "rishi_name": "Tirasci",
+        "hymn_count": 9
+      },
+      {
+        "rishi_name": "Medhatithi",
+        "hymn_count": 8
+      },
+      {
+        "rishi_name": "Krishna",
+        "hymn_count": 8
+      },
+      {
+        "rishi_name": "Ekadyu",
+        "hymn_count": 8
+      },
+      {
+        "rishi_name": "Pragatha",
+        "hymn_count": 7
+      },
+      {
+        "rishi_name": "Vatsa",
+        "hymn_count": 6
+      },
+      {
+        "rishi_name": "Vasa",
+        "hymn_count": 6
+      },
+      {
+        "rishi_name": "Manu Vaivasvata",
+        "hymn_count": 5
+      },
+      {
+        "rishi_name": "Nodhas",
+        "hymn_count": 4
+      },
+      {
+        "rishi_name": "Sobhari",
+        "hymn_count": 4
+      },
+      {
+        "rishi_name": "Vyasva",
+        "hymn_count": 4
+      },
+      {
+        "rishi_name": "Syavasva",
+        "hymn_count": 4
+      },
+      {
+        "rishi_name": "Nabhaka",
+        "hymn_count": 4
+      },
+      {
+        "rishi_name": "Gopavana",
+        "hymn_count": 3
+      },
+      {
+        "rishi_name": "Sons of Atri",
+        "hymn_count": 3
+      },
+      {
+        "rishi_name": "Srutakaksu",
+        "hymn_count": 3
+      }
+    ]
+  },
+  {
+    "mandala_num": 9,
+    "rishis": [
+      {
+        "rishi_name": "Others",
+        "hymn_count": 67
+      },
+      {
+        "rishi_name": "Tirasci",
+        "hymn_count": 67
+      }
+    ]
+  },
+  {
+    "mandala_num": 10,
+    "rishis": [
+      {
+        "rishi_name": "Others",
+        "hymn_count": 107
+      },
+      {
+        "rishi_name": "Trita Aptya",
+        "hymn_count": 9
+      },
+      {
+        "rishi_name": "Vimada",
+        "hymn_count": 7
+      },
+      {
+        "rishi_name": "Kavasa Ailusa",
+        "hymn_count": 5
+      },
+      {
+        "rishi_name": "Lusa",
+        "hymn_count": 4
+      },
+      {
+        "rishi_name": "Gaupayana",
+        "hymn_count": 4
+      },
+      {
+        "rishi_name": "Krishna",
+        "hymn_count": 3
+      },
+      {
+        "rishi_name": "Vasukra",
+        "hymn_count": 3
+      },
+      {
+        "rishi_name": "Ghosa",
+        "hymn_count": 3
+      },
+      {
+        "rishi_name": "Vatsapri",
+        "hymn_count": 3
+      },
+      {
+        "rishi_name": "Brihaduktha",
+        "hymn_count": 3
+      },
+      {
+        "rishi_name": "Nabhanedistha",
+        "hymn_count": 2
+      },
+      {
+        "rishi_name": "Gaya Plata",
+        "hymn_count": 2
+      },
+      {
+        "rishi_name": "Vasukarna",
+        "hymn_count": 2
+      },
+      {
+        "rishi_name": "Ayasya",
+        "hymn_count": 2
+      },
+      {
+        "rishi_name": "Sumitra",
+        "hymn_count": 2
+      },
+      {
+        "rishi_name": "Brihaspati",
+        "hymn_count": 2
+      },
+      {
+        "rishi_name": "Gauriviti",
+        "hymn_count": 2
+      },
+      {
+        "rishi_name": "Syumarasmi",
+        "hymn_count": 2
+      },
+      {
+        "rishi_name": "Visvakarman Bhauvana",
+        "hymn_count": 2
+      },
+      {
+        "rishi_name": "Manyu",
+        "hymn_count": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,140 @@
+<!-- /views/insights/graph.ejs -->
+<link rel="stylesheet" href="/css/graph.css">
+
+<div class="container graph-page-container">
+    <div class="graph-header">
+        <a href="/insights" class="back-link">&larr; </a>
+        <h3><%= title %></h3>
+        <!-- Treemap filters have been MOVED from here -->
+    </div>
+
+    <div class="graph-display-area">
+        <!-- Main container for all visualizations -->
+        <div id="chart-container" class="graph-container">
+            <!-- NEW: Container for Treemap filters is now INSIDE the chart area -->
+            <div id="treemap-filters-container" class="hidden"></div>
+
+            <div id="bar-chart-wrapper">
+                 <canvas id="insight-chart"></canvas>
+            </div>
+
+            <div id="pie-charts-wrapper-container" class="hidden">
+                 <h4 id="multi-chart-main-title"></h4>
+                 <div id="multi-chart-select-container" class="hidden"></div>
+                 <div id="pie-charts-wrapper"></div>
+            </div>
+
+            <p id="loading-text" class="chart-placeholder-text">Loading chart data...</p>
+
+            <div class="graph-controls">
+                <!-- Toggle for Bar/Pie chart type -->
+                <div class="toggle-switch">
+                    <input type="radio" id="bar-chart-toggle" name="chart-type" value="bar" checked>
+                    <label for="bar-chart-toggle">Bar Chart</label>
+                    <input type="radio" id="pie-chart-toggle" name="chart-type" value="pie">
+                    <label for="pie-chart-toggle">Pie Chart</label>
+                    <span class="toggle-slider"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="custom-legend-container" class="hidden"></div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-chart-treemap@2.3.0/dist/chartjs-chart-treemap.min.js"></script>
+
+<script type="module">
+    // This file does not need any JS changes. The existing code is correct.
+    import { renderVisuals, destroyAllCharts } from '/utils/charts.js';
+
+    document.addEventListener('DOMContentLoaded', async () => {
+        const graphType = "<%= graphType %>";
+        const loadingText = document.getElementById('loading-text');
+        const chartToggles = document.querySelectorAll('input[name="chart-type"]');
+        const mainChartCanvasWrapper = document.getElementById('bar-chart-wrapper');
+        const pieChartsWrapperContainer = document.getElementById('pie-charts-wrapper-container');
+        const multiChartTitle = document.getElementById('multi-chart-main-title');
+        const legendContainer = document.getElementById('custom-legend-container');
+        const chartContainer = document.getElementById('chart-container');
+
+        let currentChartType = 'bar';
+        let jsonData = null;
+
+        const fileMap = {
+            'hymn-distribution-mandala': 'hymn_dis_mandala',
+            'deity-distribution-mandala': 'deity_dis_mandala',
+            'rishi-distribution-mandala': 'rishi_dis_mandala',
+            'meter-distribution-global': 'meter_count_global',
+            'meter-distribution-mandala': 'meter_count_mandala',
+            'meter-distribution-deity': 'meter_count_deity',
+            'hymn-count-deity': 'deity_hymn_count',
+            'hymn-count-rishi': 'rishi_hymn_count',
+            'rishi-deity-association': 'rishiDeityHymnCounts',
+            'word-distribution-global': 'word_frequency_global',
+            'word-distribution-mandala': 'word_frequency_mandala',
+            'word-distribution-deity': 'word_frequency_deity',
+        };
+
+        async function fetchData() {
+            const fileName = fileMap[graphType];
+            if (!fileName) {
+                loadingText.textContent = `Error: No data file found for graph type "${graphType}".`;
+                return null;
+            }
+            try {
+                const response = await fetch(`/files/${fileName}.json`);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                return await response.json();
+            } catch (error) {
+                console.error("Failed to fetch chart data:", error);
+                loadingText.textContent = 'Could not load chart data. Please try again later.';
+                return null;
+            }
+        }
+
+        function updateView() {
+            destroyAllCharts();
+            if (!jsonData) return;
+
+            loadingText.style.display = 'none';
+            legendContainer.innerHTML = '';
+
+            document.getElementById('pie-charts-wrapper').innerHTML = '';
+            document.getElementById('multi-chart-select-container').innerHTML = '';
+            document.getElementById('multi-chart-select-container').classList.add('hidden');
+
+            const { requiredHeight, chartTitle, isMultiPie, isTreemap } = renderVisuals({
+                chartType: currentChartType,
+                data: jsonData,
+                graphType: graphType
+            });
+
+            const chartTogglesContainer = document.querySelector('.graph-controls');
+            chartTogglesContainer.classList.toggle('hidden', isTreemap);
+
+            if (isMultiPie) {
+                mainChartCanvasWrapper.classList.add('hidden');
+                pieChartsWrapperContainer.classList.remove('hidden');
+            } else {
+                mainChartCanvasWrapper.classList.remove('hidden');
+                pieChartsWrapperContainer.classList.add('hidden');
+            }
+
+            chartContainer.style.height = requiredHeight;
+            if(multiChartTitle) multiChartTitle.textContent = chartTitle;
+        }
+
+        jsonData = await fetchData();
+        updateView();
+
+        chartToggles.forEach(toggle => {
+            toggle.addEventListener('change', (event) => {
+                currentChartType = event.target.value;
+                updateView();
+            });
+        });
+    });
+</script>

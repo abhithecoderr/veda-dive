@@ -1,0 +1,362 @@
+
+.container.graph-page-container {
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+}
+
+.graph-header {
+    margin-bottom: var(--spacing-lg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: var(--spacing-xl);
+}
+
+.graph-header h3 {
+    color: var(--color-heading-warm);
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Treemap Filters */
+#treemap-filters-container {
+    position: absolute;
+    top: var(--spacing-md);
+    right: var(--spacing-md);
+    z-index: 10;
+    display: flex;
+    gap: var(--spacing-md);
+    background-color: rgba(190, 165, 132, 0.7); /* Specific background for treemap filters */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--border-radius-md);
+    border: 1px solid rgba(0,0,0,0.1);
+}
+#primary-filter-container, #secondary-filter-container {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+#treemap-filters-container label {
+    font-weight: 500;
+    color: var(--color-text-primary);
+    text-transform: capitalize;
+}
+
+#treemap-filters-container select {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--color-border-subtle);
+    background-color: var(--color-bg-body);
+    min-width: 100px;
+}
+
+/* Back Link */
+.back-link {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: inline-flex;
+    align-items: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+    background-color: var(--color-bg-card);
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: var(--border-radius-md);
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    background-color: var(--color-bg-card-hover);
+    border-color: var(--color-card-border-strong);
+    box-shadow: var(--box-shadow-subtle);
+}
+
+.graph-display-area {
+    background-color: var(--color-bg-graph-area); /* Specific background for this area */
+    padding: var(--spacing-sm);
+    border-radius: var(--border-radius-md);
+}
+
+/* --- Styles for Graph Controls (Toggle Switch) - OVERLAY --- */
+.graph-controls {
+    position: absolute;
+    top: var(--spacing-md);
+    right: var(--spacing-md);
+    z-index: 10;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    padding: 3px; /* Adjusted padding to be internal to the switch */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+}
+
+.toggle-switch {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 38px;
+    background-color: var(--color-bg-body); /* Background for the track */
+    border-radius: 20px;
+    border: 1px solid var(--color-border-subtle);
+    padding: 3px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    font-size: 0; /* Hides whitespace between labels */
+}
+
+.toggle-switch input { display: none; }
+
+.toggle-switch label {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 30px; /* Adjusted based on 38px height and 3px padding */
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-text-secondary); /* Inactive label color */
+    cursor: pointer;
+    transition: color 0.3s ease;
+    z-index: 1;
+    position: relative;
+}
+
+.toggle-slider {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: calc(50% - 3px); /* 50% width minus half of the padding on both sides */
+    height: calc(100% - 6px); /* Full height minus top and bottom padding */
+    background-color: var(--color-bg-card); /* Slider color */
+    border-radius: 20px;
+    box-shadow: var(--box-shadow-subtle);
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 0;
+}
+
+#bar-chart-toggle:checked ~ .toggle-slider { transform: translateX(0); }
+#pie-chart-toggle:checked ~ .toggle-slider { transform: translateX(calc(100% + 3px)); } /* Adjusted for the 3px padding */
+
+#bar-chart-toggle:checked ~ label[for="bar-chart-toggle"],
+#pie-chart-toggle:checked ~ label[for="pie-chart-toggle"] {
+    color: var(--color-text-primary); /* Active label color */
+}
+
+
+/* --- Graph Container and Legend Styles --- */
+.graph-container {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: var(--border-radius-md);
+    padding: 60px var(--spacing-lg) var(--spacing-lg) var(--spacing-lg); /* Top padding for controls */
+    position: relative;
+}
+
+#bar-chart-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+#bar-chart-wrapper.is-scrollable {
+    overflow-x: auto;
+    scrollbar-width: thin;
+}
+
+#bar-chart-wrapper canvas {
+    min-height: 400px; /* Ensures minimum height for the canvas */
+}
+
+.chart-placeholder-text {
+    font-size: 1.1em;
+    text-align: center; /* Center placeholder text */
+    color: var(--color-text-secondary); /* Style placeholder text */
+    padding: var(--spacing-xl);
+}
+
+#pie-charts-wrapper-container {
+    padding: var(--spacing-sm);
+}
+
+#multi-chart-main-title {
+    text-align: center;
+    font-size: 1.125rem; /* Equivalent to 18px */
+    color: var(--color-text-primary);
+    padding-bottom: var(--spacing-md); /* 20px close to this */
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif; /* Keep if specific to graphs */
+}
+
+#multi-chart-select-container {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+    padding-left: var(--spacing-sm);
+    justify-content: center; /* Center the select dropdown */
+}
+#multi-chart-select-container label {
+    font-weight: 500;
+    color: var(--color-text-secondary);
+}
+#multi-chart-select-container select {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--color-border-subtle);
+    background-color: var(--color-bg-body);
+}
+
+#pie-charts-wrapper {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    gap: var(--spacing-lg);
+    padding: var(--spacing-md) 0;
+    scrollbar-width: thin;
+    padding-bottom: 1rem;
+}
+
+.pie-chart-item {
+    flex: 0 0 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.pie-chart-item h3 {
+    font-size: 1.1rem;
+    color: var(--color-heading);
+    margin: 0;
+}
+
+#custom-legend-container {
+    padding: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+    border-top: 1px solid var(--color-border-subtle);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: var(--spacing-sm) var(--spacing-md);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: 0.9rem;
+    color: var(--color-text-primary); /* Ensure legend text is readable */
+}
+
+.legend-swatch {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    flex-shrink: 0;
+    border: 1px solid rgba(0,0,0,0.1); /* Give swatches a subtle border */
+}
+
+
+/* --- Responsiveness for Graph Page --- */
+@media (max-width: 992px) {
+    .graph-header {
+        flex-direction: column;
+        gap: var(--spacing-md);
+        position: relative;
+    }
+    .back-link {
+        position: static;
+        transform: none;
+        align-self: flex-start;
+    }
+    .graph-header h3 {
+        order: -1;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .pie-chart-item { flex: 0 0 300px; }
+    .graph-controls {
+        top: var(--spacing-sm);
+        right: var(--spacing-sm);
+        /* Adjust layout if controls overlap with back button on small screens */
+        justify-content: center;
+        width: auto;
+        padding: 6px; /* slightly more padding for touch targets */
+    }
+    .toggle-switch { width: 180px; height: 34px; }
+    .toggle-switch label { line-height: 28px; font-size: 0.85rem; }
+
+    #treemap-filters-container {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        align-items: flex-end; /* Align to the right edge */
+        top: var(--spacing-sm);
+        right: var(--spacing-sm);
+        padding: var(--spacing-xs);
+    }
+
+    .graph-container {
+        padding-top: 80px; /* Ensure enough space for controls at the top */
+    }
+}
+
+@media (max-width: 480px) {
+    .back-link { font-size: 0.8rem; padding: var(--spacing-xs) var(--spacing-sm); }
+    .graph-controls {
+        position: static; /* Stack controls on very small screens */
+        margin-top: var(--spacing-md);
+        width: 100%;
+        justify-content: center;
+        border-radius: var(--border-radius-md);
+        padding: var(--spacing-sm);
+    }
+    .toggle-switch { width: 100%; max-width: 250px; } /* Allow toggle to expand */
+    .graph-container { padding-top: var(--spacing-lg); } /* No fixed top padding needed if controls are static */
+    #multi-chart-select-container { flex-direction: column; align-items: stretch; padding: 0; }
+    #multi-chart-select-container select { width: 100%; }
+    #pie-charts-wrapper { justify-content: flex-start; } /* Allow horizontal scroll */
+    .pie-chart-item { flex: 0 0 280px; } /* Make pies a bit smaller */
+}
+
+
+/* Utility class */
+.hidden {
+    display: none !important;
+}
+
+/* --- Custom Scrollbar for Pie Chart Wrapper --- */
+#pie-charts-wrapper {
+    scrollbar-width: thin;
+    scrollbar-color: #8a7257 #c7b394; /* thumb color | track color */
+}
+
+/* For WebKit browsers (Chrome, Edge, Safari) */
+#pie-charts-wrapper::-webkit-scrollbar {
+    height: 8px; /* horizontal scrollbar height */
+}
+
+#pie-charts-wrapper::-webkit-scrollbar-track {
+    background-color: #c7b394; /* matches #bea584 theme */
+    border-radius: 10px;
+}
+
+#pie-charts-wrapper::-webkit-scrollbar-thumb {
+    background-color: #8a7257; /* darker brown for contrast */
+    border-radius: 10px;
+}
+
+#pie-charts-wrapper::-webkit-scrollbar-thumb:hover {
+    background-color: #6e5843; /* slightly darker on hover */
+}

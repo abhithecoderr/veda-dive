@@ -1,0 +1,155 @@
+:root {
+    --color-bg-card: rgba(8, 12, 20, 0.2);
+    --color-bg-body: #0a0f18;
+
+    --color-text-primary: #d2d8ff;
+    --color-text-shadow: 2px 2px 5px rgba(0, 0, 0, 1),
+                         0 0 12px rgba(93, 168, 255, 0.3);
+    --color-text-secondary: #7cc7ff;
+    --color-icon-primary: #a9c8ff;
+
+    /* --- COLORS & ACCENTS --- */
+    --color-heading-warm: #3ba9ff;
+    --color-heading-cool: #73b9ff;
+    --color-accent-gold: #b9e2ff;
+    --color-accent-playing: #55aaff;
+
+    /* --- BORDERS & CARD GLOW --- */
+    --color-border-subtle: rgba(100, 160, 255, 0.25);
+    --color-card-glow: 0 0 8px rgba(100, 160, 255, 0.25),
+                       0 0 3px rgba(0, 60, 180, 0.3);
+
+    /* --- SCROLLBAR --- */
+    --scrollbar-track-color: rgba(15, 25, 40, 0.5);
+    --scrollbar-thumb-color: #4d9cff;
+    --scrollbar-thumb-hover-color: #80bfff;
+}
+
+#context-select:hover,
+#hymn-select:hover {
+    background-color: #132035;
+    box-shadow: 0 0 6px rgba(80, 160, 255, 0.4);
+}
+
+.hymn-nav-section,
+.stanza-card-item,
+.stanza-nav-footer {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: 12px;
+    box-shadow: var(--color-card-glow);
+
+    backdrop-filter: blur(2px) saturate(160%);
+    -webkit-backdrop-filter: blur(2px) saturate(160%);
+    transition: all 0.3s ease;
+}
+
+.stanza-card-item:hover {
+    transform: translateY(-2px);
+}
+
+.sanskrit-line {
+    color: #e0e7ff;
+    text-shadow: var(--color-text-shadow);
+    font-weight: 700;
+}
+
+.translit-line-aufrecht {
+    color: #79b2ff;
+    text-shadow: 0 0 5px rgba(0, 30, 80, 0.8);
+}
+
+.translation-filter-select {
+    color: var(--color-text-primary);
+    background-color: rgba(5, 10, 20, 0.6);
+    border-color: rgba(120, 160, 255, 0.4);
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+.translation-filter-select option {
+    background-color: var(--color-bg-body);
+    color: var(--color-text-primary);
+}
+
+/* --- TAB LABELS --- */
+body.theme-indra .control-tab {
+    color: #e0e7ff;
+    text-shadow: 0 0 4px rgba(0, 30, 80, 0.8);
+}
+body.theme-indra .control-tab:hover {
+    color: var(--color-heading-warm);
+}
+body.theme-indra .control-tab.active {
+    color: var(--color-accent-gold);
+    border-bottom-color: var(--color-heading-warm);
+    text-shadow: 0 0 12px rgba(80, 180, 255, 0.6),
+                 0 0 3px rgba(0, 0, 0, 0.9);
+}
+
+/* --- BUTTONS --- */
+.play-stanza-btn,
+.global-play-btn,
+.theme-toggle-btn {
+    background-color: rgba(10, 20, 40, 0.5);
+    color: var(--color-icon-primary);
+    box-shadow: 0 0 6px rgba(80, 160, 255, 0.2);
+}
+
+.play-stanza-btn:hover,
+.global-play-btn:hover,
+.theme-toggle-btn:hover {
+    background-color: rgba(60, 120, 255, 0.25);
+    color: var(--color-accent-gold);
+    box-shadow: 0 0 15px rgba(120, 180, 255, 0.6);
+}
+
+.global-play-btn.is-playing,
+.play-stanza-btn.is-playing {
+    color: var(--color-accent-playing);
+}
+
+.theme-toggle-btn.active {
+    color: var(--color-heading-warm);
+    background-color: rgba(40, 100, 255, 0.25);
+    box-shadow: 0 0 20px rgba(60, 120, 255, 0.8);
+}
+
+
+/* --- INTERLINEAR STANZA CORE --- */
+.stanza-core-text.interlinear {
+    background: linear-gradient(
+        145deg,
+        rgba(20, 30, 50, 0.5) 0%,
+        rgba(10, 15, 30, 0.5) 100%
+    );
+    border: 1px solid rgba(90, 140, 220, 0.3);
+    border-radius: 10px;
+    padding: 1.2rem;
+    box-shadow: 0 0 8px rgba(70, 120, 255, 0.2),
+                inset 0 0 10px rgba(0, 30, 80, 0.4);
+    color: #e2ebff;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.8),
+                 0 0 8px rgba(80, 160, 255, 0.3);
+    transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.stanza-core-text.interlinear:hover {
+    background: linear-gradient(
+        145deg,
+        rgba(25, 40, 70, 0.5) 0%,
+        rgba(12, 20, 40, 0.5) 100%
+    );
+    box-shadow: 0 0 12px rgba(100, 160, 255, 0.4),
+                inset 0 0 12px rgba(40, 90, 160, 0.4);
+}
+
+.dynamic-content-area {
+    background: rgba(10, 18, 30, 0.6); /* stormy blue tone */
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    color: #e4ecff; /* light sky-blue text */
+    font-size: 1rem;
+    line-height: 1.6;
+    border: 1px solid rgba(80, 140, 220, 0.25);
+    backdrop-filter: blur(3px) saturate(150%);
+    -webkit-backdrop-filter: blur(3px) saturate(150%);
+}

@@ -1,0 +1,114 @@
+/* ================================
+   Default Theme – Fallback Style
+   ================================ */
+
+:root {
+    --color-bg-card: #bea584;
+    --color-bg-body: #c9b99f;
+
+    --color-text-primary: #2b2b2b;
+    --color-text-secondary: #735d3c;
+
+    --color-heading-warm: #9f6335;
+    --color-heading-cool: #035979;
+    --color-accent-gold: #ddab2c;
+
+    --color-border-subtle: #8d7b5c;
+
+    --scrollbar-track-color: #d1c0a6;
+    --scrollbar-thumb-color: #735d3c;
+    --scrollbar-thumb-hover-color: #56400c;
+}
+
+/* --- CARD + NAV SECTIONS --- */
+.hymn-nav-section,
+.stanza-card-item,
+.stanza-nav-footer {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(80, 60, 40, 0.25);
+    transition: all 0.3s ease;
+}
+
+.stanza-card-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(80, 60, 40, 0.35);
+}
+
+/* --- TEXT COLORS --- */
+.sanskrit-line {
+    color:#111111;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.translit-line-aufrecht {
+    color: var(--color-heading-warm);
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+}
+
+.translation-filter-select {
+    color: var(--color-text-primary);
+    background-color: rgba(240, 230, 210, 0.8);
+    border-color: var(--color-border-subtle);
+}
+
+/* --- TABS --- */
+.control-tab {
+    color: var(--color-text-primary);
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+.control-tab:hover {
+    color: var(--color-heading-warm);
+}
+.control-tab.active {
+    color: var(--color-heading-warm);
+    border-bottom-color: var(--color-heading-warm);
+}
+
+/* --- BUTTONS --- */
+.play-stanza-btn,
+.global-play-btn,
+.theme-toggle-btn {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #735d3c;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(100, 80, 40, 0.2);
+    transition: all 0.3s ease;
+}
+.play-stanza-btn:hover,
+.global-play-btn:hover,
+.theme-toggle-btn:hover {
+    background-color: rgba(220, 190, 120, 0.4);
+    color: var(--color-heading-warm);
+    box-shadow: 0 0 10px rgba(160, 120, 60, 0.4);
+}
+.global-play-btn.is-playing,
+.play-stanza-btn.is-playing {
+    color: var(--color-heading-warm);
+}
+
+/* --- STANZA CORE (INTERLINEAR) --- */
+.stanza-core-text.interlinear {
+    border: 1px solid rgba(140, 120, 80, 0.3);
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #c9b99f;
+}
+.stanza-core-text.interlinear:hover {
+    box-shadow: inset 0 0 10px rgba(140, 120, 80, 0.3);
+}
+
+/* --- DYNAMIC CONTENT AREA --- */
+.dynamic-content-area {
+    background-color: #b99a75;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #2b2b2b;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    border: 1px solid rgba(140, 120, 80, 0.3);
+}

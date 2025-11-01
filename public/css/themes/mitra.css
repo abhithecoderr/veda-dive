@@ -1,0 +1,63 @@
+/* ================================
+   Mitra Theme – Calm Open Field
+   ================================ */
+
+:root {
+    --color-bg-card: rgba(15, 30, 15, 0.55);
+    --color-bg-body: #101e10;
+
+    --color-text-primary: #e5ffe5;
+    --color-text-secondary: #a8e5a8;
+    --color-icon-primary: #bfffbf;
+
+    --color-heading-warm: #c4ff82;
+    --color-heading-cool: #9affb1;
+    --color-accent-gold: #e4ffb5;
+    --color-accent-playing: #9fff7f;
+
+    --color-border-subtle: rgba(120, 200, 120, 0.25);
+    --color-card-glow: 0 0 8px rgba(140, 255, 140, 0.3),
+                       0 0 3px rgba(40, 120, 40, 0.4);
+
+    --scrollbar-track-color: rgba(10, 25, 10, 0.5);
+    --scrollbar-thumb-color: #66cc66;
+    --scrollbar-thumb-hover-color: #99ff99;
+}
+
+.hymn-nav-section,
+.stanza-card-item,
+.stanza-nav-footer {
+    background-color: var(--color-bg-card);
+    border-radius: 12px;
+    border: 1px solid var(--color-border-subtle);
+    box-shadow: var(--color-card-glow);
+    backdrop-filter: blur(3px) saturate(160%);
+}
+
+/* --- Text --- */
+.sanskrit-line {
+    color: #eaffea;
+    text-shadow: 0 0 4px rgba(0, 40, 0, 0.8);
+}
+.translit-line-aufrecht {
+    color: #a4ff9c;
+}
+
+/* --- Interlinear --- */
+.stanza-core-text.interlinear {
+    background: linear-gradient(145deg, rgba(25, 45, 25, 0.8), rgba(10, 25, 10, 0.8));
+    border: 1px solid rgba(100, 200, 100, 0.3);
+    border-radius: 10px;
+    padding: 1.2rem;
+    color: #e5ffe5;
+    box-shadow: inset 0 0 10px rgba(80, 160, 80, 0.4);
+}
+
+/* --- Dynamic Content --- */
+.dynamic-content-area {
+    background: rgba(20, 40, 20, 0.7);
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    color: #e5ffe5;
+    border: 1px solid rgba(100, 200, 100, 0.25);
+}

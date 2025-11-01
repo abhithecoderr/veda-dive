@@ -1,0 +1,424 @@
+/* Contains page-level styles, variables, and navigation bar. */
+/* Stanza-specific styles are in stanza.css */
+
+
+/*======================================================
+  HYMN NAVIGATION BAR
+======================================================*/
+.hymn-nav-section {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    background-color: var(--color-bg-card);
+    padding: var(--spacing-sm);
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow-subtle);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    flex-wrap: wrap;
+}
+.hymn-nav-section .nav-left-section {
+    flex-shrink: 0;
+    padding-left: var(--spacing-md);
+}
+.mandala-nav-arrow {
+    font-size: 1.5em;
+    color: var(--color-icon-primary);
+    text-decoration: none;
+    margin-right: var(--spacing-md);
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: var(--color-bg-body);
+    box-shadow: var(--box-shadow-subtle);
+    flex-shrink: 0;
+    padding: var(--spacing-md);
+}
+.mandala-nav-arrow:hover {
+    color: var(--color-heading-cool);
+    transform: scale(1.05);
+    background-color: var(--color-bg-card);
+}
+.hymn-nav-section .nav-middle-section {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    flex-grow: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.global-audio-control-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: auto;
+    flex-shrink: 0;
+    padding-right: var(--spacing-md);
+    position: relative;
+}
+.context-nav-wrapper {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+.context-label h3 {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    color: var(--color-heading-cool);
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.4;
+}
+#context-select {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 1rem;
+    border: 1px solid var(--color-border-subtle);
+    border-radius: var(--border-radius-md);
+    background-color: var(--color-bg-card);
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
+    cursor: pointer;
+    box-shadow: var(--box-shadow-subtle);
+    transition: background-color 0.2s, box-shadow 0.2s;
+    line-height: 1.4;
+    min-height: 36px;
+    min-width: 120px;
+}
+#context-select:hover {
+    background-color: #b99a75;
+    box-shadow: var(--box-shadow-focus);
+}
+#context-select:focus {
+    outline: none;
+    border-color: var(--color-heading-cool);
+    box-shadow: var(--box-shadow-focus);
+}
+.hymn-nav-arrow {
+    font-size: 1.5rem;
+    color: var(--color-heading-warm);
+    text-decoration: none;
+    padding: var(--spacing-sm);
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 36px;
+    height: 36px;
+}
+.hymn-nav-arrow:hover {
+    color: var(--color-accent-gold);
+}
+.hymn-nav-arrow.disabled {
+    color: var(--color-text-secondary);
+    pointer-events: none;
+    opacity: 0.5;
+}
+.hymn-label h3 {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    color: var(--color-heading-warm);
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.4;
+}
+#hymn-select {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 1rem;
+    border: 1px solid var(--color-border-subtle);
+    border-radius: var(--border-radius-md);
+    background-color: var(--color-bg-card);
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
+    cursor: pointer;
+    box-shadow: var(--box-shadow-subtle);
+    transition: background-color 0.2s, box-shadow 0.2s;
+    line-height: 1.4;
+    min-height: 36px;
+    min-width: 80px;
+}
+#hymn-select:hover {
+    background-color: #b99a75;
+    box-shadow: var(--box-shadow-focus);
+}
+#hymn-select:focus {
+    outline: none;
+    border-color: var(--color-heading-cool);
+    box-shadow: var(--box-shadow-focus);
+}
+.global-play-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    color: var(--color-icon-primary);
+    border-radius: 50%;
+    background-color: var(--color-bg-body);
+    box-shadow: var(--box-shadow-subtle);
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+.global-play-btn:hover {
+    transform: scale(1.05);
+    background-color: var(--color-bg-card);
+}
+.global-play-btn:active {
+    transform: scale(0.95);
+}
+.global-play-btn.is-playing {
+    color: var(--color-accent-playing);
+}
+.global-play-btn.is-playing .fa-play { display: none; }
+.global-play-btn .fa-pause { display: none; }
+.global-play-btn.is-playing .fa-pause { display: inline; }
+
+.theme-toggle-btn {
+    background: none; border: none; cursor: pointer; font-size: 1.2rem;
+    padding: 0.5rem; color: var(--color-icon-primary); border-radius: 50%;
+    background-color: var(--color-bg-body); box-shadow: var(--box-shadow-subtle);
+    width: 36px; height: 36px; display: flex; align-items: center;
+    justify-content: center; transition: all 0.2s ease; position: relative; flex-shrink: 0;
+}
+.theme-toggle-btn:hover {
+    transform: scale(1.05);
+    background-color: var(--color-bg-card);
+}
+.theme-toggle-btn:active { transform: scale(0.95); }
+.theme-toggle-btn.active { color: var(--color-accent-playing); }
+.theme-deity-name {
+    position: absolute; bottom: -25px; left: 50%; transform: translateX(-50%);
+    background: rgba(0,0,0,0.8); color: white; padding: 2px 6px;
+    border-radius: 3px; font-size: 0.7rem; white-space: nowrap; opacity: 0;
+    transition: opacity 0.2s ease; pointer-events: none;
+}
+.theme-toggle-btn:hover .theme-deity-name { opacity: 1; }
+
+.settings-btn {
+    background: none; border: none; cursor: pointer; font-size: 1.2rem;
+    padding: 0.5rem; color: var(--color-icon-primary); border-radius: 50%;
+    background-color: var(--color-bg-body); box-shadow: var(--box-shadow-subtle);
+    width: 36px; height: 36px; display: flex; align-items: center;
+    justify-content: center; transition: all 0.2s ease; flex-shrink: 0;
+}
+.settings-btn:hover {
+    transform: scale(1.05);
+    background-color: var(--color-bg-card);
+}
+.settings-btn:active { transform: scale(0.95); }
+
+.settings-modal {
+    position: absolute; top: 100%; right: 0; background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border-subtle); border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow-focus); padding: var(--spacing-md); z-index: 100;
+    min-width: 250px; transform-origin: top right;
+    animation: fadeInScale 0.2s ease-out forwards;
+}
+.settings-modal[hidden] { display: none; }
+@keyframes fadeInScale {
+    from { opacity: 0; transform: scale(0.95) translateY(-5px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+}
+.settings-content h4 {
+    margin-top: 0; margin-bottom: var(--spacing-md);
+    color: var(--color-heading-cool); font-size: 1.1rem;
+}
+.setting-item {
+    display: flex; align-items: center; margin-bottom: var(--spacing-sm);
+    font-size: 0.95rem; color: var(--color-text-primary); cursor: pointer;
+}
+.setting-item input[type="checkbox"] { margin-right: var(--spacing-sm); transform: scale(1.2); }
+.close-settings-btn {
+    background: none; border: none; color: var(--color-text-secondary);
+    font-size: 1.2rem; position: absolute; top: var(--spacing-sm);
+    right: var(--spacing-sm); cursor: pointer; transition: color 0.2s;
+}
+.close-settings-btn:hover { color: var(--color-heading-warm); }
+
+/*======================================================
+  THEME SYSTEM STYLES
+======================================================*/
+#background-video {
+    position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+    object-fit: cover; z-index: -1; pointer-events: none;
+    display: none; opacity: 0; transition: var(--video-opacity-transition);
+}
+#background-video.playing { opacity: 0.9; }
+body.theme-active { background-color: transparent; }
+
+
+/*======================================================
+  STANZA NAVIGATION FOOTER
+======================================================*/
+.stanza-nav-footer {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: var(--spacing-lg); padding: var(--spacing-md);
+    background-color: var(--color-bg-card); border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow-subtle); max-width: 850px;
+    margin-left: auto; margin-right: auto;
+}
+.stanza-nav-arrow {
+    font-size: 1.2rem; color: var(--color-heading-warm);
+    text-decoration: none; padding: var(--spacing-sm);
+}
+.stanza-nav-arrow.disabled {
+    color: var(--color-text-secondary);
+    pointer-events: none; opacity: 0.5;
+}
+
+/*======================================================
+  RESPONSIVENESS
+======================================================*/
+@media (max-width: 768px) {
+    .hymn-nav-section {
+        flex-direction: column; gap: var(--spacing-sm); padding: var(--spacing-sm);
+    }
+    .hymn-nav-section .nav-left-section {
+        width: 100%; display: flex; justify-content: flex-start;
+        padding-left: 0; margin-bottom: var(--spacing-sm);
+    }
+    .mandala-nav-arrow { margin-right: 0; padding: var(--spacing-sm); }
+    .hymn-nav-section .nav-middle-section {
+        width: 100%; order: -1; justify-content: center; margin-bottom: var(--spacing-sm);
+    }
+    .context-nav-wrapper {
+        flex-direction: column; gap: var(--spacing-xs); width: 100%; max-width: 300px;
+    }
+    #context-select { width: 100%; max-width: 100%; }
+    .hymn-nav-arrow { font-size: 1.2rem; }
+    .hymn-label h3 { font-size: 1rem; }
+    #hymn-select { width: 100%; max-width: 300px; padding: var(--spacing-sm); min-height: 32px; }
+    .global-audio-control-wrapper {
+        margin-left: 0; justify-content: center; width: 100%;
+        margin-top: var(--spacing-sm); padding-right: 0;
+    }
+    .theme-deity-name { display: none; }
+    .stanza-nav-footer { flex-direction: column; gap: var(--spacing-sm); padding: var(--spacing-sm); }
+    .stanza-nav-arrow { font-size: 1rem; }
+    .settings-modal {
+        top: auto; bottom: var(--spacing-sm); left: 50%;
+        transform: translateX(-50%) translateY(0); right: auto;
+        width: 90%; max-width: 300px;
+        animation: fadeInSlideUp 0.2s ease-out forwards;
+    }
+    @keyframes fadeInSlideUp {
+        from { opacity: 0; transform: translateX(-50%) translateY(10px); }
+        to { opacity: 1; transform: translateX(-50%) translateY(0); }
+    }
+}
+
+@keyframes highlight-fade {
+  from {
+    background-color: rgba(247, 208, 148, 0.7); /* A light, warm gold color */
+    box-shadow: 0 0 15px rgba(247, 208, 148, 0.8);
+  }
+  to {
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+
+.stanza-card-item.highlight-scroll {
+  /* The animation will run for 2.5 seconds and then fade out */
+  animation: highlight-fade 2.5s ease-out forwards;
+}
+
+
+/*======================================================
+  NEW THEME SELECTOR POPOVER STYLES
+======================================================*/
+
+/* The container for the button and its modal */
+.theme-control-wrapper {
+    position: relative; /* This is crucial for positioning the modal */
+}
+
+/* The new theme button, styled like the others */
+.nav-icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    color: var(--color-icon-primary);
+    border-radius: 50%;
+    background-color: var(--color-bg-body);
+    box-shadow: var(--box-shadow-subtle);
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+.nav-icon-btn:hover {
+    transform: scale(1.05);
+    background-color: var(--color-bg-card);
+}
+.nav-icon-btn:active {
+    transform: scale(0.95);
+}
+/* Style for when a theme is active */
+.nav-icon-btn.active {
+    color: var(--color-accent-playing);
+}
+
+/* The theme popover modal, styled like the settings modal */
+.theme-select-modal {
+    position: absolute;
+    top: 100%;
+    right: -150px;
+    margin-top: 8px; /* A little space from the button */
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow-focus);
+    padding: var(--spacing-md);
+    z-index: 100;
+    min-width: 200px;
+    transform-origin: top right;
+    animation: fadeInScale 0.2s ease-out forwards;
+}
+.theme-select-modal[hidden] {
+    display: none;
+}
+.theme-select-content h4 {
+    margin-top: 0;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-heading-cool);
+    font-size: 1.1rem;
+}
+
+/* Styles for the radio button options */
+#theme-options-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+.theme-option-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.95rem;
+    padding: var(--spacing-xs);
+    border-radius: var(--border-radius-sm);
+    transition: background-color 0.2s;
+}
+.theme-option-item:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.theme-option-item input[type="radio"] {
+    margin-right: var(--spacing-sm);
+    transform: scale(1.2);
+}

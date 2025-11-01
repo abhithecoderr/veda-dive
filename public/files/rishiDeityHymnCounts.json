@@ -1,0 +1,1202 @@
+[
+  {
+    "rishi_name": "Syavasva",
+    "associated_deities": {
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 3
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 1
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Bharadvaja Barhaspatya",
+    "associated_deities": {
+      "Savitri": {
+        "id": "68dfbc0c123a2e3e2e573a55",
+        "hymn_count": 1
+      },
+      "Varuna": {
+        "id": "68dfbc0a123a2e3e2e573a4a",
+        "hymn_count": 2
+      },
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 4
+      },
+      "Sarasvati": {
+        "id": "68dfbc0b123a2e3e2e573a4d",
+        "hymn_count": 1
+      },
+      "Rudra": {
+        "id": "68dfbc0d123a2e3e2e573a5b",
+        "hymn_count": 1
+      },
+      "Mitra": {
+        "id": "68dfbc0a123a2e3e2e573a49",
+        "hymn_count": 1
+      },
+      "Vishnu": {
+        "id": "68dfbc0e123a2e3e2e573a65",
+        "hymn_count": 1
+      },
+      "Usas": {
+        "id": "68dfbc0c123a2e3e2e573a58",
+        "hymn_count": 2
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 16
+      },
+      "Pusan": {
+        "id": "68dfbc0d123a2e3e2e573a5a",
+        "hymn_count": 7
+      },
+      "Maruts": {
+        "id": "68dfbc0b123a2e3e2e573a52",
+        "hymn_count": 2
+      },
+      "Diverse Gods": {
+        "id": "68dfbc0c123a2e3e2e573a54",
+        "hymn_count": 1
+      },
+      "Soma": {
+        "id": "68dfbc0d123a2e3e2e573a5c",
+        "hymn_count": 3
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 36
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 2
+      },
+      "Brihaspati": {
+        "id": "68dfbc10123a2e3e2e573a71",
+        "hymn_count": 1
+      },
+      "Agni Vaisvanara": {
+        "id": "68dfbc0d123a2e3e2e573a5e",
+        "hymn_count": 3
+      }
+    }
+  },
+  {
+    "rishi_name": "Vasishtha Maitravaruni",
+    "associated_deities": {
+      "Vastospati": {
+        "id": "68dfbdcd123a2e3e2e573a89",
+        "hymn_count": 1
+      },
+      "Apri Hymn": {
+        "id": "68dfbc0b123a2e3e2e573a4e",
+        "hymn_count": 1
+      },
+      "Sarasvati": {
+        "id": "68dfbc0b123a2e3e2e573a4d",
+        "hymn_count": 2
+      },
+      "Usas": {
+        "id": "68dfbc0c123a2e3e2e573a58",
+        "hymn_count": 7
+      },
+      "Surya": {
+        "id": "68dfbc0d123a2e3e2e573a5d",
+        "hymn_count": 3
+      },
+      "Vayu": {
+        "id": "68dfbc0a123a2e3e2e573a47",
+        "hymn_count": 3
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 15
+      },
+      "Soma": {
+        "id": "68dfbc0d123a2e3e2e573a5c",
+        "hymn_count": 1
+      },
+      "Bhaga": {
+        "id": "68dfbdcc123a2e3e2e573a87",
+        "hymn_count": 1
+      },
+      "Ribhus": {
+        "id": "68dfbc0c123a2e3e2e573a53",
+        "hymn_count": 1
+      },
+      "Mitra-Varuna": {
+        "id": "68dfbdce123a2e3e2e573a8b",
+        "hymn_count": 1
+      },
+      "Parjanya": {
+        "id": "68dfbd18123a2e3e2e573a82",
+        "hymn_count": 2
+      },
+      "Maruts": {
+        "id": "68dfbc0b123a2e3e2e573a52",
+        "hymn_count": 4
+      },
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 8
+      },
+      "Vishnu": {
+        "id": "68dfbc0e123a2e3e2e573a65",
+        "hymn_count": 2
+      },
+      "Rudra": {
+        "id": "68dfbc0d123a2e3e2e573a5b",
+        "hymn_count": 1
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 8
+      },
+      "Savitri": {
+        "id": "68dfbc0c123a2e3e2e573a55",
+        "hymn_count": 2
+      },
+      "Sarasvat": {
+        "id": "68dfbdcf123a2e3e2e573a8c",
+        "hymn_count": 2
+      },
+      "Adityas": {
+        "id": "68dfbc0d123a2e3e2e573a59",
+        "hymn_count": 3
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 27
+      },
+      "Mitra": {
+        "id": "68dfbc0a123a2e3e2e573a49",
+        "hymn_count": 6
+      },
+      "Dadhikra": {
+        "id": "68dfbcd6123a2e3e2e573a7d",
+        "hymn_count": 1
+      },
+      "Brihaspati": {
+        "id": "68dfbc10123a2e3e2e573a71",
+        "hymn_count": 1
+      },
+      "Agni Vaisvanara": {
+        "id": "68dfbc0d123a2e3e2e573a5e",
+        "hymn_count": 3
+      },
+      "Varuna": {
+        "id": "68dfbc0a123a2e3e2e573a4a",
+        "hymn_count": 14
+      },
+      "Diverse Gods": {
+        "id": "68dfbc0c123a2e3e2e573a54",
+        "hymn_count": 4
+      }
+    }
+  },
+  {
+    "rishi_name": "Kutsa Angirasa",
+    "associated_deities": {
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 7
+      },
+      "Ribhus": {
+        "id": "68dfbc0c123a2e3e2e573a53",
+        "hymn_count": 2
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 6
+      },
+      "Agni Vaisvanara": {
+        "id": "68dfbc0d123a2e3e2e573a5e",
+        "hymn_count": 1
+      },
+      "Rudra": {
+        "id": "68dfbc0d123a2e3e2e573a5b",
+        "hymn_count": 1
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 1
+      },
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 2
+      },
+      "Usas": {
+        "id": "68dfbc0c123a2e3e2e573a58",
+        "hymn_count": 1
+      },
+      "Surya the Sun-God": {
+        "id": "68dfbc0e123a2e3e2e573a62",
+        "hymn_count": 1
+      },
+      "Agni Giver of Goods": {
+        "id": "68dfbc0e123a2e3e2e573a5f",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Gauriviti",
+    "associated_deities": {
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Gritsamada Saunahotra",
+    "associated_deities": {
+      "Apam Napat": {
+        "id": "68dfbc6c123a2e3e2e573a74",
+        "hymn_count": 1
+      },
+      "Brahmanaspati": {
+        "id": "68dfbc0b123a2e3e2e573a50",
+        "hymn_count": 4
+      },
+      "Varuna": {
+        "id": "68dfbc0a123a2e3e2e573a4a",
+        "hymn_count": 1
+      },
+      "Savitri": {
+        "id": "68dfbc0c123a2e3e2e573a55",
+        "hymn_count": 1
+      },
+      "Diverse Gods": {
+        "id": "68dfbc0c123a2e3e2e573a54",
+        "hymn_count": 3
+      },
+      "Apri Hymn": {
+        "id": "68dfbc0b123a2e3e2e573a4e",
+        "hymn_count": 1
+      },
+      "Maruts": {
+        "id": "68dfbc0b123a2e3e2e573a52",
+        "hymn_count": 1
+      },
+      "Rudra": {
+        "id": "68dfbc0d123a2e3e2e573a5b",
+        "hymn_count": 1
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 9
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 13
+      },
+      "Soma": {
+        "id": "68dfbc0d123a2e3e2e573a5c",
+        "hymn_count": 1
+      },
+      "Adityas": {
+        "id": "68dfbc0d123a2e3e2e573a59",
+        "hymn_count": 1
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 1
+      },
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 2
+      },
+      "Pusan": {
+        "id": "68dfbc0d123a2e3e2e573a5a",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Agastya",
+    "associated_deities": {
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 10
+      },
+      "Brihaspati": {
+        "id": "68dfbc10123a2e3e2e573a71",
+        "hymn_count": 1
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 1
+      },
+      "Maruts": {
+        "id": "68dfbc0b123a2e3e2e573a52",
+        "hymn_count": 7
+      },
+      "Apri Hymn": {
+        "id": "68dfbc0b123a2e3e2e573a4e",
+        "hymn_count": 1
+      },
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 1
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 5
+      }
+    }
+  },
+  {
+    "rishi_name": "Vasukra",
+    "associated_deities": {
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 3
+      }
+    }
+  },
+  {
+    "rishi_name": "Trita Aptya",
+    "associated_deities": {
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 8
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Manyu",
+    "associated_deities": {
+      "Manyu (Wrath)": {
+        "id": "68dfc584123a2e3e2e573aaa",
+        "hymn_count": 1
+      },
+      "Manyu": {
+        "id": "68dfc584123a2e3e2e573aab",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Manu Vaivasvata",
+    "associated_deities": {
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 4
+      }
+    }
+  },
+  {
+    "rishi_name": "Savya",
+    "associated_deities": {
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 7
+      }
+    }
+  },
+  {
+    "rishi_name": "Atri Bhauma",
+    "associated_deities": {
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 28
+      },
+      "Mitra": {
+        "id": "68dfbc0a123a2e3e2e573a49",
+        "hymn_count": 11
+      },
+      "Usas": {
+        "id": "68dfbc0c123a2e3e2e573a58",
+        "hymn_count": 2
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 13
+      },
+      "Surya": {
+        "id": "68dfbc0d123a2e3e2e573a5d",
+        "hymn_count": 1
+      },
+      "Varuna": {
+        "id": "68dfbc0a123a2e3e2e573a4a",
+        "hymn_count": 12
+      },
+      "Parjanya": {
+        "id": "68dfbd18123a2e3e2e573a82",
+        "hymn_count": 1
+      },
+      "Maruts": {
+        "id": "68dfbc0b123a2e3e2e573a52",
+        "hymn_count": 11
+      },
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 11
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 6
+      },
+      "Savitri": {
+        "id": "68dfbc0c123a2e3e2e573a55",
+        "hymn_count": 2
+      },
+      "Apri Hymn": {
+        "id": "68dfbc0b123a2e3e2e573a4e",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Nabhaka",
+    "associated_deities": {
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 1
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 1
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 2
+      },
+      "Varuna": {
+        "id": "68dfbc0a123a2e3e2e573a4a",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Nodhas",
+    "associated_deities": {
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 2
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 7
+      },
+      "Agni Vaisvanara": {
+        "id": "68dfbc0d123a2e3e2e573a5e",
+        "hymn_count": 1
+      },
+      "Maruts": {
+        "id": "68dfbc0b123a2e3e2e573a52",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Vyasva",
+    "associated_deities": {
+      "Mitra": {
+        "id": "68dfbc0a123a2e3e2e573a49",
+        "hymn_count": 1
+      },
+      "Diverse Gods": {
+        "id": "68dfbc0c123a2e3e2e573a54",
+        "hymn_count": 1
+      },
+      "Varuna": {
+        "id": "68dfbc0a123a2e3e2e573a4a",
+        "hymn_count": 1
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 1
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 1
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 1
+      },
+      "Vayu": {
+        "id": "68dfbc0a123a2e3e2e573a47",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Kavasa Ailusa",
+    "associated_deities": {
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 1
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Madhucchandas",
+    "associated_deities": {
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 1
+      },
+      "Varuna": {
+        "id": "68dfbc0a123a2e3e2e573a4a",
+        "hymn_count": 1
+      },
+      "Vayu": {
+        "id": "68dfbc0a123a2e3e2e573a47",
+        "hymn_count": 1
+      },
+      "Sarasvati": {
+        "id": "68dfbc0b123a2e3e2e573a4d",
+        "hymn_count": 1
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 10
+      },
+      "Mitra": {
+        "id": "68dfbc0a123a2e3e2e573a49",
+        "hymn_count": 1
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 1
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Vamadeva Gautama",
+    "associated_deities": {
+      "Dadhikra": {
+        "id": "68dfbcd6123a2e3e2e573a7d",
+        "hymn_count": 3
+      },
+      "Usas": {
+        "id": "68dfbc0c123a2e3e2e573a58",
+        "hymn_count": 2
+      },
+      "Brihaspati": {
+        "id": "68dfbc10123a2e3e2e573a71",
+        "hymn_count": 2
+      },
+      "Agni Vaisvanara": {
+        "id": "68dfbc0d123a2e3e2e573a5e",
+        "hymn_count": 1
+      },
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 1
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 12
+      },
+      "Soma": {
+        "id": "68dfbc0d123a2e3e2e573a5c",
+        "hymn_count": 2
+      },
+      "Agni Killer of Demons": {
+        "id": "68dfbcd5123a2e3e2e573a79",
+        "hymn_count": 1
+      },
+      "Aditi": {
+        "id": "68dfbcd5123a2e3e2e573a7a",
+        "hymn_count": 1
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 3
+      },
+      "Savitri": {
+        "id": "68dfbc0c123a2e3e2e573a55",
+        "hymn_count": 2
+      },
+      "Vayu": {
+        "id": "68dfbc0a123a2e3e2e573a47",
+        "hymn_count": 3
+      },
+      "Ribhus": {
+        "id": "68dfbc0c123a2e3e2e573a53",
+        "hymn_count": 5
+      },
+      "Varuna": {
+        "id": "68dfbc0a123a2e3e2e573a4a",
+        "hymn_count": 2
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 22
+      }
+    }
+  },
+  {
+    "rishi_name": "Syumarasmi",
+    "associated_deities": {
+      "Maruts": {
+        "id": "68dfbc0b123a2e3e2e573a52",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Vatsapri",
+    "associated_deities": {
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 2
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Praskanva",
+    "associated_deities": {
+      "Surya": {
+        "id": "68dfbc0d123a2e3e2e573a5d",
+        "hymn_count": 1
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 2
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 2
+      },
+      "Usas": {
+        "id": "68dfbc0c123a2e3e2e573a58",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Vasukarna",
+    "associated_deities": {
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Sons of Kanva",
+    "associated_deities": {
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 15
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 1
+      },
+      "Adityas": {
+        "id": "68dfbc0d123a2e3e2e573a59",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Sumitra",
+    "associated_deities": {
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 1
+      },
+      "Apri Hymn": {
+        "id": "68dfbc0b123a2e3e2e573a4e",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Kanva",
+    "associated_deities": {
+      "Pusan": {
+        "id": "68dfbc0d123a2e3e2e573a5a",
+        "hymn_count": 1
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 1
+      },
+      "Adityas": {
+        "id": "68dfbc0d123a2e3e2e573a59",
+        "hymn_count": 1
+      },
+      "Rudra": {
+        "id": "68dfbc0d123a2e3e2e573a5b",
+        "hymn_count": 1
+      },
+      "Maruts": {
+        "id": "68dfbc0b123a2e3e2e573a52",
+        "hymn_count": 3
+      },
+      "Soma": {
+        "id": "68dfbc0d123a2e3e2e573a5c",
+        "hymn_count": 1
+      },
+      "Brahmanaspati": {
+        "id": "68dfbc0b123a2e3e2e573a50",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Vatsa",
+    "associated_deities": {
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 1
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 1
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 3
+      },
+      "Maruts": {
+        "id": "68dfbc0b123a2e3e2e573a52",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Kaksivat",
+    "associated_deities": {
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 1
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 5
+      },
+      "Usas": {
+        "id": "68dfbc0c123a2e3e2e573a58",
+        "hymn_count": 2
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Pragatha",
+    "associated_deities": {
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 1
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 6
+      }
+    }
+  },
+  {
+    "rishi_name": "Parucchepa",
+    "associated_deities": {
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 1
+      },
+      "Vayu": {
+        "id": "68dfbc0a123a2e3e2e573a47",
+        "hymn_count": 2
+      },
+      "Pusan": {
+        "id": "68dfbc0d123a2e3e2e573a5a",
+        "hymn_count": 1
+      },
+      "Mitra": {
+        "id": "68dfbc0a123a2e3e2e573a49",
+        "hymn_count": 2
+      },
+      "Varuna": {
+        "id": "68dfbc0a123a2e3e2e573a4a",
+        "hymn_count": 2
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 6
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Ghosa",
+    "associated_deities": {
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 3
+      }
+    }
+  },
+  {
+    "rishi_name": "Visvakarman Bhauvana",
+    "associated_deities": {
+      "Visvakarman": {
+        "id": "68dfc584123a2e3e2e573aa9",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Sons of Atri",
+    "associated_deities": {
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 1
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Dirghatamas",
+    "associated_deities": {
+      "Varuna": {
+        "id": "68dfbc0a123a2e3e2e573a4a",
+        "hymn_count": 3
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 10
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 2
+      },
+      "Vishnu": {
+        "id": "68dfbc0e123a2e3e2e573a65",
+        "hymn_count": 3
+      },
+      "Mitra": {
+        "id": "68dfbc0a123a2e3e2e573a49",
+        "hymn_count": 3
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 1
+      },
+      "Apri Hymn": {
+        "id": "68dfbc0b123a2e3e2e573a4e",
+        "hymn_count": 1
+      },
+      "Ribhus": {
+        "id": "68dfbc0c123a2e3e2e573a53",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Krishna",
+    "associated_deities": {
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 3
+      }
+    }
+  },
+  {
+    "rishi_name": "Gaupayana",
+    "associated_deities": {
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 1
+      },
+      "Diverse Gods": {
+        "id": "68dfbc0c123a2e3e2e573a54",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Vishvamitra Gathina",
+    "associated_deities": {
+      "Apri Hymn": {
+        "id": "68dfbc0b123a2e3e2e573a4e",
+        "hymn_count": 1
+      },
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 5
+      },
+      "Diverse Gods": {
+        "id": "68dfbc0c123a2e3e2e573a54",
+        "hymn_count": 1
+      },
+      "Ribhus": {
+        "id": "68dfbc0c123a2e3e2e573a53",
+        "hymn_count": 1
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 25
+      },
+      "Mitra": {
+        "id": "68dfbc0a123a2e3e2e573a49",
+        "hymn_count": 1
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 24
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 1
+      },
+      "Agni Vaisvanara": {
+        "id": "68dfbc0d123a2e3e2e573a5e",
+        "hymn_count": 3
+      },
+      "Usas": {
+        "id": "68dfbc0c123a2e3e2e573a58",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Gotama",
+    "associated_deities": {
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 2
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 7
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 5
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 1
+      },
+      "Soma": {
+        "id": "68dfbc0d123a2e3e2e573a5c",
+        "hymn_count": 2
+      },
+      "Maruts": {
+        "id": "68dfbc0b123a2e3e2e573a52",
+        "hymn_count": 4
+      },
+      "Usas": {
+        "id": "68dfbc0c123a2e3e2e573a58",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Lusa",
+    "associated_deities": {
+      "Surya": {
+        "id": "68dfbc0d123a2e3e2e573a5d",
+        "hymn_count": 1
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 1
+      },
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Ayasya",
+    "associated_deities": {
+      "Brihaspati": {
+        "id": "68dfbc10123a2e3e2e573a71",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Gaya Plata",
+    "associated_deities": {
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Brihaduktha",
+    "associated_deities": {
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Medhatithi",
+    "associated_deities": {
+      "Savitri": {
+        "id": "68dfbc0c123a2e3e2e573a55",
+        "hymn_count": 2
+      },
+      "Brahmanaspati": {
+        "id": "68dfbc0b123a2e3e2e573a50",
+        "hymn_count": 1
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 1
+      },
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 1
+      },
+      "Varuna": {
+        "id": "68dfbc0a123a2e3e2e573a4a",
+        "hymn_count": 3
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 7
+      },
+      "Ribhus": {
+        "id": "68dfbc0c123a2e3e2e573a53",
+        "hymn_count": 1
+      },
+      "Maruts": {
+        "id": "68dfbc0b123a2e3e2e573a52",
+        "hymn_count": 1
+      },
+      "Apri Hymn": {
+        "id": "68dfbc0b123a2e3e2e573a4e",
+        "hymn_count": 1
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 10
+      },
+      "Sadasaspati": {
+        "id": "68dfbc0b123a2e3e2e573a51",
+        "hymn_count": 1
+      },
+      "Usas": {
+        "id": "68dfbc0c123a2e3e2e573a58",
+        "hymn_count": 1
+      },
+      "Diverse Gods": {
+        "id": "68dfbc0c123a2e3e2e573a54",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Nabhanedistha",
+    "associated_deities": {
+      "All the Gods": {
+        "id": "68dfbc0a123a2e3e2e573a4c",
+        "hymn_count": 2
+      }
+    }
+  },
+  {
+    "rishi_name": "Gopavana",
+    "associated_deities": {
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 2
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Parasa",
+    "associated_deities": {
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 9
+      }
+    }
+  },
+  {
+    "rishi_name": "Vimada",
+    "associated_deities": {
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 2
+      },
+      "Soma": {
+        "id": "68dfbc0d123a2e3e2e573a5c",
+        "hymn_count": 1
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 3
+      },
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 1
+      },
+      "Pusan": {
+        "id": "68dfbc0d123a2e3e2e573a5a",
+        "hymn_count": 1
+      }
+    }
+  },
+  {
+    "rishi_name": "Sobhari",
+    "associated_deities": {
+      "Asvins": {
+        "id": "68dfbc0a123a2e3e2e573a4b",
+        "hymn_count": 1
+      },
+      "Agni": {
+        "id": "68dfbc09123a2e3e2e573a46",
+        "hymn_count": 1
+      },
+      "Maruts": {
+        "id": "68dfbc0b123a2e3e2e573a52",
+        "hymn_count": 1
+      },
+      "Indra": {
+        "id": "68dfbc0a123a2e3e2e573a48",
+        "hymn_count": 1
+      }
+    }
+  }
+]

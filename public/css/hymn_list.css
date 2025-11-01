@@ -1,0 +1,242 @@
+/* --- General Page Structure --- */
+.page-container {
+  position: relative; /* This is the anchor for the absolute positioned arrow */
+  padding-top: var(--spacing-md);
+}
+
+.back-arrow {
+    position: absolute;
+    top: 135px;
+    left: 70px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-bg-description-box);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 1.25rem;
+    color: var(--color-heading-warm);
+    text-decoration: none;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.back-arrow:hover {
+    transform: scale(1.05);
+}
+
+/* Updated Header Layout */
+.list-page-header {
+  display: flex;
+  gap: var(--spacing-xl);
+  align-items: center;
+  padding-bottom: var(--spacing-lg);
+  margin-top: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+  border-bottom: 2px solid var(--color-border-subtle);
+  padding-left: 60px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.header-details {
+  flex: 1;
+}
+
+.header-details h3 {
+  font-size: 2.2em;
+  color: var(--color-heading-warm);
+  margin: 0 0 var(--spacing-md) 0;
+  line-height: 1.2;
+}
+
+.header-details .header-meta {
+  font-size: 1.1em;
+  color: var(--color-heading-cool);
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+  display: block;
+}
+
+.header-meta .meta-item:not(:last-child)::after {
+  content: " | ";
+  margin: 0 0.5em;
+  color: var(--color-border-subtle);
+  font-weight: normal;
+}
+
+.header-details .header-description {
+  font-size: 1.1em;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  max-width: 80ch;
+}
+
+.header-image {
+  flex-shrink: 0;
+  width: 200px;
+}
+
+.header-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--box-shadow-subtle);
+  border: 2px solid var(--color-heading-warm);
+}
+
+/* Pagination Styling */
+#pagination-wrapper {
+  margin: var(--spacing-md) 0;
+  text-align: center;
+}
+
+#pagination-info {
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  margin-bottom: var(--spacing-sm);
+}
+
+/* --- Hymn Card Layout (UPDATED to Grid) --- */
+.flex-row-container {
+  display: grid; /* CHANGED: Switched from Flexbox to Grid */
+  grid-template-columns: repeat(4, 1fr); /* CHANGED: Creates 4 equal columns */
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+}
+
+.card-item.hymn-item {
+  background-color: var(--color-bg-card);
+  border-radius: var(--border-radius-md);
+  border: 1px solid var(--color-border-subtle);
+  box-shadow: var(--box-shadow-subtle);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  text-decoration: none;
+  color: var(--color-text-primary);
+  display: flex; /* This remains for the internal layout of the card content */
+  flex-direction: column;
+  overflow: hidden;
+  /* REMOVED: width, max-width, and height properties are no longer needed.
+     Grid controls width, and height is now determined by content for flexibility. */
+}
+
+.card-item.hymn-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--box-shadow-focus);
+  border-color: var(--color-heading-warm);
+}
+
+.hymn-card-content {
+  padding: 1.1rem; /* ADJUSTED: Slightly reduced padding to fit more content */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px dotted var(--color-border-subtle);
+  padding-bottom: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 1.35em; /* ADJUSTED: Reduced font size */
+  color: var(--color-heading-warm);
+}
+
+.card-header .card-meta {
+  font-weight: 600;
+  color: var(--color-heading-cool);
+  font-size: 0.85em; /* ADJUSTED: Reduced font size */
+  margin: 0;
+}
+
+.card-info {
+  font-size: 0.9em; /* ADJUSTED: Reduced font size */
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.card-info p {
+  margin: 0.25em 0; /* ADJUSTED: Tighter vertical spacing */
+}
+
+.card-summary {
+  font-size: 0.95em; /* ADJUSTED: Reduced font size */
+  color: var(--color-text-primary);
+  margin-top: auto; /* This pushes the summary to the bottom, works with flex container */
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border-subtle);
+}
+
+.card-summary p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.placeholder-summary {
+  opacity: 0.7;
+  font-style: italic;
+  margin-top: auto;
+  padding: var(--spacing-md) 0 0 0;
+  background-color: transparent;
+  border-top: 2px dashed var(--color-border-subtle);
+}
+
+/* Responsive Adjustments (UPDATED) */
+@media (max-width: 1300px) {
+  /* NEW: At this width, switch from 4 to 3 columns */
+  .flex-row-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  /* CHANGED: This breakpoint now switches from 3 to 2 columns */
+  .flex-row-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .list-page-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 0; /* Remove the padding on mobile */
+  }
+
+  .header-details {
+    order: 2;
+  }
+
+  .header-image {
+    order: 1;
+    margin-bottom: var(--spacing-md);
+    width: 180px;
+    height: 180px;
+  }
+
+  .back-arrow-container {
+    top: 15px;
+    left: 15px;
+  }
+
+  .header-details h3 {
+    font-size: 2.2em;
+  }
+
+  /* CHANGED: Switch from 2 columns to a single column for mobile */
+  .flex-row-container {
+    grid-template-columns: 1fr;
+  }
+}

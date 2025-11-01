@@ -1,0 +1,265 @@
+:root {
+    /* --- 1. COLOR PALETTE --- */
+    --color-bg-body: #c9b99f;
+    --color-bg-navbar: #8a562d;
+    --color-bg-footer: #8a562d;
+    --color-bg-card: #bea584;
+    --color-text-primary: #2b2b2b;
+    --color-text-secondary: #735d3c;
+    --color-text-nav: #f5e6d3;
+    --color-text-footer: #e8dcc5;
+    --color-card-meta: rgb(153, 108, 24);
+    --color-heading-warm: #9f6335;
+    --color-heading-cool: #035979;
+    --color-heading: var(--color-heading-warm);
+    --color-accent-gold: #ddab2c;
+    --color-border-subtle: #8d7b5c;
+    --scrollbar-track-color: #d1c0a6;
+    --scrollbar-thumb-color: #735d3c;
+    --scrollbar-thumb-hover-color: #56400c;
+
+    --color-icon-primary: var(--color-text-secondary);
+    --color-accent-playing: #ff6600;
+
+    /* --- 2. TYPOGRAPHY --- */
+    --font-body: "Georgia", serif;
+    --font-heading: "Roboto", sans-serif;
+    --font-sanskrit: "Noto Serif Devanagari", serif;
+
+    /* --- 3. LAYOUT & SPACING --- */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --box-shadow-subtle: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --box-shadow-focus: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+    --image-wrapper-fallback-color: #d8c4a0;
+
+    /* Rishi/Hymn/Family Box Text Colors */
+    --color-text-rishi-label: #a0522d;
+    --color-text-rishi-value: #3c2a0d;
+    --color-text-hymn-label: #7b5d1e;
+    --color-text-hymn-value: #2a1f0a;
+    --color-text-family-label: #7b5d1e;
+    --color-text-family-value: #2a1f0a;
+
+    --image-wrapper-texture: url('/images/texture2.jpg');
+
+    /* Base Card Colors */
+    --color-bg-card-hover: #c4ae92;
+    --color-border-subtle: #8d7b5c;
+    --color-card-border-strong: #735d3c;
+    --color-bg-description-box: #b89f7b;
+    --color-text-description: #3c2a0d;
+
+    /* Stanza theme */
+    --theme-bg-transition: background-color 0.5s ease;
+    --video-opacity-transition: opacity 0.5s ease;
+    --color-sanskrit-highlight: #9f6335;
+    --sanskrit-highlight-text-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+
+}
+
+/*======================================================
+  1. BASE & UTILITIES
+======================================================*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-body);
+    line-height: 1.6;
+    transition: var(--theme-bg-transition);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font-heading);
+    color: var(--color-heading);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    color: var(--color-heading-warm);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+p {
+    color: var(--color-text-primary)
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-md);
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+
+/* === PAGINATION STYLES === */
+
+	#pagination-wrapper {
+		margin: 30px 0 0 0;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		max-width: 100%;
+		padding: 0 0 10px 0;
+	}
+
+	.pagination {
+		display: flex;
+		justify-content: center;
+		gap: 8px;
+		padding: 5px 10px;
+		white-space: nowrap;
+	}
+
+	.page-link {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 40px;
+		height: 40px;
+		padding: 0;
+		border: 1px solid #ccc;
+		text-decoration: none;
+		color: #333;
+		cursor: pointer;
+		border-radius: 50%;
+		font-weight: 500;
+		flex-shrink: 0;
+		transition: background-color 0.2s, border-color 0.2s;
+	}
+	.page-link:hover:not(.active):not(.disabled) {
+		background-color: #f0f0f0;
+	}
+	.page-link.active {
+		background-color: var(--color-card-meta);
+		color: white;
+		border-color: #5d5d5d;
+		pointer-events: none;
+	}
+	.page-link.disabled {
+		color: #aaa;
+		background-color: #f7f7f7;
+		border-color: #eee;
+		cursor: not-allowed;
+		opacity: 0.6;
+		pointer-events: none;
+	}
+	.page-link.nav-link {
+		font-size: 1.2em;
+	}
+
+
+/*======================================================
+  4. CATEGORY NAVIGATION TABS
+======================================================*/
+
+.category-nav-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: var(--spacing-lg) auto var(--spacing-md) auto;
+    border-radius: var(--border-radius-md);
+    padding: 4px;
+    margin-bottom: var(--spacing-xl);
+}
+
+.nav-tab-item {
+    flex: 0 1 auto;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    background-color: var(--color-bg-card);
+    color: var(--color-text-primary);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    border-radius: var(--border-radius-md);
+    transition: all 0.2s ease;
+}
+
+.nav-tab-item:hover {
+    background-color: #b99a75;
+    color: var(--color-heading-warm);
+    transform: translateY(-2px);
+}
+
+.nav-tab-item.active {
+    background-color: var(--color-bg-navbar);
+    color: var(--color-text-nav);
+    font-weight: 600;
+    transform: translateY(-1px);
+    box-shadow: inset 0 -1px 0 var(--color-accent-gold);
+}
+
+/*======================================================
+  5. RESPONSIVENESS
+======================================================*/
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .navbar-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-logo {
+        margin-bottom: var(--spacing-md);
+    }
+
+    .nav-links a {
+        margin: 0 var(--spacing-sm);
+        font-size: 1rem;
+    }
+
+    .card-item {
+        flex: 1 1 100%;
+    }
+
+    .category-nav-tabs {
+        flex-direction: column;
+        border-radius: 0;
+    }
+
+    .nav-tab-item {
+        border-bottom: 1px solid var(--color-border-subtle);
+    }
+}

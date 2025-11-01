@@ -1,0 +1,73 @@
+<%
+const imageUrl = rishi.image_url && rishi.image_url.trim() !== '' ? rishi.image_url : '/images/rishi_generic.png';
+%>
+
+<link rel="stylesheet" href="/css/hymn_list.css">
+
+<a href="/read/<%= backUrlSegment %>" class="back-arrow" aria-label="Back to Read Section">
+    <i class="fas fa-chevron-left"></i>
+</a>
+
+<div class="page-container">
+
+
+  <div class="list-page-header">
+    <div class="header-details">
+      <h3><%= title %></h3>
+
+      <% if (rishi.hymn_count || rishi.family || (rishi.associated_mandalas && rishi.associated_mandalas.length > 0)) { %>
+        <p class="header-meta">
+          <% if (rishi.hymn_count) { %><span class="meta-item"><%= rishi.hymn_count %> Hymns</span><% } %>
+          <% if (rishi.family) { %><span class="meta-item">Family: <%= rishi.family %></span><% } %>
+          <% if (rishi.associated_mandalas && rishi.associated_mandalas.length > 0) { %><span class="meta-item">Found in Mandalas: <%= rishi.associated_mandalas.join(', ') %></span><% } %>
+        </p>
+      <% } %>
+
+      <p class="header-description"><%= rishi.bio_summary %></p>
+    </div>
+
+    <div class="header-image">
+      <img src="<%= imageUrl %>" alt="Image of <%= title %>">
+    </div>
+  </div>
+
+  <p id="pagination-info">Showing hymns per page...</p>
+
+  <div id="pagination-wrapper">
+    <div id="pagination-controls" class="pagination"></div>
+  </div>
+
+  <div class="flex-row-container" id="hymn-list-container">
+    <% hymns.forEach((hymn, index) => { %>
+      <a href="/hymn/<%= hymn.location_index %>?navType=rishi&navId=<%= rishi._id %>" class="card-item hymn-item" data-index="<%= index %>">
+        <div class="hymn-card-content">
+          <div class="card-header">
+            <h3>Hymn <%= hymn.location_index %></h3>
+            <p class="card-meta">Stanzas: <%= hymn.stanza_count %></p>
+          </div>
+
+          <div class="card-info">
+            <% if (hymn.associated_entities && hymn.associated_entities.length) { %>
+              <p><strong>Addressed to:</strong> <%= hymn.addressee %></p>
+            <% } %>
+            <% if (hymn.associated_rishis && hymn.associated_rishis.length) { %>
+              <p><strong>Rishi:</strong> <%= hymn.associated_rishis.map(r => r.rishi_name).join(', ') %></p>
+            <% } %>
+          </div>
+
+          <% if (hymn.summary) { %>
+            <div class="card-summary">
+              <p><%= hymn.summary %></p> 
+            </div>
+          <% } else { %>
+            <div class="card-summary placeholder-summary">
+              <p>No summary available yet.</p>
+            </div>
+          <% } %>
+        </div>
+      </a>
+    <% }); %>
+  </div>
+</div>
+
+<script src="/js/pagination.js"></script>

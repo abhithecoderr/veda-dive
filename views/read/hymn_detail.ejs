@@ -1,0 +1,320 @@
+<link rel="stylesheet" href="/css/hymn_detail.css">
+<link rel="stylesheet" href="/css/stanza.css">
+
+<!-- Deity theme stylesheet - loaded dynamically by ThemeManager -->
+<link id="deity-theme" rel="stylesheet" href="/css/themes/default.css">
+<%
+// Define the new base URL for the audio repository
+const AUDIO_BASE_URL = 'https://github.com/aasi-archive/rv-audio/raw/main/data/';
+
+// Calculate the hymn-level audio file path
+const hymnAudioPath = `${AUDIO_BASE_URL}${hymn.mandala_num}/${hymn.hymn_num}.mp3`;
+
+// Helper function to remove Vedic accents
+const removeVedicAccents = (sanskritText) => {
+    if (typeof sanskritText !== 'string' || sanskritText === null || sanskritText === undefined) {
+        return '';
+    }
+    return sanskritText.replace(/[\u0951\u0952]/g, '');
+};
+
+// ** NEW LOGIC: Get all potential deities from associated entities **
+const getPotentialDeities = (entities) => {
+    if (!entities || !Array.isArray(entities)) return [];
+    return entities
+        .filter(entity => entity.entity_type === 'Deity' || entity.entity_type === 'Concept')
+        .map(entity => entity.entity_name.toLowerCase());
+};
+const potentialDeities = getPotentialDeities(hymn.associated_entities);
+
+// ** NEW LOGIC: Calculate total hymn recitation duration in milliseconds **
+let totalHymnDurationMs = 0;
+if (stanzas && stanzas.length > 0) {
+    const firstStanza = stanzas[0];
+    const lastStanza = stanzas[stanzas.length - 1];
+    const startTime = firstStanza.audio_timings_global?.start_ms || firstStanza.stanza_start_ms || 0;
+    const endTime = lastStanza.audio_timings_global?.end_ms || lastStanza.stanza_end_ms || 0;
+    if (endTime > startTime) {
+        totalHymnDurationMs = endTime - startTime;
+    }
+}
+
+
+// (Other existing helper functions remain unchanged)
+const getSanskritText = (sanskritLine, accentedEnabled) => {
+    return accentedEnabled ? sanskritLine : removeVedicAccents(sanskritLine);
+};
+
+const getTranslationForm = (stanza, id) => {
+    const t = stanza.translations.find(t => t.id === id);
+    return t ? t.form.join('<br>') : 'Translation N/A';
+};
+
+const getAufrechtTranslit = (stanza) => {
+    const t = stanza.transliterations.find(t => t.id === "version_aufrecht");
+    return t ? t.form : [];
+};
+
+const getNavUrl = (locationIndex) => {
+    if (navContext.type === 'mandala') {
+        return `/hymn/${locationIndex}`;
+    }
+    return `/hymn/${locationIndex}?navType=${navContext.type}&navId=${navContext.id}`;
+};
+
+const groupWordsByPada = (stanzaWords) => {
+    const padas = {};
+    stanzaWords.forEach(word => {
+        if (!padas[word.pada_index]) padas[word.pada_index] = [];
+        padas[word.pada_index].push(word);
+    });
+    return Object.keys(padas).sort().map(key => padas[key]);
+};
+
+const calculateSyllables = (words) => {
+    let count = 0;
+    const vowelRegex = /[aeiouāīūṛḷeaiouôṃ]/gi;
+    words.forEach(word => {
+        if (typeof word.form === 'string' && word.form !== null && word.form !== undefined) {
+            const matches = word.form.match(vowelRegex);
+            count += matches ? matches.length : 0;
+        }
+    });
+    return count;
+};
+%>
+
+<!-- PAGE CONTENT STARTS HERE -->
+
+<div class="hymn-nav-section">
+    <div class="nav-left-section">
+        <a href="/read/mandala/<%= hymn.mandala_num %>" class="mandala-nav-arrow" aria-label="Back to Mandala Section">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+    </div>
+
+    <div class="nav-middle-section">
+        <div class="context-nav-wrapper">
+            <label for="context-select" class="context-label">
+                <h3><%= navContext.label %>:</h3>
+            </label>
+
+            <select id="context-select" onchange="window.location.href=this.value" aria-label="Select navigation context">
+                <% navContext.contextList.forEach(item => { %>
+                    <%
+                        let optionUrl;
+                        if (navContext.type === 'mandala') {
+                            optionUrl = `/hymn/${item.id}.1`;
+                        } else {
+                            optionUrl = `/hymn/${hymn.location_index}?navType=${navContext.type}&navId=${item.id}`;
+                        }
+                    %>
+                    <option value="<%= optionUrl %>" <%= item.id.toString() === navContext.id.toString() ? 'selected' : '' %>>
+                        <%= item.name %>
+                    </option>
+                <% }) %>
+            </select>
+        </div>
+        <%
+        const currentHymnIndex = hymns.findIndex(h => h.location_index === hymn.location_index);
+        const prevHymnLocation = hymns[currentHymnIndex - 1]?.location_index || '';
+        const nextHymnLocation = hymns[currentHymnIndex + 1]?.location_index || '';
+        const isFirstHymn = currentHymnIndex === 0;
+        const isLastHymn = currentHymnIndex === hymns.length - 1;
+        %>
+
+        <a href="<%= isFirstHymn ? '#' : getNavUrl(prevHymnLocation) %>" class="hymn-nav-arrow <%= isFirstHymn ? 'disabled' : '' %>" aria-label="Previous hymn" aria-disabled="<%= isFirstHymn ? 'true' : 'false' %>">←</a>
+
+        <label for="hymn-select" class="hymn-label">
+            <h3>Hymn</h3>
+        </label>
+
+        <select id="hymn-select" onchange="window.location.href=this.value" aria-label="Select hymn">
+            <% hymns.forEach(h => { %>
+                <% const optionValue = getNavUrl(h.location_index); %>
+                <option value="<%= optionValue %>" <%= h.location_index === hymn.location_index ? 'selected' : '' %>><%= h.location_index %></option>
+            <% }) %>
+        </select>
+
+        <a href="<%= isLastHymn ? '#' : getNavUrl(nextHymnLocation) %>" class="hymn-nav-arrow <%= isLastHymn ? 'disabled' : '' %>" aria-label="Next hymn" aria-disabled="<%= isLastHymn ? 'true' : 'false' %>">→</a>
+    </div>
+
+    <div class="global-audio-control-wrapper">
+        <button id="global-play-btn" class="global-play-btn" aria-label="Play all stanzas">
+            <i class="fas fa-play"></i>
+            <i class="fas fa-pause"></i>
+        </button>
+
+        <%# ** MODIFIED: Replaced theme button with a dropdown structure ** %>
+       <% if (potentialDeities.length > 0) { %>
+    <div id="theme-control-wrapper" class="theme-control-wrapper"
+         data-deities='<%- JSON.stringify(potentialDeities) %>'
+         data-hymn-duration="<%= totalHymnDurationMs > 0 ? totalHymnDurationMs : 30000 %>">
+
+        <button id="theme-toggle-btn" class="nav-icon-btn" aria-label="Open theme selector">
+            <i class="fas fa-palette"></i>
+        </button>
+
+        <div id="theme-select-modal" class="theme-select-modal" hidden>
+            <div class="theme-select-content">
+                <h4>Select Theme</h4>
+                <div id="theme-options-container">
+                    <!-- Radio buttons will be populated here by theme_manager.js -->
+                </div>
+                <button id="close-theme-btn" class="close-settings-btn" aria-label="Close theme selector"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+    </div>
+<% } %>
+
+        <button id="settings-btn" class="settings-btn" aria-label="Open settings">
+            <i class="fas fa-cog"></i>
+        </button>
+
+        <audio id="hymn-audio-player" src="<%= hymnAudioPath %>" preload="none" aria-live="polite"></audio>
+
+        <div id="settings-modal" class="settings-modal" hidden>
+            <div class="settings-content">
+                <h4>Display Settings</h4>
+                <label class="setting-item"><input type="checkbox" id="accented-sanskrit-toggle" checked> Enable Accented Sanskrit</label>
+                <label class="setting-item"><input type="checkbox" id="transliteration-toggle" checked> Enable Interlinear Transliteration</label>
+                <label class="setting-item"><input type="checkbox" id="separate-lines-toggle"> Show Sanskrit on separate lines</label>
+                <label class="setting-item"><input type="checkbox" id="deity-themes-default-toggle" checked> Enable Deity Themes by Default</label>
+                <button id="close-settings-btn" class="close-settings-btn" aria-label="Close settings"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- (The rest of the file remains unchanged) -->
+
+<div class="stanza-col-container">
+    <% stanzas.forEach(stanza => { %>
+        <%
+        const cleanId = stanza.location_index.replace(/\./g, '-');
+        const aufrechtTranslit = getAufrechtTranslit(stanza);
+        const defaultTranslationId = "translation_simplified";
+        const padasGrouped = groupWordsByPada(stanza.stanza_words);
+        %>
+        <div class="stanza-card-item" id="stanza-<%= cleanId %>" data-stanza-num="<%= stanza.stanza_num %>">
+            <script class="stanza-data-json" type="application/json">
+                <%- JSON.stringify({
+                    translations: stanza.translations,
+                    audio_line_timings: stanza.audio_line_timings || [],
+                    stanza_start_ms: stanza.audio_timings_global?.start_ms || stanza.stanza_start_ms || 0,
+                    stanza_end_ms: stanza.audio_timings_global?.end_ms || stanza.stanza_end_ms || 0
+                }) %>
+            </script>
+
+            <div class="stanza-header-row">
+                <h4>Stanza <%= stanza.location_index %></h4>
+                <div class="audio-control-wrapper">
+                    <button class="play-stanza-btn" data-audio-id="hymn-audio-player" data-start-ms="<%= stanza.audio_timings_global?.start_ms || stanza.stanza_start_ms || 0 %>" aria-label="Play stanza audio">
+                        <i class="fas fa-volume-up"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="stanza-core-text interlinear">
+                <%# DEFAULT CONTINUOUS VIEW (JS will manage visibility) %>
+                <div class="continuous-view-content">
+                    <%
+                        const processedSanskritSpans = stanza.text_sanskrit.map((line, index, arr) => {
+                            let pipes = (arr.length === 1 || index === 1) ? ' ||' : ' |';
+                            const fullLineWithPipes = line + pipes;
+                            return `<span class="sanskrit-segment" data-line-num="${index + 1}" data-full-sanskrit="${line}" data-clean-sanskrit="${removeVedicAccents(line)}" data-pipes="${pipes.trim()}">${fullLineWithPipes}</span>`;
+                        }).join(' ');
+
+                        const processedTranslitSpans = aufrechtTranslit.map((line, index) => {
+                            return `<span class="translit-segment" data-line-num="${index + 1}">${line || ''}</span>`;
+                        }).join(' ');
+                    %>
+                    <div class="interlinear-line-group">
+                         <p class="sanskrit-line" data-continuous="true"><%- processedSanskritSpans %></p>
+                         <p class="translit-line-aufrecht" data-continuous="true" data-full-translit="<%= aufrechtTranslit.join(' ') %>"><%- processedTranslitSpans %></p>
+                    </div>
+                </div>
+
+                <%# SEPARATE LINES VIEW (hidden by default) %>
+                <div class="separate-lines-view-content" style="display:none;">
+                    <% stanza.text_sanskrit.forEach((sanskrit_line, index, arr) => { %>
+                        <%
+                        let lineWithPipes = sanskrit_line + ((arr.length === 1 || index === 1) ? ' ||' : ' |');
+                        %>
+                        <div class="interlinear-line-group" data-line-num="<%= index + 1 %>">
+                            <p class="sanskrit-line" data-full-sanskrit="<%= sanskrit_line %>" data-clean-sanskrit="<%= removeVedicAccents(sanskrit_line) %>"><%= lineWithPipes %></p>
+                            <p class="translit-line-aufrecht" data-full-translit="<%= aufrechtTranslit[index] || '' %>"><%= aufrechtTranslit[index] || '' %></p>
+                        </div>
+                    <% }) %>
+                </div>
+            </div>
+
+
+            <div class="stanza-controls-pane">
+                <nav class="controls-nav" role="tablist">
+                    <button class="control-tab active" data-tab="translation-content-<%= cleanId %>" role="tab" aria-selected="true">Translation</button>
+                    <button class="control-tab" data-tab="summary-<%= cleanId %>" role="tab" aria-selected="false">Summary</button>
+                    <button class="control-tab" data-tab="pada-<%= cleanId %>" role="tab" aria-selected="false">Padas</button>
+                    <button class="control-tab" data-tab="meanings-<%= cleanId %>" role="tab" aria-selected="false">Word Meanings</button>
+                    <div class="translation-filter-wrapper">
+                        <label for="trans-select-<%= cleanId %>">Translation:</label>
+                        <select id="trans-select-<%= cleanId %>" class="translation-filter-select" data-target-id="active-translation-text-<%= cleanId %>">
+                            <% stanza.translations.forEach(t => { %>
+                                <option value="<%= t.id %>" <%= t.id === defaultTranslationId ? 'selected' : '' %>>
+                                    <%= t.source %>
+                                </option>
+                            <% }) %>
+                        </select>
+                    </div>
+                </nav>
+
+                <div class="dynamic-content-area">
+                    <div id="translation-content-<%= cleanId %>" class="content-tab" role="tabpanel">
+                        <p class="translation-text-primary tab-translation-text" id="active-translation-text-<%= cleanId %>"><%- getTranslationForm(stanza, defaultTranslationId) %></p>
+                    </div>
+                    <div id="summary-<%= cleanId %>" class="content-tab" role="tabpanel" hidden>
+                        <p class="stanza-summary-text"><%= stanza.stanza_summary %></p>
+                    </div>
+                    <div id="pada-<%= cleanId %>" class="content-tab" role="tabpanel" hidden>
+                        <p class="meter-info">Meter: <strong class="meter-name"><%= stanza.stanza_meter %></strong></p>
+                        <ul class="pada-list-detailed">
+                            <% padasGrouped.forEach((padaWords, padaIndex) => { %>
+                                <li class="pada-item">
+                                    <span class="pada-label"><%= padaWords[0].pada_index.toUpperCase() %>.</span>
+                                    <span class="pada-sanskrit" data-full-sanskrit="<%= padaWords.map(w => w.sanskrit_text).join(' ') %>" data-clean-sanskrit="<%= removeVedicAccents(padaWords.map(w => w.sanskrit_text || '').join(' ')) %>"><%= padaWords.map(w => w.sanskrit_text).join(' ') %></span>
+                                    <span class="pada-transliteration"><%= padaWords.map(w => w.form).join(' ') %></span>
+                                    <span class="pada-syllables">(<%= (stanza.syllable_count && stanza.syllable_count[padaIndex] !== undefined) ? stanza.syllable_count[padaIndex] : calculateSyllables(padaWords) %> syllables)</span>
+                                </li>
+                            <% }) %>
+                        </ul>
+                    </div>
+                    <div id="meanings-<%= cleanId %>" class="content-tab" role="tabpanel" hidden>
+                        <div class="word-meanings-grid">
+                            <% stanza.stanza_words.forEach(word => { %>
+                                <div class="word-meaning-box">
+                                    <p class="word-part">
+                                        <span class="word-sanskrit" data-full-sanskrit="<%= word.sanskrit_text %>" data-clean-sanskrit="<%= removeVedicAccents(word.sanskrit_text || '') %>"><%= word.sanskrit_text %></span>
+                                        <span class="word-translit">(<%= word.form %>)</span>
+                                    </p>
+                                    <p class="word-meaning-box-text"><%= word.word_meaning %></p>
+                                </div>
+                            <% }) %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <% }) %>
+</div>
+
+<div class="stanza-nav-footer">
+    <a href="<%= isFirstHymn ? '#' : getNavUrl(prevHymnLocation) %>" class="stanza-nav-arrow <%= isFirstHymn ? 'disabled' : '' %>" aria-label="Previous hymn">← Previous Hymn</a>
+    <a href="<%= isLastHymn ? '#' : getNavUrl(nextHymnLocation) %>" class="stanza-nav-arrow <%= isLastHymn ? 'disabled' : '' %>" aria-label="Next hymn">Next Hymn →</a>
+</div>
+
+<video id="background-video" muted loop playsinline preload="auto">Your browser does not support the video tag.</video>
+<audio id="theme-audio" loop preload="auto"></audio>
+
+<script src="/js/hymn_detail.js"></script>
+<script src="/js/deity_config.js"></script>
+<script src="/js/theme_manager.js"></script>

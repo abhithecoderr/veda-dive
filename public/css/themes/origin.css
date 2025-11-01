@@ -1,0 +1,172 @@
+:root {
+    --color-bg-card: rgba(10, 5, 30, 0.2);
+    --color-bg-body: #0a0618;
+
+    --color-text-primary: #e6e6ff;
+    --color-text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 15px rgba(138, 43, 226, 0.3);
+    --color-text-secondary: #9d4edd;
+    --color-icon-primary: #c77dff;
+
+    /* --- COSMIC COLORS & ACCENTS --- */
+    --color-heading-mystic: #c77dff;
+    --color-heading-deep: #5a189a;
+    --color-accent-nebula: #e0aaff;
+    --color-accent-playing: #7b2cbf;
+
+    /* --- BORDERS & CARD GLOW --- */
+    --color-border-subtle: rgba(157, 78, 221, 0.25);
+    --color-card-glow: 0 0 8px rgba(157, 78, 221, 0.3), 0 0 2px rgba(192, 132, 252, 0.2);
+
+    /* --- SCROLLBAR --- */
+    --scrollbar-track-color: rgba(74, 20, 140, 0.3);
+    --scrollbar-thumb-color: #7b2cbf;
+    --scrollbar-thumb-hover-color: #9d4edd;
+}
+
+#context-select:hover {
+    background-color: #1e1b3b;
+    box-shadow: var(--color-card-glow);
+}
+
+#hymn-select:hover {
+    background-color: #1e1b3b;
+    box-shadow: var(--color-card-glow);
+}
+
+.hymn-nav-section,
+.stanza-card-item,
+.stanza-nav-footer {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: 12px;
+    box-shadow: var(--color-card-glow);
+    transition: all 0.3s ease;
+}
+
+.stanza-card-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(157, 78, 221, 0.4), 0 0 4px rgba(192, 132, 252, 0.3);
+}
+
+.sanskrit-line {
+    color: #f8f7ff;
+    text-shadow: var(--color-text-shadow);
+    font-weight: 700;
+}
+
+.translit-line-aufrecht {
+    color: #e0aaff;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+}
+
+.translation-filter-select {
+    color: var(--color-text-primary);
+    background-color: rgba(15, 8, 40, 0.6);
+    border-color: rgba(157, 78, 221, 0.4);
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.9);
+}
+.translation-filter-select option {
+    background-color: var(--color-bg-body);
+    color: var(--color-text-primary);
+}
+
+.word-sanskrit {
+  color: #e0aaff;
+}
+/* Control Tab Labels - Cosmic theme */
+body.theme-nasadiya .control-tab {
+    color: #e6e6ff;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+}
+body.theme-nasadiya .control-tab:hover {
+    color: var(--color-heading-mystic);
+}
+
+body.theme-nasadiya .control-tab.active {
+    color: var(--color-accent-nebula);
+    border-bottom-color: var(--color-heading-mystic);
+    text-shadow: 0 0 10px rgba(199, 125, 255, 0.6), 0 0 3px rgba(0, 0, 0, 0.9);
+}
+
+/* --- BUTTON HOVER/ACTIVE STATES --- */
+.play-stanza-btn,
+.global-play-btn,
+.theme-toggle-btn {
+    background-color: rgba(15, 8, 40, 0.5);
+    color: var(--color-icon-primary);
+    box-shadow: 0 0 6px rgba(157, 78, 221, 0.2);
+}
+
+.play-stanza-btn:hover,
+.global-play-btn:hover,
+.theme-toggle-btn:hover {
+    background-color: rgba(157, 78, 221, 0.25);
+    color: var(--color-accent-nebula);
+    box-shadow: 0 0 12px rgba(192, 132, 252, 0.5);
+}
+
+.global-play-btn.is-playing,
+.play-stanza-btn.is-playing {
+    color: var(--color-accent-playing);
+}
+
+.theme-toggle-btn.active {
+    color: var(--color-heading-mystic);
+    background-color: rgba(123, 44, 191, 0.3);
+    box-shadow: 0 0 18px rgba(157, 78, 221, 0.9);
+}
+
+/* --- INTERLINEAR STANZA CORE (Cosmic Theme) --- */
+.stanza-core-text.interlinear {
+    background: linear-gradient(
+        145deg,
+        rgba(30, 15, 60, 0.7) 0%,
+        rgba(15, 5, 40, 0.7) 100%
+    );
+    border: 1px solid rgba(157, 78, 221, 0.3);
+    border-radius: 10px;
+    padding: 1.1rem;
+    box-shadow: 0 0 10px rgba(157, 78, 221, 0.3),
+                inset 0 0 12px rgba(74, 20, 140, 0.5);
+    color: #f8f7ff;
+    text-shadow: 0 0 8px rgba(157, 78, 221, 0.5),
+                 1px 1px 4px rgba(0, 0, 0, 0.9);
+    transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.stanza-core-text.interlinear:hover {
+    background: linear-gradient(
+        145deg,
+        rgba(45, 20, 80, 0.7) 0%,
+        rgba(25, 10, 50, 0.7) 100%
+    );
+    box-shadow: 0 0 15px rgba(192, 132, 252, 0.2),
+                inset 0 0 15px rgba(90, 24, 154, 0.6);
+}
+
+.dynamic-content-area {
+    background: rgba(20, 10, 45, 0.8);
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    color: #f0e6ff;
+    font-size: 1rem;
+    line-height: 1.6;
+    border: 1px solid rgba(157, 78, 221, 0.3);
+    backdrop-filter: blur(3px) saturate(160%);
+    -webkit-backdrop-filter: blur(3px) saturate(160%);
+}
+
+/* Additional cosmic touches */
+.stanza-card-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg,
+        transparent,
+        rgba(192, 132, 252, 0.5),
+        transparent
+    );
+}

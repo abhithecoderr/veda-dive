@@ -1,0 +1,63 @@
+/* ================================
+   Vayu Theme – Wind in the Fields
+   ================================ */
+
+:root {
+    --color-bg-card: rgba(40, 30, 5, 0.55);
+    --color-bg-body: #201808;
+
+    --color-text-primary: #fff9e6;
+    --color-text-secondary: #ffeb99;
+    --color-icon-primary: #ffe680;
+
+    --color-heading-warm: #ffce4f;
+    --color-heading-cool: #fff4a1;
+    --color-accent-gold: #fff9cc;
+    --color-accent-playing: #ffd861;
+
+    --color-border-subtle: rgba(255, 210, 100, 0.3);
+    --color-card-glow: 0 0 8px rgba(255, 230, 140, 0.3),
+                       0 0 3px rgba(120, 80, 10, 0.4);
+
+    --scrollbar-track-color: rgba(40, 25, 5, 0.5);
+    --scrollbar-thumb-color: #ffd45f;
+    --scrollbar-thumb-hover-color: #ffec85;
+}
+
+.hymn-nav-section,
+.stanza-card-item,
+.stanza-nav-footer {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: 12px;
+    box-shadow: var(--color-card-glow);
+    backdrop-filter: blur(3px) saturate(150%);
+}
+
+/* --- Text --- */
+.sanskrit-line {
+    color: #fff8da;
+    text-shadow: 0 0 6px rgba(100, 70, 10, 0.5);
+}
+.translit-line-aufrecht {
+    color: #ffe999;
+}
+
+/* --- Interlinear --- */
+.stanza-core-text.interlinear {
+    background: linear-gradient(145deg, rgba(60, 40, 10, 0.85), rgba(30, 20, 5, 0.9));
+    border: 1px solid rgba(255, 210, 100, 0.3);
+    border-radius: 10px;
+    padding: 1.2rem;
+    color: #fff8da;
+    box-shadow: inset 0 0 8px rgba(180, 120, 40, 0.3);
+}
+
+/* --- Dynamic Content --- */
+.dynamic-content-area {
+    background: rgba(60, 40, 10, 0.7);
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    color: #fff8da;
+    border: 1px solid rgba(255, 210, 100, 0.25);
+}

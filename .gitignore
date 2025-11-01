@@ -1,0 +1,27 @@
+# Dependencies
+/node_modules
+/npm-debug.log
+.yarn-integrity
+
+# Environment Variables
+.env
+.env.*
+.DS_Store
+
+# Build/Logs
+/dist
+/build
+/tmp
+
+# Editor/OS Files
+.vscode/
+.idea/
+Thumbs.db
+
+# --- Custom Exclusions for rigveda-project ---
+/audio-timings-repo/
+/saved/
+/z-files/
+/z-scripts/
+/scripts/
+/video/

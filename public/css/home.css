@@ -1,0 +1,235 @@
+/* public/css/home.css */
+
+/*======================================================
+  1. HOME PAGE - INTRO SECTION (REVISED)
+======================================================*/
+.home-intro {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    align-items: center;
+    gap: var(--spacing-xl);
+    padding: var(--spacing-md) 0;
+        margin-top: var(--spacing-xl);
+
+    margin-bottom: var(--spacing-xl);
+    border-bottom: 1px solid var(--color-border-subtle);
+}
+
+.intro-text {
+    flex: 1 1 50%; /* Flex-grow, flex-shrink, flex-basis */
+    min-width: 320px; /* Prevent text from getting too squished */
+}
+
+.intro-text h1 {
+    font-size: 3rem;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.intro-text .subtitle {
+    font-size: 1.5rem;
+    font-family: var(--font-body);
+    color: var(--color-heading-warm);
+    margin-bottom: var(--spacing-md);
+}
+
+.intro-text p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: var(--spacing-lg);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-radius: var(--border-radius-md);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+    background-color: var(--color-heading-warm);
+    color: var(--color-text-nav);
+}
+
+.cta-button:hover {
+    background-color: #8a562d;
+    transform: translateY(-2px);
+}
+
+.intro-image-container {
+    flex: 1 1 40%;
+    min-width: 320px;
+}
+
+.intro-image-container img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow-focus);
+    border: 3px solid var(--color-bg-card);
+}
+
+
+/*======================================================
+  2. HOME PAGE - GENERAL SECTION STYLES (REVISED)
+======================================================*/
+.home-section {
+    padding: var(--spacing-lg) 0; /* Reduced padding between sections */
+}
+
+.home-section-title {
+    font-size: 1.8rem; /* Decreased font size */
+    color: var(--color-heading-warm);
+    margin-bottom: var(--spacing-md);
+    text-align: left; /* Aligned to the left */
+    font-weight: 600;
+}
+
+/* Container for the horizontal row of cards */
+.card-row-container {
+    display: flex;
+    gap: var(--spacing-lg);
+    overflow-x: auto; /* This enables horizontal scrolling */
+    padding-bottom: 20px; /* Adds space for the scrollbar so it doesn't overlap cards */
+
+    /* Scrollbar styling for a better look */
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+}
+
+.card-row-container::-webkit-scrollbar {
+    height: 8px;
+}
+.card-row-container::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-color);
+    border-radius: 10px;
+}
+.card-row-container::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-color);
+    border-radius: 10px;
+}
+.card-row-container::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrollbar-thumb-hover-color);
+}
+
+
+/*======================================================
+  3. HOME PAGE - CARD STYLES (REVISED FOR ROW LAYOUT)
+======================================================*/
+.home-card {
+    flex: 0 0 350px; /* Prevents cards from shrinking, sets a fixed width */
+    width: 350px;
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow-subtle);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--color-text-primary);
+}
+
+.home-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--box-shadow-focus);
+  border-color: var(--color-card-meta);
+}
+
+
+.home-card .card-image-wrapper {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background-color: var(--color-bg-body);
+}
+
+.home-card .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 30%;   /* shift slightly down */
+    transition: transform 0.3s ease;
+}
+
+.home-card:hover .card-image {
+    transform: scale(1.05);
+}
+
+.home-card .card-content {
+    padding: var(--spacing-md);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-card .card-title {
+    font-family: var(--font-heading);
+    color: var(--color-heading-warm);
+    font-size: 1.3rem;
+    margin: 0 0 var(--spacing-sm) 0;
+}
+
+.home-card .card-meta {
+    font-size: 0.85rem; /* slightly smaller meta */
+    color: var(--color-text-secondary);
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+}
+
+.home-card .card-meta span {
+    color: var(--color-text-primary);
+    font-weight: normal;
+}
+
+.home-card .card-description {
+    font-size: 0.95rem; /* slightly smaller description */
+    color: var(--color-text-primary);
+    line-height: 1.5;
+    flex-grow: 1;
+    /* Truncate text to 3 lines for consistent card height */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+
+/* Specific Card Type: Hymn Card (No Image) */
+.hymn-card {
+    background-color: #d1c0a6;
+}
+
+.hymn-card .card-meta {
+    font-size: 1rem;
+    color: var(--color-card-meta);
+    font-weight: bold;
+    margin-bottom: var(--spacing-xs);
+}
+
+.hymn-card .card-title {
+    font-size: 1.5rem;
+    color: var(--color-heading-cool);
+}
+
+
+
+/*======================================================
+  4. RESPONSIVENESS
+======================================================*/
+
+@media (max-width: 768px) {
+    .home-intro {
+        text-align: center;
+    }
+    .intro-text h1 {
+        font-size: 2.5rem;
+    }
+    .home-card {
+        flex: 0 0 280px; /* Make cards slightly smaller on smaller screens */
+        width: 280px;
+    }
+}

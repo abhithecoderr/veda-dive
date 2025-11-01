@@ -1,0 +1,9758 @@
+[
+  {
+    "deity_name": "Aditi",
+    "word": "ममच्चि",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Aditi",
+    "word": "माता",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Aditi",
+    "word": "अनु",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Aditi",
+    "word": "कस्ते",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "ऊतयः",
+    "frequency": 36,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "अनेहसः",
+    "frequency": 18,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "सुऊतयः",
+    "frequency": 18,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "शर्म",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "तत्",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "यत्",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "देवाः",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "अस्ति",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "आदि॒त्या",
+    "frequency": 8,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "अर्य॒मा",
+    "frequency": 8,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "मि॒त्र",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "यथा",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "उत",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "मि॒त्रो",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "अप",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "उ॒त",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "आदि",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "इत्",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "विश्वे",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "महि",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "वरु॑णो",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "अदि॑तिः",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "स्याम",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "अधि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "दुष्ष्वप्यम्",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "वरु॑ण",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "आदित्याः",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "जी॒वसे",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "उप",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "नोत",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "आदित्यासो",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "वरुण",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "अ॒भि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "तम्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "भद्रम्",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "अति",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "राजा॑न",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "परि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "धा॒रय॑न्त",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "सूर",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "इव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "आप्त्ये",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "अस्मे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "स्रिधः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "अदितिः",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "अव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "इयं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "अ॒प",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "स्मसि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "पु॒रा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Adityas",
+    "word": "अर्य॒मन",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अग्ने",
+    "frequency": 585,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "इव",
+    "frequency": 136,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अग्निः",
+    "frequency": 132,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "यत्",
+    "frequency": 101,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "होता",
+    "frequency": 87,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "उत",
+    "frequency": 85,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अग्निं",
+    "frequency": 81,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "इत्",
+    "frequency": 79,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अस्य",
+    "frequency": 77,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अभि",
+    "frequency": 75,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "परि",
+    "frequency": 74,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "त्वम",
+    "frequency": 70,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अ॒ग्ने",
+    "frequency": 70,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "इन्द्राग्नी",
+    "frequency": 69,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "विश्वा",
+    "frequency": 69,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "असि",
+    "frequency": 63,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "देव",
+    "frequency": 62,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अनु",
+    "frequency": 61,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "तव",
+    "frequency": 58,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "उप",
+    "frequency": 55,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अ॒ग्निः",
+    "frequency": 47,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "त्वम्",
+    "frequency": 43,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अग्निम्",
+    "frequency": 43,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "यस्य",
+    "frequency": 41,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "देवान्",
+    "frequency": 40,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "प्रति",
+    "frequency": 38,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अति",
+    "frequency": 37,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "सहसः",
+    "frequency": 37,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अ॒ग्निं",
+    "frequency": 37,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "दिवः",
+    "frequency": 36,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "इह",
+    "frequency": 35,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "ऋतस्य",
+    "frequency": 32,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "जातवेदः",
+    "frequency": 32,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni",
+    "word": "वयं",
+    "frequency": 31,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "यथा",
+    "frequency": 31,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "सम्",
+    "frequency": 28,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "सूनो",
+    "frequency": 28,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "भर",
+    "frequency": 28,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "देवेषु",
+    "frequency": 28,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "रोदसी",
+    "frequency": 28,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "त्वाम",
+    "frequency": 28,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अच्छा",
+    "frequency": 27,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अस्मे",
+    "frequency": 27,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "चित्",
+    "frequency": 26,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अप",
+    "frequency": 26,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "रायः",
+    "frequency": 26,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अग्नये",
+    "frequency": 26,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अधि",
+    "frequency": 26,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "चिद्",
+    "frequency": 26,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "रयिं",
+    "frequency": 25,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "व॒यं",
+    "frequency": 24,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "यविष्ठ",
+    "frequency": 24,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "एति",
+    "frequency": 24,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "दमे",
+    "frequency": 23,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "विश्वे",
+    "frequency": 22,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "होतारं",
+    "frequency": 22,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "वसो",
+    "frequency": 22,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अव",
+    "frequency": 22,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "ईळते",
+    "frequency": 21,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अग्नेः",
+    "frequency": 21,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अस्तु",
+    "frequency": 21,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "सदा",
+    "frequency": 21,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अन्यके",
+    "frequency": 21,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "समे",
+    "frequency": 21,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "नभन्ताम्",
+    "frequency": 21,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni",
+    "word": "दधिरे",
+    "frequency": 21,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अध्वरे",
+    "frequency": 21,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "तुभ्यं",
+    "frequency": 20,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "सप्त",
+    "frequency": 20,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "पाहि",
+    "frequency": 20,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "दूतः",
+    "frequency": 20,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "इषं",
+    "frequency": 20,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "देवाः",
+    "frequency": 20,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "देवः",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "विश्वं",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "तस्य",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "जुषस्व",
+    "frequency": 19,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "मर्त्यः",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "महि",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "हवामहे",
+    "frequency": 19,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni",
+    "word": "नरः",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "कविः",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "यज्ञस्य",
+    "frequency": 18,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "यन्ति",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "तव॑",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "अध",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "स्तोतृभ्यः",
+    "frequency": 18,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "यज्ञं",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "यद",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "क्रत्वा",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "दाशुषे",
+    "frequency": 17,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni",
+    "word": "विशः",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "यक्षि",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "उ॒त",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "तत्",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "सख्ये",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "गिरा",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "दिवि",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "द्विषः",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni",
+    "word": "पावक",
+    "frequency": 17,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni Giver of Goods",
+    "word": "धारयन्",
+    "frequency": 7,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni Giver of Goods",
+    "word": "अग्निं",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Giver of Goods",
+    "word": "देवाः",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Giver of Goods",
+    "word": "द्रविणोदाम्",
+    "frequency": 7,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Agni Giver of Goods",
+    "word": "द्रविणोदाः",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni Killer of Demons",
+    "word": "अग्ने",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Killer of Demons",
+    "word": "अनु",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Killer of Demons",
+    "word": "प्रति",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Killer of Demons",
+    "word": "इत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Killer of Demons",
+    "word": "तव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "अग्ने",
+    "frequency": 16,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "यत्",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "इव",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "परि",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "उप",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "अग्निः",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "वैश्वानर",
+    "frequency": 6,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "तव",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "अग्निं",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "अभि",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "रोद॑सी",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "रोदसी",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "असि",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "वैश्वानरं",
+    "frequency": 5,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "अ॒ग्निं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "केतुं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "दिवः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "वैश्वा॑नर",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "अ॒ग्निर्",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "इत्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "अ॒ग्निः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "उपस्थे",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "वैश्वायनर",
+    "frequency": 3,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "तस्य",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "विश्वा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "राजा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "वै॒श्वा॒न॒रो",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "शोचिषा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "जागृविः",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "पित्रोः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "देवाः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "शोशुचानः",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "जायमानः",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "जनयन्त",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "अग्नये",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "ज्योतिः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "विश्वे॑",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "अ॒ग्ने",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "अग्नेः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "वैश्वानरः",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "वाजं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "धेहि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "भुवना",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "word": "पृ॒ष्टो",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "उत",
+    "frequency": 68,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "देवाः",
+    "frequency": 53,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "विश्वे",
+    "frequency": 46,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "इव",
+    "frequency": 42,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अस्तु",
+    "frequency": 38,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "उप",
+    "frequency": 36,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "देवानां",
+    "frequency": 35,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "यत्",
+    "frequency": 35,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अग्ने",
+    "frequency": 33,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "इन्द्र",
+    "frequency": 27,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अस्य",
+    "frequency": 27,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अर्यमा",
+    "frequency": 25,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अभि",
+    "frequency": 25,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "तत्",
+    "frequency": 25,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "मित्रः",
+    "frequency": 25,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "मरुतः",
+    "frequency": 25,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "वरुणः",
+    "frequency": 24,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "इत्",
+    "frequency": 23,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "दिवः",
+    "frequency": 23,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "इन्द्रः",
+    "frequency": 22,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "परि",
+    "frequency": 21,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "असुरत्वं",
+    "frequency": 20,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "महद्",
+    "frequency": 19,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "ऋतस्य",
+    "frequency": 19,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "विश्वा",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अधि",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "शर्म",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "एकं",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "यूयं",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अश्विना",
+    "frequency": 18,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अति",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "इह",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "स्वस्तये",
+    "frequency": 16,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "रोदसी",
+    "frequency": 15,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अग्निः",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "दे॒वाः",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "यथा",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "माता",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "वृणीमहे",
+    "frequency": 15,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "सदा",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "ईमहे",
+    "frequency": 15,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "भवन्तु",
+    "frequency": 14,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "आपः",
+    "frequency": 14,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "सरस्वती",
+    "frequency": 14,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "वृ॑णीमहे",
+    "frequency": 14,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अ॒द्या",
+    "frequency": 14,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "सविता",
+    "frequency": 14,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "सन्तु",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अप",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अ॒द्य",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अनु",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "तद्दे",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अदितिम्",
+    "frequency": 13,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अदितिः",
+    "frequency": 13,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अच्छा",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "सोम",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "प्रति",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "मित्रावरुणा",
+    "frequency": 12,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "देव",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अवो",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "रायः",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "रथं",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "महत्",
+    "frequency": 12,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "वाना॒मवो",
+    "frequency": 12,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "त्वष्टा",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "एतु",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "ब्रह्म",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "होता",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "भगः",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "विश्वं",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "यजत्राः",
+    "frequency": 11,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "स्याम",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "देवान्",
+    "frequency": 11,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "यज्ञं",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "सर्वतातिम्",
+    "frequency": 11,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अपां",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अ॒ग्निं",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अदि॑तिः",
+    "frequency": 11,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "स्व    स्ति",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "देवी",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "सजोषाः",
+    "frequency": 11,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "सवि॒ता",
+    "frequency": 11,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "महे",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "स्व॒स्ती",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "महः",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "मही",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "स॑मिधा॒नम्",
+    "frequency": 10,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "द्विषः",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अध",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अत्र",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "यत्र",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "द्यावापृथिवी",
+    "frequency": 10,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "एषां",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "पूषा",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "देवः",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "अ॒भि",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "नमसा",
+    "frequency": 10,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "उ॒त",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "गिरः",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "All the Gods",
+    "word": "वयं",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ancestors",
+    "word": "पितरः",
+    "frequency": 8,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ancestors",
+    "word": "इह",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ancestors",
+    "word": "हवींषि",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ancestors",
+    "word": "स्वधया",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ancestors",
+    "word": "अग्ने",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ancestors",
+    "word": "उत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apam Napat",
+    "word": "अपां",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apam Napat",
+    "word": "परि",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apam Napat",
+    "word": "नपात्",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apam Napat",
+    "word": "अस्य",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apam Napat",
+    "word": "अप्स्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apam Napat",
+    "word": "यन्ति",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apam Napat",
+    "word": "अन्नं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apam Napat",
+    "word": "अस्मै",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "ब॒र्हिः",
+    "frequency": 16,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "उप",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "य॒ज्ञं",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दे॒वी",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "अ॒ग्निः",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "इळा",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दे॒वानां",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "इ॒ह",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दे॒वान्",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दे॒वीः",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दे॒वाँ",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "होता॑रा",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "अ॒द्य",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "स्वाहा",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दे॒वेभ्यो",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दे॒व",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दैव्या",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "इ॒मं",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दि॒वो",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "ति॒स्रो",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "म॒ही",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "समि॑द्धो",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "ह्वये",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "द्वारो",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दे॒वैः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "ह॒विः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "होता",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "इदं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "व॒ह",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "य॒क्षि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "अ॒ग्निर्",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "अग्ने",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "असि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "पव॑मानः",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "त्वष्टा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "भार॑ती",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दे॒वो",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दे॒वः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "सम",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "मध्वा॑",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "अ॒स्मे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "अधि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "ह॒व्या",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "मन॑सा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "पाथः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "ऋ॒तस्य",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दे॒वा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "अ॒ग्ने",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दे॒वेषु",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "हो॒ता",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "विश्वे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "प्रति",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "दे॒वाः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "उ॒षासा॒नक्ता",
+    "frequency": 3,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "घृ॒त",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "वक्षि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "वृषा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "ओज॑सा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "मा॒तरा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "अव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "क॒विः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "त्मना",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "पृथि॒व्या",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "वनस्पते",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "word": "उत",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Aranyani",
+    "word": "रिव",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Aranyani",
+    "word": "रण्या॒नि",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Aranyani",
+    "word": "उतो",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अश्विना",
+    "frequency": 193,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "वाम",
+    "frequency": 82,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "इव",
+    "frequency": 82,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "याभिः",
+    "frequency": 61,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "वाम्",
+    "frequency": 51,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "युवं",
+    "frequency": 51,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "नरा",
+    "frequency": 47,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "यत्",
+    "frequency": 43,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "उप",
+    "frequency": 43,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "नासत्या",
+    "frequency": 38,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अश्वि॑ना",
+    "frequency": 35,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "परि",
+    "frequency": 34,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "रथं",
+    "frequency": 30,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "ताभिः",
+    "frequency": 30,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "प्रति",
+    "frequency": 26,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अश्वि॒ना",
+    "frequency": 26,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "यातं",
+    "frequency": 26,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "वृषणा",
+    "frequency": 26,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "यातम",
+    "frequency": 25,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अवः",
+    "frequency": 24,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "दिवः",
+    "frequency": 24,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "तम्",
+    "frequency": 24,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "ऊ॒तिभिः",
+    "frequency": 23,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अस्मे",
+    "frequency": 23,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "रथः",
+    "frequency": 22,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "उत",
+    "frequency": 22,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "दस्रा",
+    "frequency": 20,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "मध्वः",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "यद्",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अन्ति",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "पती",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "भूतु",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "सत्",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "रथेन",
+    "frequency": 17,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "श्रुतं",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अनु",
+    "frequency": 16,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "इह",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "सोमस्य",
+    "frequency": 15,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अभि",
+    "frequency": 14,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "यु॒वं",
+    "frequency": 14,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अधि",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "वाजिनीवसू",
+    "frequency": 13,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "मम",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "कुह",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "वा</strong><strong>म</strong>",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अद्य",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "यथा",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "चिद्",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "मधु",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "विश्वा",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "रथे",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "इषः",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "यातम्",
+    "frequency": 11,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "हव॑म्",
+    "frequency": 10,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "येन",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "पिबतं",
+    "frequency": 9,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "शुभ",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "उ॒त",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "यद",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "मा॒ध्वी",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "इत्",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "इषं",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "तेन",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "हुवे",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "स्तोमं",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "हवं",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "पीतये",
+    "frequency": 9,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "उषसः",
+    "frequency": 9,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "उभा",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अ॒यं",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "गच्छथः",
+    "frequency": 8,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "निस्",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "ऊहथुः",
+    "frequency": 8,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "देवा",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "इमं",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अर्वाक्",
+    "frequency": 8,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "युवोर",
+    "frequency": 8,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अत्रये",
+    "frequency": 8,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "खृगलेव",
+    "frequency": 8,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "ब्रह्माणि",
+    "frequency": 8,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "चित्",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "सदा",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "गतम्",
+    "frequency": 8,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "हवामहे",
+    "frequency": 7,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "दुहिता",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "इषा",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "वर्तिः",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अति",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "योषा",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "वयं",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "इमे",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "कृतं",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "दि॒वो",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "सख्या",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "वृषणवसू",
+    "frequency": 7,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "तद्",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "पादेव",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "धिष्ण्या",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "रयिं",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Asvins",
+    "word": "अवसे",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Bhaga",
+    "word": "भग",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Bhaga",
+    "word": "प्रा॒तर्",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Bhaga",
+    "word": "स्याम",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Bhaga",
+    "word": "उतोदि",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Bhaga",
+    "word": "व॒यं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Bhaga",
+    "word": "भगं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "ब्रह्मणः",
+    "frequency": 20,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "बृहस्पते",
+    "frequency": 13,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "पते",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "पतिः",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "अभि",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "इव",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "ब्रह्म॑ण",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "स्पतिः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "कृणु॒ते",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "यंय॒",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "युजं",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "इत्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "इद्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "तद्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "चन",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "उप",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "तत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "असि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "यत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "उत",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "तव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "चिद्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "तस्य",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "शवसा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "दे॒वा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "दधे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "word": "विश्वं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "बृहस्पतिः",
+    "frequency": 19,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "इव",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "बृहस्पते",
+    "frequency": 8,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "इन्द्राबृहस्पती",
+    "frequency": 5,
+    "letter_count": 6
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "बृहस्पतिं",
+    "frequency": 5,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "अभि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "बृह॒स्पतिः",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "अ॒शं॒स्ति॒",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "दु॒र्म॒तिं",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "ब्रह्मणः",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "रवेण",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "इत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "राजा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "रोदसी",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "बृह॒स्पतिं",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "निस्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "अस्य",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "वि॒द्वाँ",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "क॒रद्यज॑मानाय",
+    "frequency": 3,
+    "letter_count": 7
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "अथा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "अ॒प",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "क्षि॒पद॒",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Brihaspati",
+    "word": "यज॑मानाय",
+    "frequency": 3,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Dadhikra",
+    "word": "उत",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Dadhikra",
+    "word": "अनु",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Dadhikra",
+    "word": "इव",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Dadhikra",
+    "word": "दधिक्राः",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Dadhikra",
+    "word": "षसः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "अयं",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "इव",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "इन्द्र",
+    "frequency": 16,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "परि",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "सोम",
+    "frequency": 14,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "उप",
+    "frequency": 14,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "असि",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "अप",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "इन्द्रः",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "अभि",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "यत्",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "इह",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "भग",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "उत",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "पुनः",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "अनु",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "इन्द्रासोमा",
+    "frequency": 8,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "आयुः",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "अस्य",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "तत्",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "अस्तु",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "इन्द्रं",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "अश्विना",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "अग्ने",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "इन्द्रो",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "प्रति",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "सोमः",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "प्रा॒तर्",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "इत्",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "रपो",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "अद्य",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "देव",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "पू॒षा",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "देवाः",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "पुनीहि",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "म॒हाँ",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "ऋ॒तस्य",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "दिवो",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "अ॒भि",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "दे॒वः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "व॒यं",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "जहि",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "रक्षसः",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "मम",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "तस्य",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "अव",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "यथा",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "इति",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "एति",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "इन्द्रस्य",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "पवित्रं",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "तद्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "क्ष॒मा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "विष्णुः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "परा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "निर्ऋ॑तिर्",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "एमि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "सरस्वति",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "परात॒रं",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "उतो",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "दे॒वस्य",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "स्याम",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "दे॒वो",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "पृथिव्याः",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "विश्वा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "सर॑स्वतीं",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "हन्ति",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "आह",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "पवस्व",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "अहं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "आपः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "रयिं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "सोमो",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "उतोदि",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "सोमपीतये",
+    "frequency": 4,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "इदं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "दश",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "जिहीताम्",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "होत्राः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "धेहि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "प्रप॑थे",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "गोभिः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "दशो",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "यत्र",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "देवेषु",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "देवा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "च॒नाम॑मत्",
+    "frequency": 3,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "मित्रावरुणा",
+    "frequency": 3,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "एव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "शत्रुं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "पिब",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "वायो",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "विश्वे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "भक्षत्",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "दे॒वा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "ज्योतिः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "म॒रुतः",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "पवते",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "मन॑सा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "word": "यदि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इन्द्र",
+    "frequency": 950,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "यत्",
+    "frequency": 306,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इन्द्रः",
+    "frequency": 283,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इत्",
+    "frequency": 271,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इव",
+    "frequency": 199,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अस्य",
+    "frequency": 196,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अभि",
+    "frequency": 168,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इन्द्रं",
+    "frequency": 163,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "उत",
+    "frequency": 159,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अनु",
+    "frequency": 157,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "उप",
+    "frequency": 137,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "विश्वा",
+    "frequency": 116,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "चिद्",
+    "frequency": 99,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "मघवन्",
+    "frequency": 98,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Indra",
+    "word": "परि",
+    "frequency": 97,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "यथा",
+    "frequency": 93,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इन्द्रो",
+    "frequency": 93,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "असि",
+    "frequency": 89,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "शूर",
+    "frequency": 84,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "यस्य",
+    "frequency": 83,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "याहि",
+    "frequency": 79,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "तत्",
+    "frequency": 77,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अव",
+    "frequency": 75,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "सोमं",
+    "frequency": 72,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "दिवः",
+    "frequency": 72,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इन्द्राग्नी",
+    "frequency": 69,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "तव",
+    "frequency": 69,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अधि",
+    "frequency": 69,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इन्द्रम्",
+    "frequency": 67,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "हरी",
+    "frequency": 66,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अहं",
+    "frequency": 66,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "प्रति",
+    "frequency": 63,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अस्मै",
+    "frequency": 62,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इन्द्रस्य",
+    "frequency": 62,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "सोमस्य",
+    "frequency": 60,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "वृषा",
+    "frequency": 60,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अस्मे",
+    "frequency": 55,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अस्ति",
+    "frequency": 54,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अध",
+    "frequency": 54,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अयं",
+    "frequency": 54,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "रोदसी",
+    "frequency": 51,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "भर",
+    "frequency": 49,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इह",
+    "frequency": 49,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "वयं",
+    "frequency": 49,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "मघवा",
+    "frequency": 49,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अप",
+    "frequency": 48,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इन्द्राय",
+    "frequency": 47,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "सचा",
+    "frequency": 47,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "यदि",
+    "frequency": 47,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "पिब",
+    "frequency": 46,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "हवामहे",
+    "frequency": 46,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Indra",
+    "word": "विश्वे",
+    "frequency": 46,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "वसु",
+    "frequency": 44,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "सोमः",
+    "frequency": 43,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "मदे",
+    "frequency": 43,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "वज्रं",
+    "frequency": 43,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "चित्",
+    "frequency": 43,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "रथं",
+    "frequency": 41,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "गहि",
+    "frequency": 41,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अपः",
+    "frequency": 40,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "सुते",
+    "frequency": 40,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "वृत्रं",
+    "frequency": 40,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अति",
+    "frequency": 39,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "पुरुहूत",
+    "frequency": 38,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Indra",
+    "word": "देवाः",
+    "frequency": 38,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "पिबा",
+    "frequency": 38,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "शवसा",
+    "frequency": 38,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "सुतस्य",
+    "frequency": 38,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अस्तु",
+    "frequency": 38,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "गिरः",
+    "frequency": 37,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "येन",
+    "frequency": 37,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "सखा",
+    "frequency": 37,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अवसे",
+    "frequency": 37,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "ओजसा",
+    "frequency": 37,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "रायः",
+    "frequency": 36,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "महि",
+    "frequency": 36,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "ऊतये",
+    "frequency": 36,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "शतक्रतो",
+    "frequency": 36,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अत्र",
+    "frequency": 36,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इन्द्रा",
+    "frequency": 35,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इमा",
+    "frequency": 35,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "सुतं",
+    "frequency": 35,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "महे",
+    "frequency": 34,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "चन",
+    "frequency": 34,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "ब्रह्म",
+    "frequency": 34,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "तद्",
+    "frequency": 34,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इमे",
+    "frequency": 33,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "त्वम्",
+    "frequency": 32,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "एकः",
+    "frequency": 32,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "तुभ्यं",
+    "frequency": 32,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "वसो",
+    "frequency": 32,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अस्मिन्",
+    "frequency": 31,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "अद्रिवः",
+    "frequency": 31,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "त्वाम्",
+    "frequency": 30,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "धिया",
+    "frequency": 30,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "राजा",
+    "frequency": 30,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "इदं",
+    "frequency": 30,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "ऋतस्य",
+    "frequency": 30,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Indra",
+    "word": "नकिः",
+    "frequency": 30,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Indra",
+    "word": "महः",
+    "frequency": 30,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Manyu",
+    "word": "मन्यो",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Manyu (Wrath)",
+    "word": "मन्यो",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Manyu (Wrath)",
+    "word": "इहि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Manyu (Wrath)",
+    "word": "अभि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Manyu (Wrath)",
+    "word": "मन्युः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "मरुतः",
+    "frequency": 133,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "इव",
+    "frequency": 70,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "यत्",
+    "frequency": 56,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अनु",
+    "frequency": 35,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "उत",
+    "frequency": 32,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "मरुतो",
+    "frequency": 27,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "चिद्",
+    "frequency": 27,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अधि",
+    "frequency": 25,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "दिवः",
+    "frequency": 23,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अग्ने",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "नरः",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "मरुत",
+    "frequency": 18,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "मरुद्भिः",
+    "frequency": 18,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "रोदसी",
+    "frequency": 17,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "यथा",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अस्तु",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "उप",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "एषां",
+    "frequency": 16,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "इत्",
+    "frequency": 16,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "सुदानवः",
+    "frequency": 14,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अभि",
+    "frequency": 14,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अस्य",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "यूयं",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "एषाम्",
+    "frequency": 12,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "प्रति",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "शुभं",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "यद्",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अध",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "तत्",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "रथा",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अस्मे",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "चित्",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "एवयामरुत",
+    "frequency": 9,
+    "letter_count": 6
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "विश्वा",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "त्मना",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "गहि",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "धूतयः",
+    "frequency": 9,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "नरो",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "रुद्रस्य",
+    "frequency": 9,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अवृत्सत",
+    "frequency": 9,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "रथे",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अस्ति",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "ओजसा",
+    "frequency": 9,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "या॒तामनु",
+    "frequency": 9,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "सन्ति",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अप",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "उग्राः",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "शवसा",
+    "frequency": 8,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अव",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "शर्धाय",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "विश्वं",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "महः",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अद्य",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "इन्द्र",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "दधिरे",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "उत्",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "परि",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "तद्",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "नाम",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "रथे॑षु",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "धत्त",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "हव्या",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "इह",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "देवाः",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "यज्ञं",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "इत्था",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "शुभे",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "पृश्निमातरः",
+    "frequency": 6,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "पुरा",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "स्थिरा",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "वृषा",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "यात",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अञ्जिभिः",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "विश्वे",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "चक्रिरे",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "येन",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "त्वम",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "गन्तन",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "रुद्राः",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "यस्य",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अहं",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "स्तोमो",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "मरुद्भ्यः",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "मारुतं",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "समन्यवः",
+    "frequency": 5,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "अति",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "वयं",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "रिशादसः",
+    "frequency": 5,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "शवो",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "शतं",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "इमे",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "महि",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "वयः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "भिया",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "वना",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "इषं",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "हुवे",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "रायः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "आपः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Maruts",
+    "word": "मर्या",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "मित्रावरुणा",
+    "frequency": 30,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "उप",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "वाम्",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "वाम",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "अभि",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "यत्",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "वरुण",
+    "frequency": 10,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "मित्र",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "मि॒त्राय",
+    "frequency": 8,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "मि॒त्रः",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "चिद्",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "एति",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "उत",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "अनु",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "इव",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "दिवः",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "मित्रः",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "वरु॑णाय",
+    "frequency": 7,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "परि",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "मि॒त्र",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "सदा",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "अंहसः",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "क्ष॒त्रं",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "युवं",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "मित्रस्य",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "वरु॑णो",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "महि",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "इमे",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "व॒यं",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "उद्",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "ऋतावाना",
+    "frequency": 5,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "सूर्यः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "एष",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "धाम",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "बृ॒हत्",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "प्रति",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "वरुणः",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "विश्वा",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "अस्य",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "सोम॑पीतये",
+    "frequency": 4,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "यूयं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "मरुतः",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "मि॒त्रो",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "वरुणस्य",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "वरु॑ण",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "देवा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "सु॒म॒तिम्",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "गातुं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "सम्राजा",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "आदितिः",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "अव",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "इ॒मे",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "ऋतस्य",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "उ॒त",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "अधि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "चष्टे",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "विश्वस्य",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "तद्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "पात",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "अर्यमा",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "रोदसी",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "अर्य॒मा",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "वायू",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "यद्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "प्रथमा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "अध्वरं",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "चक्षुः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "स्वस्तिभिः",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "होता",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "मि॒त्रस्य",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "वृषणा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "धियो",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "हुवे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "सुक्रतू",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "व्रतम्",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "ऋतेन",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "सु॒तः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "सुदानू",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "ब॒र्हिषि",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "दिवि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "अत्र",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "यद्वां",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "राजा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "उभे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "यातम",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "ष॑सा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "मित्रावरुणो",
+    "frequency": 3,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "सचेमहि",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "सूर्य",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "स॒ह",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "तम",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "स्याम",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "उत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "दिवो",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "उतो",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "ईजा́नं",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "वरुणो",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "सोमः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "एनोः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra",
+    "word": "यात॒यज्ज॑नः",
+    "frequency": 3,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Mitra-Varuna",
+    "word": "वरुण",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra-Varuna",
+    "word": "मि॒त्रो",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Mitra-Varuna",
+    "word": "अर्य॒मा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Mitra-Varuna",
+    "word": "सूर",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Parjanya",
+    "word": "यत्प",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Parjanya",
+    "word": "व्र॒त",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Parjanya",
+    "word": "यस्य॑",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "पूषन्",
+    "frequency": 17,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "पूषा",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "उत",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "ईमहे",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "पूषणं",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "अभि",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "अग्ने",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "असि",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "आघृणे",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "रायः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "इह",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "त्वम",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "देव",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "उप",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "इव",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "अनु",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "नय",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "इति",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "वृषा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "सखा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "अस्य",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "रन्धय",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "विदः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "परि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "यस्य",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "कृधि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "भव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "यत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "एव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "शवो",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "अथे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "अव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "यथा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "वयं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "अस्माकं",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "इम",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "जन॑ना",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "इन्द्रः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "सकृ",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "क्रतुं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "पूष्णः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "पूष",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "पतिः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "अस्तु",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "दीदिहि",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "कृणु",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "सोमा॑पूषणा",
+    "frequency": 3,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "स्मभ्यं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "वयम्",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Pusan",
+    "word": "सम्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "ऋभवः",
+    "frequency": 21,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "इन्द्र",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "वह",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "उप",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "वाजाः",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "इव",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "हे ऋभु",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "रथं",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "आप",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "सौध॑न्वना",
+    "frequency": 6,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "यत्",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "सवनं",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "हरी",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "पुनः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "सजोषसः",
+    "frequency": 5,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "सातिं",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "इह",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "शच्या",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "ऋभुः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "उत",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "ऋभुक्षणः",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "नरः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "मदाय",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "धन",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "तत्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "च॒क्रुः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "शवसः",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "वाजो",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "तक्ष",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "जिसे",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "चमसं",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "अनु",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "किमी॑यते",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "हे वाजों",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "की ओर",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "सजोषाः",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "सं॒वत्स",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "यथा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "वद॑न्तश्चम॒साँ",
+    "frequency": 3,
+    "letter_count": 6
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "इन्द्रः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "पितरा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "ऋ॒भवो",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "देवाः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "अयं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "यहाँ",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "नपात",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "अकर्त",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "एकं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "आह",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "युवाना",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "रत्नधेयं",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "त्वष्टा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "सौधन्वनाः",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "तक्षत",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "नरो",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "हमें",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "गाम",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "रयिं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "सव॑ने",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "नश",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "अ॒भि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "चम॒सं",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "मन॑सा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "इदा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Ribhus",
+    "word": "अ॒स्मे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "रुद्र",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "यथा",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "अ॒स्मत्",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "चतु॑ष्पदे",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "व्यमी॑वाश्चातयस्वा॒",
+    "frequency": 4,
+    "letter_count": 7
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "उत",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "रु॒द्रस्य॑",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "अर्ह॑न्नि",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "अ॒स्मे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "इत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "इव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "त्वे॒षं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "भेष॒जा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "सोमा॑रुद्रा",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "अव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "सोम",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Rudra",
+    "word": "आ॒रे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Sadasaspati",
+    "word": "ब्रह्मणः",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Sadasaspati",
+    "word": "पते",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Sarasvat",
+    "word": "सरस्वती",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Sarasvati",
+    "word": "सरस्वती",
+    "frequency": 12,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Sarasvati",
+    "word": "इव",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Sarasvati",
+    "word": "सरस्वति",
+    "frequency": 5,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Sarasvati",
+    "word": "उप",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Sarasvati",
+    "word": "उत",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Sarasvati",
+    "word": "महिना",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Sarasvati",
+    "word": "याहि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Sarasvati",
+    "word": "विश्वे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Sarasvati",
+    "word": "वाजिनीवती",
+    "frequency": 3,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Sarasvati",
+    "word": "इन्द्रा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "सविता",
+    "frequency": 15,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "सवि॒ता",
+    "frequency": 15,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "अस्य",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "अनु",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "उत",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "दे॒वः",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "देवः",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "इव",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "सवितुः",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "विश्वा",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "सवि॒तुः",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "दे॒व",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "अभि",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "याति",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "सवितर",
+    "frequency": 6,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "दे॒वस्य",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "दे॒वो",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "देवस्य",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "चिद्",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "उद्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "ह्वया॑मि",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "राजा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "तस्थुः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "अदि॑तये",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "यत्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "स्याम",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "अ॒भि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "इत्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "यथा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "विश्वं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "बा॒हू",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "नू॒नं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "व॒रु॑णः",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "वामम",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "रत्ना",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "सवितः",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "देव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "तत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "स॑वि॒ता",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "प्रति",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "रजां॑सि",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "अगात्",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "भुव॑नानि",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "एव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "व्रतं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "दि॒वो",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "तन्नो",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "तद",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "अतो",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "अस्थात्",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Savitri",
+    "word": "अ॒स्मे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "सोम",
+    "frequency": 238,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "परि",
+    "frequency": 151,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अभि",
+    "frequency": 144,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "इन्दो",
+    "frequency": 124,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "इव",
+    "frequency": 100,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "पवस्व",
+    "frequency": 98,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "सोमः",
+    "frequency": 68,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "पवते",
+    "frequency": 62,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "दिवः",
+    "frequency": 59,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "इन्द्राय",
+    "frequency": 57,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "विश्वा",
+    "frequency": 56,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अधि",
+    "frequency": 55,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अस्य",
+    "frequency": 53,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "पवमान",
+    "frequency": 51,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Soma",
+    "word": "इन्दुः",
+    "frequency": 48,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "वृषा",
+    "frequency": 46,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "इन्द्रस्य",
+    "frequency": 44,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "धारया",
+    "frequency": 40,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "उत",
+    "frequency": 39,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अर्षति",
+    "frequency": 39,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "पुनानः",
+    "frequency": 38,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "हरिः",
+    "frequency": 36,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अयं",
+    "frequency": 36,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "असि",
+    "frequency": 36,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "सुतः",
+    "frequency": 34,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "इन्द्रं",
+    "frequency": 34,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "सोमो",
+    "frequency": 33,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "यत्",
+    "frequency": 32,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "स्रव",
+    "frequency": 31,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "ऋतस्य",
+    "frequency": 31,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अति",
+    "frequency": 30,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अप",
+    "frequency": 30,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "इन्द्र",
+    "frequency": 30,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "ए॒ष",
+    "frequency": 30,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "कविः",
+    "frequency": 28,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अनु",
+    "frequency": 28,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अर्ष",
+    "frequency": 27,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अव",
+    "frequency": 27,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "पवित्रे",
+    "frequency": 26,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "पवमानः",
+    "frequency": 26,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Soma",
+    "word": "देव",
+    "frequency": 26,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "उप",
+    "frequency": 26,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "यथा",
+    "frequency": 26,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "तव",
+    "frequency": 24,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "राजा",
+    "frequency": 24,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "एष",
+    "frequency": 23,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "इत्",
+    "frequency": 23,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "मदाय",
+    "frequency": 23,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "दश",
+    "frequency": 22,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "सोमं",
+    "frequency": 22,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "एति",
+    "frequency": 22,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "गोभिः",
+    "frequency": 21,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अ॒भि",
+    "frequency": 20,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "नृभिः",
+    "frequency": 20,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "रयिं",
+    "frequency": 20,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "पवित्रं",
+    "frequency": 20,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "धावति",
+    "frequency": 20,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "मधु",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "कृधि",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "पुनानो",
+    "frequency": 18,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "वाजं",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "मदः",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अद्रिभिः",
+    "frequency": 18,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "यन्ति",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "इन्दवः",
+    "frequency": 18,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "मृजन्ति",
+    "frequency": 17,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "सप्त",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "सम्",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "सम",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "देवानां",
+    "frequency": 17,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "याति",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "विश",
+    "frequency": 16,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "पयः",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "हिन्वन्ति",
+    "frequency": 15,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "महे",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "इन्द्रा॑य",
+    "frequency": 15,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "महि",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "सोमाः",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "देवः",
+    "frequency": 14,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "धारा",
+    "frequency": 14,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "इन्द्रा",
+    "frequency": 14,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "पवित्र",
+    "frequency": 14,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "श्रवः",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "पूयमानः",
+    "frequency": 13,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Soma",
+    "word": "पवमानो",
+    "frequency": 13,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अर्षसि",
+    "frequency": 13,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "देवान्",
+    "frequency": 13,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "इषः",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "सीदति",
+    "frequency": 13,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "इन्द्रः",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अस्मे",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "वारं",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "प्रियः",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "रोदसी",
+    "frequency": 13,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "पव॑स्व",
+    "frequency": 13,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "कलशे",
+    "frequency": 13,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Soma",
+    "word": "अथा",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "यत्र",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "चम्वोः",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Soma",
+    "word": "रसं",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "सूर्य",
+    "frequency": 16,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "उत",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "यत्",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "देवाः",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "चक्षुः",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "विश्वा",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "अनु",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "एति",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "अग्निम्",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "प्रति",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "आपः",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "उद्",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "ज्योतिः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "मि॒त्रो",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "दिवः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "तत्",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "देवः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "भुवनानि",
+    "frequency": 5,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Surya",
+    "word": "पश्येम",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "सूर्यः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "इदं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "बृ॒हत्",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "परि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "सूर्यस्य",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "सूर",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "कति",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "तमसा",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "अर्य॒मा",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "वृषा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "अभि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "इन्द्रः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "यथा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "वरु॑णो",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "इन्द्र",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "वैश्वानरं",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Surya",
+    "word": "उत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "विश्वाहा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "ज्योतिषा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "इत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "अपा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "वृत्रहन्तम",
+    "frequency": 3,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Surya",
+    "word": "सविता",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "वृषन्",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "भानुना",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "दिवि",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "अग्निः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "विश्वं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Surya",
+    "word": "प्र॒त्यङ्",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "वृषभिः",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya",
+    "word": "वरुण",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya the Sun-God",
+    "word": "सूर्यस्य",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya the Sun-God",
+    "word": "ह॒रितः",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Surya the Sun-God",
+    "word": "वरु॑णस्य",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Tarksya",
+    "word": "इव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Urvasi",
+    "word": "पुरू}रवः",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Urvasi",
+    "word": "अस्तं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Urvasi",
+    "word": "इम",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Urvasi",
+    "word": "तत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उषः",
+    "frequency": 28,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "इव",
+    "frequency": 27,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उष",
+    "frequency": 25,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "दिवः",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "प्रति",
+    "frequency": 18,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "देवि",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "अनु",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "विश्वा",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "अप",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "देवी",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "एति",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "परि",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "अस्मे",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उषो",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उत",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उषाः",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "ज्योतिः",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "सूर्यस्य",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उद",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "व्युच्छन्ती",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "ए॒षा",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "अगात्",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "तमः",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "दुहिता",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उषसः",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "सूनृता",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उच्छ",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "सदा",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उप",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "अद्य",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "अधि",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "अदर्शि",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "विश्वं",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उर्विया",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "एषा",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "स्वस्तिभिः",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "नेत्री",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "याति",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "अश्रेत्",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उषा",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "भुवनानि",
+    "frequency": 5,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Usas",
+    "word": "मघोनि",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "यन्ति",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "योषा",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "आयुः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "अभूत्",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "महि",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "पात",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "विभाती",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "धेहि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "रश्मिभिः",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "युवतिः",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "इत्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "चित्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "बोधयन्ती",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Usas",
+    "word": "यूयं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "देवानां",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उषासः",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "रयिं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "चित्रं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "त्वमि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "दुहि॒ता",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उषसं",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "तत्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "रथे॑न",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "तम",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "भ॒द्रा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "आव",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "दाशुषे",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "दि॒वो",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "अश्वैत्",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "कृणोति",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उषस्",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "प्रतीची",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "अस्थुः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "शो॒चि**षा**",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "इ॒दा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "माता",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "अजीग",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "सनये",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "गावः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "ईरयन्ती",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Usas",
+    "word": "राधः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "दे॒वी",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "वसिष्ठाः",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "गोम",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "सूर्यः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "वाजं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "गोमत्",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "अश्विना",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "रत्नं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "सविता",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "विभा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "भाति",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "केतुः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "सम्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Usas",
+    "word": "उच्छन्ती",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "सुभगे",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "कृणुषे",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Usas",
+    "word": "वाजि**नी**वति",
+    "frequency": 3,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Vac (Speech)",
+    "word": "अहं",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vac (Speech)",
+    "word": "उत",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vaisvanara",
+    "word": "अग्निम्",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vaisvanara",
+    "word": "देवाः",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vaisvanara",
+    "word": "उत",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vaisvanara",
+    "word": "कति",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vaisvanara",
+    "word": "भुवनानि",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Vaisvanara",
+    "word": "इत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vaisvanara",
+    "word": "यत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vaisvanara",
+    "word": "आपः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vaisvanara",
+    "word": "वैश्वानरं",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Vaisvanara",
+    "word": "विश्वा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वरुण",
+    "frequency": 31,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "मित्रावरुणा",
+    "frequency": 30,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "इन्द्रावरुणा",
+    "frequency": 28,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "इव",
+    "frequency": 23,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "यत्",
+    "frequency": 23,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "उप",
+    "frequency": 21,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वाम्",
+    "frequency": 19,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वाम",
+    "frequency": 17,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "अनु",
+    "frequency": 16,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "परि",
+    "frequency": 15,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "उत",
+    "frequency": 14,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "अभि",
+    "frequency": 14,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "समे",
+    "frequency": 13,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "सदा",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "विश्वा",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वरुणः",
+    "frequency": 12,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "अव",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वरुणस्य",
+    "frequency": 11,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "इत्",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "युवं",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "राजा",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वरु॑ण",
+    "frequency": 10,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "चिद्",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "मित्रः",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "एति",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "अन्यके",
+    "frequency": 9,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "मित्र",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वरु॑णाय",
+    "frequency": 9,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "महि",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "इन्द्रा",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "अधि",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वरु॑णो",
+    "frequency": 8,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "अस्य",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "नभन्ताम",
+    "frequency": 8,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "अन्यः",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "अहं",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "शर्म",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वरु॑णस्य",
+    "frequency": 8,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "स्याम",
+    "frequency": 8,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वरुणा",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "देवा",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "दिवः",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "क्ष॒त्रं",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "धाम",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "इन्द्रं",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वेद",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "सोम॑पीतये",
+    "frequency": 7,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "इन्द्रः",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "रोदसी",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "प्रति",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "इमे",
+    "frequency": 7,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वरु॑णः",
+    "frequency": 7,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "मित्रस्य",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "देवाः",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "अंहसः",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "यू॒यं",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "यत्र",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "अवसा",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "तत्",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "अत्र",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "दिवि",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "व्रतम्",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "यूयं",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वृषणा",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "व॒यं",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "उद्",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "पात",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "विश्वे",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वयं",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "अध",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "उ॒त",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "यथा",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "ऋतस्य",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "बृ॒हत्",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "हुवे",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "ऋतावाना",
+    "frequency": 5,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "मि॒त्राय",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "इन्द्रा॑वरुणा",
+    "frequency": 5,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "एष",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "मि॒त्र",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "क्रतुं",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "सूर्यः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "होता",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "स्वस्तिभिः",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "यु॒वं",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "स्व॒स्तिभिः",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "यद्",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "नरा",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "अर्यमा",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "हन्ति",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "तद्",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "वरुणो",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "सुदास",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "तस्य",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "आदितिः",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "विप्रः",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "सम्राजा",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "इ॒मे",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "कृ॒तं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Varuna",
+    "word": "तम",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vastospati",
+    "word": "वास्तोः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vastospati",
+    "word": "प्रति",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vastospati",
+    "word": "पते",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vata (The Storm)",
+    "word": "अस्य",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "वायो",
+    "frequency": 22,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "याहि",
+    "frequency": 12,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "उप",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "वायू",
+    "frequency": 10,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "इन्द्रवायू",
+    "frequency": 10,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "उत",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "सुतस्य",
+    "frequency": 6,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "वाम",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "अश्विना",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "इह",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "रथेन",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "सोमपीतये",
+    "frequency": 5,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "अभि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "यातम",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "नरा",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "उषसः",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "इन्द्र॑वायू",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "तुभ्यं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "चन्द्रेण",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "पीतये",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "देव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "अस्मे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "नियुतः",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "वृषणा",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "वाम्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "वी॒तये॑",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "इव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "वात",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "गतम",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "दावने",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "वहन्तु",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "रथं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "अस्य",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "पिबा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "इमे",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "अनु",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "सदा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "अच्छा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "याव",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "शुचयः",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "वृषण्वसू",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "दे॒वा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vayu",
+    "word": "धियः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vena",
+    "word": "अधि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vena",
+    "word": "अभि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vena",
+    "word": "वेनः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vishnu",
+    "word": "अस्य",
+    "frequency": 11,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vishnu",
+    "word": "विष्णो",
+    "frequency": 9,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vishnu",
+    "word": "इन्द्राविष्णू",
+    "frequency": 8,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Vishnu",
+    "word": "इत्",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vishnu",
+    "word": "विष्णुः",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vishnu",
+    "word": "विष्णवे",
+    "frequency": 5,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Vishnu",
+    "word": "नाम",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vishnu",
+    "word": "तद्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vishnu",
+    "word": "विश्वा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vishnu",
+    "word": "उरुगायाय",
+    "frequency": 3,
+    "letter_count": 5
+  },
+  {
+    "deity_name": "Vishnu",
+    "word": "तत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Vishnu",
+    "word": "पृथ्वीं",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Visvakarman",
+    "word": "स्विद्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Visvakarman",
+    "word": "उत",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Visvakarman",
+    "word": "भुवनानि",
+    "frequency": 4,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Visvakarman",
+    "word": "विश्वा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Visvakarman",
+    "word": "तम्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Visvakarman",
+    "word": "यत्र",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Visvakarman",
+    "word": "इमा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Visvakarman",
+    "word": "परः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Visvakarman",
+    "word": "इत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Visvakarman",
+    "word": "पिता",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yama",
+    "word": "इव",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yama",
+    "word": "यम",
+    "frequency": 5,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yama",
+    "word": "चिद्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yama",
+    "word": "अस्मै",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yama",
+    "word": "यमाय",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Yama",
+    "word": "यत्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yama",
+    "word": "परि",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yama",
+    "word": "पितरः",
+    "frequency": 4,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Yama",
+    "word": "तन्वं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yama",
+    "word": "इह",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yama",
+    "word": "अङ्गिरोभिः",
+    "frequency": 3,
+    "letter_count": 4
+  },
+  {
+    "deity_name": "Yama",
+    "word": "मत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yama",
+    "word": "तन्वा",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yama",
+    "word": "अनु",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yama",
+    "word": "एतत्",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Yama",
+    "word": "यमम्",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Yama",
+    "word": "यमः",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yami",
+    "word": "इव",
+    "frequency": 6,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yami",
+    "word": "यत्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yami",
+    "word": "तन्वं",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yami",
+    "word": "चिद्",
+    "frequency": 4,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yami",
+    "word": "एतत्",
+    "frequency": 3,
+    "letter_count": 3
+  },
+  {
+    "deity_name": "Yami",
+    "word": "मत्",
+    "frequency": 3,
+    "letter_count": 2
+  },
+  {
+    "deity_name": "Yami",
+    "word": "परि",
+    "frequency": 3,
+    "letter_count": 2
+  }
+]

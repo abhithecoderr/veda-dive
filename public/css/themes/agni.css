@@ -1,0 +1,157 @@
+:root {
+    --color-bg-card: rgba(0, 0, 0, 0.2);
+    --color-bg-body: #1a0f00;
+
+    --color-text-primary: #c1c1c1;
+    --color-text-shadow: 2px 2px 5px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 0.2);
+    --color-text-secondary: #ff6b00;
+    --color-icon-primary: #c7c7c7;
+
+    /* --- COLORS & ACCENTS --- */
+    --color-heading-warm: #ff4500;
+    --color-heading-cool: #ff8c00;
+    --color-accent-gold: #ffd700;
+    --color-accent-playing: #ff4500;
+
+    /* --- BORDERS & CARD GLOW --- */
+    --color-border-subtle: rgba(255, 107, 0, 0.2);
+    --color-card-glow: 0 0 5px rgba(255, 165, 0, 0.2), 0 0 1px rgba(255, 69, 0, 0.1);
+
+    /* --- SCROLLBAR --- */
+    --scrollbar-track-color: rgba(139, 69, 19, 0.2);
+    --scrollbar-thumb-color: #ff8c00;
+    --scrollbar-thumb-hover-color: #ff4500;
+}
+
+#context-select:hover {
+background-color: #272724;
+box-shadow: var(--box-shadow-focus);
+}
+
+#hymn-select:hover {
+background-color: #272724;
+box-shadow: var(--box-shadow-focus);
+}
+
+.hymn-nav-section,
+.stanza-card-item,
+.stanza-nav-footer {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: 12px;
+    box-shadow: var(--color-card-glow);
+
+    backdrop-filter: blur(1px) saturate(150%);
+    -webkit-backdrop-filter: blur(1px) saturate(150%);
+    transition: all 0.3s ease;
+}
+
+.stanza-card-item:hover {
+    transform: translateY(-2px);
+}
+
+.sanskrit-line {
+    color: whitesmoke;
+    text-shadow: var(--color-text-shadow);
+    font-weight: 700;
+}
+
+.translit-line-aufrecht {
+    color: #ff8c42;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.translation-filter-select {
+    color: var(--color-text-primary);
+    background-color: rgba(0,0,0,0.5);
+    border-color: rgba(255, 107, 0, 0.5);
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+.translation-filter-select option {
+    background-color: var(--color-bg-body);
+    color: var(--color-text-primary);
+}
+
+
+/* Control Tab Labels: White colors only for Agni theme */
+body.theme-agni .control-tab {
+    color: #ffffff;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+body.theme-agni .control-tab:hover {
+    color: var(--color-heading-warm);
+}
+
+body.theme-agni .control-tab.active {
+    color: var(--color-accent-gold);
+    border-bottom-color: var(--color-heading-warm);
+    text-shadow: 0 0 8px rgba(255, 165, 0, 0.5), 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+/* --- BUTTON HOVER/ACTIVE STATES --- */
+.play-stanza-btn,
+.global-play-btn,
+.theme-toggle-btn {
+    background-color: rgba(0,0,0,0.4);
+    color: var(--color-icon-primary);
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.1);
+}
+
+.play-stanza-btn:hover,
+.global-play-btn:hover,
+.theme-toggle-btn:hover {
+    background-color: rgba(255, 107, 0, 0.25);
+    color: var(--color-accent-gold);
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+}
+
+.global-play-btn.is-playing,
+.play-stanza-btn.is-playing {
+    color: var(--color-accent-playing);
+}
+
+.theme-toggle-btn.active {
+    color: var(--color-heading-warm);
+    background-color: rgba(255, 69, 0, 0.25);
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.8);
+}
+
+/* --- INTERLINEAR STANZA CORE (Agni Theme) --- */
+.stanza-core-text.interlinear {
+    background: linear-gradient(
+        145deg,
+        rgba(45, 20, 5, 0.85) 0%,
+        rgba(20, 10, 0, 0.85) 100%
+    );
+    border: 1px solid rgba(255, 100, 20, 0.25);
+    border-radius: 10px;
+    padding: 1.2rem;
+    box-shadow: 0 0 8px rgba(255, 120, 40, 0.25),
+                inset 0 0 10px rgba(90, 30, 0, 0.4);
+    color: #fff3e0;
+    text-shadow: 0 0 6px rgba(255, 100, 20, 0.4),
+                 1px 1px 3px rgba(0, 0, 0, 0.8);
+    transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.stanza-core-text.interlinear:hover {
+    background: linear-gradient(
+        145deg,
+        rgba(70, 25, 5, 0.9) 0%,
+        rgba(30, 10, 0, 0.9) 100%
+    );
+    box-shadow: 0 0 12px rgba(255, 150, 60, 0.4),
+                inset 0 0 12px rgba(100, 30, 0, 0.5);
+}
+
+.dynamic-content-area {
+    background: rgba(30, 12, 0, 0.8); /* deep ember tone, readable but fiery */
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    color: #fff3e0; /* warm parchment tone */
+    font-size: 1rem;
+    line-height: 1.6;
+    border: 1px solid rgba(255, 120, 40, 0.25);
+    backdrop-filter: blur(2px) saturate(140%);
+    -webkit-backdrop-filter: blur(2px) saturate(140%);
+}

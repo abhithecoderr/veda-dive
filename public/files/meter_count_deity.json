@@ -1,0 +1,981 @@
+[
+  {
+    "deity_name": "Aditi",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 13
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 3
+      }
+    ]
+  },
+  {
+    "deity_name": "Adityas",
+    "meters": [
+      {
+        "meter": "Gayatri",
+        "totalCount": 42
+      },
+      {
+        "meter": "Tristubh",
+        "totalCount": 23
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 22
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 3
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 3
+      }
+    ]
+  },
+  {
+    "deity_name": "Agni",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 719
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 476
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 168
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 149
+      },
+      {
+        "meter": "Dvipada",
+        "totalCount": 74
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 71
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 63
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 47
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 37
+      }
+    ]
+  },
+  {
+    "deity_name": "Agni Giver of Goods",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 9
+      }
+    ]
+  },
+  {
+    "deity_name": "Agni Jatavedas",
+    "meters": [
+      {
+        "meter": "Gayatri",
+        "totalCount": 3
+      }
+    ]
+  },
+  {
+    "deity_name": "Agni Killer of Demons",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 15
+      }
+    ]
+  },
+  {
+    "deity_name": "Agni Vaisvanara",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 60
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 40
+      }
+    ]
+  },
+
+  {
+    "deity_name": "All the Gods",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 369
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 160
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 66
+      },
+      {
+        "meter": "Dvipada",
+        "totalCount": 36
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 28
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 18
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 15
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 11
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 9
+      }
+    ]
+  },
+  {
+    "deity_name": "Ancestors",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 13
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Apam Napat",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 15
+      }
+    ]
+  },
+  {
+    "deity_name": "Apri Hymn",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 53
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 41
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 17
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 2
+      }
+    ]
+  },
+  {
+    "deity_name": "Aranyani",
+    "meters": [
+      {
+        "meter": "Anushtubh",
+        "totalCount": 6
+      }
+    ]
+  },
+  {
+    "deity_name": "Asvins",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 240
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 113
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 104
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 73
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 27
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 23
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 18
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 13
+      }
+    ]
+  },
+  {
+    "deity_name": "Bhaga",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 6
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Brahmanaspati",
+    "meters": [
+      {
+        "meter": "Jagati",
+        "totalCount": 40
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 9
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 4
+      },
+      {
+        "meter": "Tristubh",
+        "totalCount": 4
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 4
+      }
+    ]
+  },
+  {
+    "deity_name": "Brihaspati",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 58
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 6
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Dadhikra",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 20
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 5
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Diverse Gods",
+    "meters": [
+      {
+        "meter": "Gayatri",
+        "totalCount": 100
+      },
+      {
+        "meter": "Tristubh",
+        "totalCount": 95
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 24
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 20
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 15
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 8
+      },
+      {
+        "meter": "Dvipada",
+        "totalCount": 4
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 4
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 2
+      }
+    ]
+  },
+  {
+    "deity_name": "Indra",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 1442
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 732
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 268
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 195
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 167
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 129
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 105
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 70
+      },
+      {
+        "meter": "Dvipada",
+        "totalCount": 5
+      }
+    ]
+  },
+  {
+    "deity_name": "Manyu",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 3
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 2
+      }
+    ]
+  },
+  {
+    "deity_name": "Manyu (Wrath)",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 6
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Maruts",
+    "meters": [
+      {
+        "meter": "Gayatri",
+        "totalCount": 122
+      },
+      {
+        "meter": "Tristubh",
+        "totalCount": 114
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 105
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 31
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 24
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 21
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 17
+      },
+      {
+        "meter": "Dvipada",
+        "totalCount": 11
+      }
+    ]
+  },
+  {
+    "deity_name": "Mitra",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 85
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 27
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 25
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 22
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 16
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 3
+      }
+    ]
+  },
+  {
+    "deity_name": "Mitra-Varuna",
+    "meters": [
+      {
+        "meter": "Gayatri",
+        "totalCount": 12
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 3
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 3
+      }
+    ]
+  },
+  {
+    "deity_name": "Parjanya",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 12
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 3
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 3
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Pusan",
+    "meters": [
+      {
+        "meter": "Gayatri",
+        "totalCount": 46
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 11
+      },
+      {
+        "meter": "Tristubh",
+        "totalCount": 9
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 7
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 5
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 2
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Ribhus",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 44
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 39
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 8
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 4
+      }
+    ]
+  },
+  {
+    "deity_name": "Rudra",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 22
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 11
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 8
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Sadasaspati",
+    "meters": [
+      {
+        "meter": "Gayatri",
+        "totalCount": 9
+      }
+    ]
+  },
+  {
+    "deity_name": "Sarasvat",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 6
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 3
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Sarasvati",
+    "meters": [
+      {
+        "meter": "Gayatri",
+        "totalCount": 24
+      },
+      {
+        "meter": "Tristubh",
+        "totalCount": 7
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 4
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Savitri",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 52
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 22
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 11
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Soma",
+    "meters": [
+      {
+        "meter": "Gayatri",
+        "totalCount": 623
+      },
+      {
+        "meter": "Tristubh",
+        "totalCount": 239
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 178
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 52
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 41
+      },
+      {
+        "meter": "Dvipada",
+        "totalCount": 28
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 20
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 19
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 16
+      }
+    ]
+  },
+  {
+    "deity_name": "Surya",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 42
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 26
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 14
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 6
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 3
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 3
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 3
+      }
+    ]
+  },
+  {
+    "deity_name": "Surya the Sun-God",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 6
+      }
+    ]
+  },
+  {
+    "deity_name": "Tarksya",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 3
+      }
+    ]
+  },
+  {
+    "deity_name": "Urvasi",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 16
+      }
+    ]
+  },
+  {
+    "deity_name": "Usas",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 125
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 28
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 11
+      },
+      {
+        "meter": "Satobrhati",
+        "totalCount": 10
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 10
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 6
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 4
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 4
+      }
+    ]
+  },
+  {
+    "deity_name": "Vac (Speech)",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 7
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Vaisvanara",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 19
+      }
+    ]
+  },
+  {
+    "deity_name": "Vak",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 8
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 3
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Varuna",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 177
+      },
+      {
+        "meter": "Gayatri",
+        "totalCount": 54
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 44
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 27
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 25
+      },
+      {
+        "meter": "Pankti",
+        "totalCount": 3
+      }
+    ]
+  },
+  {
+    "deity_name": "Vastospati",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 3
+      }
+    ]
+  },
+  {
+    "deity_name": "Vata (The Storm)",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 4
+      }
+    ]
+  },
+  {
+    "deity_name": "Vayu",
+    "meters": [
+      {
+        "meter": "Gayatri",
+        "totalCount": 25
+      },
+      {
+        "meter": "Tristubh",
+        "totalCount": 19
+      },
+      {
+        "meter": "Ushnih",
+        "totalCount": 18
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 10
+      }
+    ]
+  },
+  {
+    "deity_name": "Vena",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 8
+      }
+    ]
+  },
+  {
+    "deity_name": "Vishnu",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 28
+      },
+      {
+        "meter": "Jagati",
+        "totalCount": 11
+      }
+    ]
+  },
+  {
+    "deity_name": "Visvakarman",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 13
+      }
+    ]
+  },
+  {
+    "deity_name": "Yama",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 23
+      },
+      {
+        "meter": "Anushtubh",
+        "totalCount": 3
+      },
+      {
+        "meter": "Brhati",
+        "totalCount": 1
+      }
+    ]
+  },
+  {
+    "deity_name": "Yami",
+    "meters": [
+      {
+        "meter": "Tristubh",
+        "totalCount": 13
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+<header class="navbar">
+  <div class="navbar-content">
+    <!-- Logo/Site Title -->
+    <div class="nav-logo">
+      <a href="/"> VedaDive </a>
+    </div>
+
+    <!-- Navigation Links -->
+    <nav class="nav-links">
+      <a href="/" class="<%= activeNav === 'Home' ? 'active' : '' %>">Home</a>
+      <a href="/read" class="<%= activeNav === 'Read' ? 'active' : '' %>"
+        >Read</a
+      >
+      <a
+        href="/insights"
+        class="<%= activeNav === 'Insights' ? 'active' : '' %>"
+        >Insights</a
+      >
+     
+    </nav>
+
+    <!-- Search Bar with Widening Effect -->
+    <div class="search-container">
+      <i class="fas fa-search search-icon"></i>
+      <input
+        class="search-bar"
+        type="text"
+        id="searchInput"
+        placeholder="Search M.H.S, Deity, Rishi..."
+        autocomplete="off"
+        aria-label="Search Vedic Texts"
+      />
+      <ul id="suggestionList" class="suggestions"></ul>
+    </div>
+  </div>
+</header>
+
+<script src="/js/navbar.js"></script>

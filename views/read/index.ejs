@@ -1,0 +1,296 @@
+<%
+const deities = entities.filter(e => e.category === "Deity");
+const concepts = entities.filter(e => e.category === "Concept");
+const animals = entities.filter(e => e.category === "Animal");
+const objects = entities.filter(e => e.category === "Object");
+const humans = entities.filter(e => e.category === "Human");
+
+const categories = [
+  { name: 'Mandalas', viewMode: 'mandalas', url: '/read' },
+  { name: 'Deities', viewMode: 'deities', url: '/read/deities' },
+  { name: 'Rishis', viewMode: 'rishis', url: '/read/rishis' },
+  { name: 'Concepts', viewMode: 'concepts', url: '/read/concepts' },
+  { name: 'Animals', viewMode: 'animals', url: '/read/animals' },
+  { name: 'Objects', viewMode: 'objects', url: '/read/objects' },
+  { name: 'Humans', viewMode: 'humans', url: '/read/humans' }
+];
+
+const pageTitle = 'Explore the Rigveda';
+
+function formatRishiList(rishisArray) {
+  if (!rishisArray || rishisArray.length === 0) {
+    return 'None specified';
+  }
+
+  const arrayLength = rishisArray.length;
+  if (arrayLength <= 3) {
+    return rishisArray.join(', ');
+  } else {
+    const firstThree = rishisArray.slice(0, 3).join(', ');
+    const remainingCount = arrayLength - 3;
+    return `${firstThree}, and ${remainingCount} others`;
+  }
+}
+
+// Function to determine image URL based on entity and a universal default
+function getImageUrl(entity, defaultPath = '/images/deities/general.png') {
+  // Assuming entity might have an 'image_url' property
+  return entity.image_url || defaultPath;
+}
+%>
+
+<a href="/" class="back-arrow" aria-label="Back to Mandala Section">
+    <i class="fas fa-chevron-left"></i>
+</a>
+
+<div class="category-nav-tabs">
+
+  <% categories.forEach(cat => { %>
+    <a href="<%= cat.url %>" class="nav-tab-item" data-view="<%= cat.viewMode %>" data-url="<%= cat.url %>">
+      <%= cat.name %>
+    </a>
+  <% }); %>
+</div>
+
+<div id="content-mandalas" class="view-content hidden">
+  <center><h3> The Ten Books (Mandalas)</h3></center>
+  <div class="flex-row-container">
+    <% mandalas.forEach(mandala => { %>
+      <a href="/read/mandala/<%= mandala.mandala_num %>" class="card-item">
+        <div class="card-image-wrapper">
+          <img src="/images/mandala_generic.png" alt="Mandala <%= mandala.mandala_num %>" class="card-image">
+        </div>
+        <div class="card-content">
+          <h3>Mandala <%= mandala.mandala_num %></h3>
+          <div class="card-meta-box">
+           <p class="card-meta hymn-count-line"><b>Hymns:</b> <%= mandala.hymn_count %> </p>
+            <p class="card-meta rishi-line"> <b>Rishi:</b> <%= formatRishiList(mandala.associated_rishis) %></p>
+          </div>
+          <div class="card-description-box">
+            <p><%= mandala.introduction_summary %></p>
+          </div>
+        </div>
+      </a>
+    <% }); %>
+  </div>
+</div>
+
+<div id="content-deities" class="view-content hidden">
+  <center><h3>Major Deities (Devatā)</h3></center>
+  <div class="flex-row-container">
+    <% deities.forEach(deity => { %>
+      <a href="/read/deity/<%= deity.name_sanskrit %>" class="card-item">
+        <div class="card-image-wrapper">
+          <img src="<%= deity.image_url && deity.image_url !== '' ? deity.image_url : '/images/deities/general.png' %>" alt="<%= deity.name_sanskrit %>" class="card-image">
+        </div>
+        <div class="card-content">
+          <h3><%= deity.name_sanskrit %></h3>
+          <div class="card-meta-box">
+            <p class="card-meta hymn-count-line"><b>Hymns:</b> <%= deity.hymn_count %></p>
+          </div>
+          <div class="card-description-box">
+            <p><%= deity.bio_summary %></p>
+          </div>
+        </div>
+      </a>
+    <% }); %>
+  </div>
+</div>
+
+<div id="content-rishis" class="view-content hidden">
+  <center><h3> The Seers (Rishis)</h3> </center>
+
+  <div class="flex-row-container">
+
+    <% rishis.forEach(r => { %>
+      <a href="/read/rishi/<%= r.name_sanskrit %>" class="card-item">
+        <div class="card-image-wrapper">
+          <img src="/images/rishi_generic.png" alt="<%= r.name_sanskrit %>" class="card-image">
+        </div>
+        <div class="card-content">
+          <h3><%= r.name_sanskrit %></h3>
+          <div class="card-meta-box">
+            <p class="card-meta family-line"><b>Family:</b> <%= r.family %></p>
+            <p class="card-meta hymn-count-line"><b>Hymns:</b> <%= r.hymn_count %></p>
+          </div>
+          <div class="card-description-box">
+            <p><%= r.bio_summary %></p>
+          </div>
+        </div>
+      </a>
+    <% }); %>
+  </div>
+</div>
+
+<div id="content-concepts" class="view-content hidden">
+ <center> <h3>Key Philosophical Concepts</h3> </center>
+  <div class="flex-row-container">
+    <% concepts.forEach(concept => { %>
+      <a href="/read/concept/<%= concept.name_sanskrit %>" class="card-item">
+        <div class="card-image-wrapper">
+          <img src="<%= concept.image_url && concept.image_url !== '' ? concept.image_url : '/images/concept_generic.png' %>" alt="<%= concept.name_sanskrit %>" class="card-image">
+        </div>
+        <div class="card-content">
+          <h3><%= concept.name_sanskrit %></h3>
+          <div class="card-meta-box">
+            <p class="card-meta hymn-count-line"><b>Hymns:</b> <%= concept.hymn_count %></p>
+          </div>
+          <div class="card-description-box">
+            <p><%= concept.bio_summary %></p>
+          </div>
+        </div>
+      </a>
+    <% }); %>
+  </div>
+</div>
+
+<div id="content-animals" class="view-content hidden">
+  <center> <h3>Animals in the Rigveda</h3> </center>
+  <div class="flex-row-container">
+    <% animals.forEach(animal => { %>
+      <a href="/read/animal/<%= animal.name_sanskrit %>" class="card-item">
+        <div class="card-image-wrapper">
+          <img src="<%= animal.image_url && animal.image_url !== '' ? animal.image_url : '/images/deities/general.png' %>" alt="<%= animal.name_sanskrit %>" class="card-image">
+        </div>
+        <div class="card-content">
+          <h3><%= animal.name_sanskrit %></h3>
+          <div class="card-meta-box">
+            <p class="card-meta hymn-count-line"><b>Hymns:</b> <%= animal.hymn_count %></p>
+          </div>
+          <div class="card-description-box">
+            <p><%= animal.bio_summary %></p>
+          </div>
+        </div>
+      </a>
+    <% }); %>
+  </div>
+</div>
+
+<div id="content-objects" class="view-content hidden">
+  <center> <h3>Sacred and Ritual Objects</h3> </center>
+  <div class="flex-row-container">
+    <% objects.forEach(object => { %>
+      <a href="/read/object/<%= object.name_sanskrit %>" class="card-item">
+        <div class="card-image-wrapper">
+          <img src="<%= object.image_url && object.image_url !== '' ? object.image_url : '/images/general.png' %>" alt="<%= object.name_sanskrit %>" class="card-image">
+        </div>
+        <div class="card-content">
+          <h3><%= object.name_sanskrit %></h3>
+          <div class="card-meta-box">
+            <p class="card-meta hymn-count-line"><b>Count:</b> <%= object.hymn_count %></p>
+          </div>
+          <div class="card-description-box">
+            <p><%= object.bio_summary %></p>
+          </div>
+        </div>
+      </a>
+    <% }); %>
+  </div>
+</div>
+
+<div id="content-humans" class="view-content hidden">
+  <center> <h3>Humans in Rigveda</h3> </center>
+  <div class="flex-row-container">
+    <% humans.forEach(human => { %>
+      <a href="/read/human/<%= human.name_sanskrit %>" class="card-item">
+        <div class="card-image-wrapper">
+          <img src="<%= human.image_url && human.image_url !== '' ? human.image_url : '/images/general.png' %>" alt="<%= human.name_sanskrit %>" class="card-image">
+        </div>
+        <div class="card-content">
+          <h3><%= human.name_sanskrit %></h3>
+          <div class="card-meta-box">
+            <p class="card-meta hymn-count-line"><b>Count:</b> <%= human.hymn_count %></p>
+          </div>
+          <div class="card-description-box">
+            <p><%= human.bio_summary %></p>
+          </div>
+        </div>
+      </a>
+    <% }); %>
+  </div>
+</div>
+
+<script>
+  // ACTION: Updated pathToViewMap to use plural view names for consistency
+  const pathToViewMap = {
+    '/read': 'mandalas',
+    '/read/deities': 'deities',
+    '/read/rishis': 'rishis',
+    '/read/concepts': 'concepts',
+    '/read/animals': 'animals',
+    '/read/objects': 'objects',
+    '/read/humans':  'humans',
+
+  };
+
+  // --- Core Logic encapsulated into a reusable function ---
+  function switchView(viewMode, newUrl, pushHistory) {
+    const allTabs = document.querySelectorAll('.nav-tab-item');
+    const allContent = document.querySelectorAll('.view-content');
+
+    // 1. Reset all views and tabs
+    allTabs.forEach(tab => tab.classList.remove('active'));
+    allContent.forEach(c => c.classList.add('hidden'));
+
+    // 2. Find the current view elements
+    const currentTab = document.querySelector(`.nav-tab-item[data-view="${viewMode}"]`);
+    // ACTION: Content ID now uses the plural viewMode
+    const currentContent = document.getElementById(`content-${viewMode}`);
+
+    // 3. Activate the current view
+    if (currentTab) currentTab.classList.add('active');
+    if (currentContent) currentContent.classList.remove('hidden');
+
+    // 4. Update the URL in the browser without reloading the page
+    if (pushHistory && newUrl) {
+      // We pass the viewMode in the state object so popstate can easily retrieve it
+      history.pushState({ view: viewMode }, '', newUrl);
+    }
+  }
+
+  // --- 1. Initial Load (Uses variable passed by the server) ---
+  // ACTION: Use the activeViewMode variable passed by the server for the initial state.
+  // This ensures the correct tab is active when the page is loaded/reloaded via a direct URL.
+  const initialView = '<%= activeViewMode %>';
+
+  // Set the initial view on page load
+  switchView(initialView, null, false);
+
+  // --- 2. Click Handler (for smooth switching) ---
+  document.querySelectorAll('.nav-tab-item').forEach(tab => {
+    tab.addEventListener('click', (e) => {
+      e.preventDefault(); // <-- THIS STOPS THE PAGE RELOAD
+      const newView = tab.getAttribute('data-view');
+      const newUrl = tab.getAttribute('data-url');
+      // Switch the view and update the browser history (instantaneous)
+      switchView(newView, newUrl, true);
+    });
+  });
+
+  // --- 3. Back/Forward Button Support ---
+  window.addEventListener('popstate', (e) => {
+    let viewToLoad = 'mandalas'; // ACTION: Default to plural 'mandalas'
+
+    if (e.state && e.state.view) {
+      // Use the view stored in the history state object (most reliable)
+      viewToLoad = e.state.view;
+    } else {
+      // Fallback: Determine view from the URL path
+      const pathOnPop = window.location.pathname.toLowerCase();
+      // Normalizes /read/deities/ to /read/deities
+      const normalizedPathOnPop = pathOnPop.endsWith('/') && pathOnPop.length > 1
+        ? pathOnPop.slice(0, -1)
+        : pathOnPop;
+
+      // ACTION: Map lookup returns the plural view name
+      viewToLoad = pathToViewMap[normalizedPathOnPop] || 'mandalas';
+    }
+
+    // Switch the view without pushing a new history state
+    switchView(viewToLoad, null, false);
+  });
+</script>
+
+<style>
+
+</style>
