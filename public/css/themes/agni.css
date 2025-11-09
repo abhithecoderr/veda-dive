@@ -1,6 +1,7 @@
 :root {
     --color-bg-card: rgba(0, 0, 0, 0.2);
     --color-bg-body: #1a0f00;
+    --color-bg-modal: rgba(0, 0, 0, 0.9);
 
     --color-text-primary: #c1c1c1;
     --color-text-shadow: 2px 2px 5px rgba(0, 0, 0, 1), 0 0 10px rgba(255, 255, 255, 0.2);
@@ -145,7 +146,7 @@ body.theme-agni .control-tab.active {
 }
 
 .dynamic-content-area {
-    background: rgba(30, 12, 0, 0.8); /* deep ember tone, readable but fiery */
+    background: rgba(30, 12, 0, 0.9); /* deep ember tone, readable but fiery */
     border-radius: 10px;
     padding: 1.2rem 1.5rem;
     color: #fff3e0; /* warm parchment tone */

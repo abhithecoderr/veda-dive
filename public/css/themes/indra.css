@@ -1,6 +1,7 @@
 :root {
     --color-bg-card: rgba(8, 12, 20, 0.2);
     --color-bg-body: #0a0f18;
+    --color-bg-modal: rgba(8, 12, 20, 0.9);
 
     --color-text-primary: #d2d8ff;
     --color-text-shadow: 2px 2px 5px rgba(0, 0, 0, 1),

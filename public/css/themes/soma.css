@@ -2,6 +2,7 @@
     /* --- BACKGROUND COLORS --- */
     --color-bg-card: rgba(10, 20, 10, 0.45);
     --color-bg-body: #0a120a;
+    --color-bg-modal: rgba(10, 20, 10, 0.9);
 
     /* --- TEXT COLORS --- */
     --color-text-primary: #dcf8e1;

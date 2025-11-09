@@ -16,7 +16,7 @@
     box-shadow: var(--box-shadow-subtle);
     position: sticky;
     top: 0px;
-    z-index: 10;
+    z-index: 100;
     flex-wrap: wrap;
 }
 .hymn-nav-section .nav-left-section {
@@ -183,27 +183,6 @@
 .global-play-btn .fa-pause { display: none; }
 .global-play-btn.is-playing .fa-pause { display: inline; }
 
-.theme-toggle-btn {
-    background: none; border: none; cursor: pointer; font-size: 1.2rem;
-    padding: 0.5rem; color: var(--color-icon-primary); border-radius: 50%;
-    background-color: var(--color-bg-body); box-shadow: var(--box-shadow-subtle);
-    width: 36px; height: 36px; display: flex; align-items: center;
-    justify-content: center; transition: all 0.2s ease; position: relative; flex-shrink: 0;
-}
-.theme-toggle-btn:hover {
-    transform: scale(1.05);
-    background-color: var(--color-bg-card);
-}
-.theme-toggle-btn:active { transform: scale(0.95); }
-.theme-toggle-btn.active { color: var(--color-accent-playing); }
-.theme-deity-name {
-    position: absolute; bottom: -25px; left: 50%; transform: translateX(-50%);
-    background: rgba(0,0,0,0.8); color: white; padding: 2px 6px;
-    border-radius: 3px; font-size: 0.7rem; white-space: nowrap; opacity: 0;
-    transition: opacity 0.2s ease; pointer-events: none;
-}
-.theme-toggle-btn:hover .theme-deity-name { opacity: 1; }
-
 .settings-btn {
     background: none; border: none; cursor: pointer; font-size: 1.2rem;
     padding: 0.5rem; color: var(--color-icon-primary); border-radius: 50%;
@@ -256,6 +235,89 @@
 #background-video.playing { opacity: 0.9; }
 body.theme-active { background-color: transparent; }
 
+/*======================================================
+  THEME & MUSIC POPOVER STYLES
+======================================================*/
+
+.theme-control-wrapper, .music-control-wrapper {
+    position: relative;
+}
+
+.nav-icon-btn {
+    background: none; border: none; cursor: pointer; font-size: 1.2rem;
+    padding: 0.5rem; color: var(--color-icon-primary); border-radius: 50%;
+    background-color: var(--color-bg-body); box-shadow: var(--box-shadow-subtle);
+    width: 36px; height: 36px; display: flex; align-items: center;
+    justify-content: center; transition: all 0.2s ease; flex-shrink: 0;
+}
+.nav-icon-btn:hover {
+    transform: scale(1.05);
+    background-color: var(--color-bg-card);
+}
+.nav-icon-btn:active { transform: scale(0.95); }
+.nav-icon-btn.active { color: var(--color-accent-playing); }
+
+.theme-select-modal, .music-select-modal, .settings-modal {
+    position: absolute; top: 100%; right: 0; margin-top: 8px;
+    background-color: var(--color-bg-modal);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: var(--border-radius-md); box-shadow: var(--box-shadow-focus);
+    padding: var(--spacing-md); z-index: 100;
+    min-width: 250px; transform-origin: top right;
+    animation: fadeInScale 0.2s ease-out forwards;
+
+}
+.theme-select-modal[hidden], .music-select-modal[hidden] { display: none; }
+
+.theme-select-content h4, .music-select-content h4 {
+    margin-top: 0; margin-bottom: var(--spacing-md);
+    color: var(--color-heading-cool); font-size: 1.1rem;
+}
+
+/* Theme Options */
+#theme-options-container {
+    display: flex; flex-direction: column; gap: var(--spacing-sm);
+}
+.theme-option-item {
+    display: flex; align-items: center; cursor: pointer; font-size: 0.95rem;
+    padding: var(--spacing-xs); border-radius: var(--border-radius-sm);
+    transition: background-color 0.2s;
+}
+.theme-option-item:hover { background-color: rgba(0,0,0,0.1); }
+.theme-option-item input[type="radio"] { margin-right: var(--spacing-sm); transform: scale(1.2); }
+.theme-sfx-toggle {
+    margin-top: var(--spacing-md); padding-top: var(--spacing-sm);
+    border-top: 1px solid var(--color-border-subtle);
+}
+
+/* Music Options */
+#music-options-container {
+    display: flex; flex-direction: column; gap: var(--spacing-xs);
+    margin-bottom: var(--spacing-md); max-height: 200px; overflow-y: auto;
+}
+.music-option-btn {
+    background-color: var(--color-bg-body); border: 1px solid var(--color-border-subtle);
+    border-radius: var(--border-radius-sm); padding: var(--spacing-sm);
+    text-align: left; cursor: pointer; font-size: 0.9rem;
+    color: var(--color-text-primary); transition: background-color 0.2s, border-color 0.2s;
+    display: flex; align-items: center; gap: var(--spacing-sm);
+}
+.music-option-btn:hover { background-color: var(--color-bg-modal); }
+.music-option-btn.playing {
+    border-color: var(--color-accent-playing);
+    color: var(--color-accent-playing); font-weight: bold;
+}
+.music-option-btn .fa-play, .music-option-btn .fa-pause { display: none; }
+.music-option-btn.playing .fa-pause { display: inline-block; }
+.music-option-btn:not(.playing) .fa-play { display: inline-block; }
+.no-music-notice { font-style: italic; color: var(--color-text-secondary); }
+
+.music-player-controls {
+    display: flex; align-items: center; gap: var(--spacing-sm);
+    font-size: 0.9rem; border-top: 1px solid var(--color-border-subtle);
+    padding-top: var(--spacing-md);
+}
+#music-volume-slider { flex-grow: 1; cursor: pointer; }
 
 /*======================================================
   STANZA NAVIGATION FOOTER
@@ -277,7 +339,7 @@ body.theme-active { background-color: transparent; }
 }
 
 /*======================================================
-  RESPONSIVENESS
+  RESPONSIVENESS & MISC
 ======================================================*/
 @media (max-width: 768px) {
     .hymn-nav-section {
@@ -302,7 +364,6 @@ body.theme-active { background-color: transparent; }
         margin-left: 0; justify-content: center; width: 100%;
         margin-top: var(--spacing-sm); padding-right: 0;
     }
-    .theme-deity-name { display: none; }
     .stanza-nav-footer { flex-direction: column; gap: var(--spacing-sm); padding: var(--spacing-sm); }
     .stanza-nav-arrow { font-size: 1rem; }
     .settings-modal {
@@ -319,7 +380,7 @@ body.theme-active { background-color: transparent; }
 
 @keyframes highlight-fade {
   from {
-    background-color: rgba(247, 208, 148, 0.7); /* A light, warm gold color */
+    background-color: rgba(247, 208, 148, 0.7);
     box-shadow: 0 0 15px rgba(247, 208, 148, 0.8);
   }
   to {
@@ -329,96 +390,5 @@ body.theme-active { background-color: transparent; }
 }
 
 .stanza-card-item.highlight-scroll {
-  /* The animation will run for 2.5 seconds and then fade out */
   animation: highlight-fade 2.5s ease-out forwards;
-}
-
-
-/*======================================================
-  NEW THEME SELECTOR POPOVER STYLES
-======================================================*/
-
-/* The container for the button and its modal */
-.theme-control-wrapper {
-    position: relative; /* This is crucial for positioning the modal */
-}
-
-/* The new theme button, styled like the others */
-.nav-icon-btn {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    color: var(--color-icon-primary);
-    border-radius: 50%;
-    background-color: var(--color-bg-body);
-    box-shadow: var(--box-shadow-subtle);
-    width: 36px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease;
-    flex-shrink: 0;
-}
-.nav-icon-btn:hover {
-    transform: scale(1.05);
-    background-color: var(--color-bg-card);
-}
-.nav-icon-btn:active {
-    transform: scale(0.95);
-}
-/* Style for when a theme is active */
-.nav-icon-btn.active {
-    color: var(--color-accent-playing);
-}
-
-/* The theme popover modal, styled like the settings modal */
-.theme-select-modal {
-    position: absolute;
-    top: 100%;
-    right: -150px;
-    margin-top: 8px; /* A little space from the button */
-    background-color: var(--color-bg-card);
-    border: 1px solid var(--color-border-subtle);
-    border-radius: var(--border-radius-md);
-    box-shadow: var(--box-shadow-focus);
-    padding: var(--spacing-md);
-    z-index: 100;
-    min-width: 200px;
-    transform-origin: top right;
-    animation: fadeInScale 0.2s ease-out forwards;
-}
-.theme-select-modal[hidden] {
-    display: none;
-}
-.theme-select-content h4 {
-    margin-top: 0;
-    margin-bottom: var(--spacing-md);
-    color: var(--color-heading-cool);
-    font-size: 1.1rem;
-}
-
-/* Styles for the radio button options */
-#theme-options-container {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-sm);
-}
-.theme-option-item {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    font-size: 0.95rem;
-    padding: var(--spacing-xs);
-    border-radius: var(--border-radius-sm);
-    transition: background-color 0.2s;
-}
-.theme-option-item:hover {
-    background-color: rgba(0,0,0,0.1);
-}
-.theme-option-item input[type="radio"] {
-    margin-right: var(--spacing-sm);
-    transform: scale(1.2);
 }

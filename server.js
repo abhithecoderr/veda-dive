@@ -7,6 +7,8 @@ import indexRouter from './routes/index.js';
 import readRouter from './routes/read.js';
 import insightsRouter from './routes/insights.js';
 import searchRouter from './routes/search.js';
+import aboutRouter from './routes/about.js';
+import legalRouter from './routes/legal.js';
 
 dotenv.config();
 
@@ -26,6 +28,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use('/', indexRouter);
+app.use('/', aboutRouter);
+app.use('/', legalRouter);
 app.use('/read', readRouter);
 app.use('/insights', insightsRouter);
 app.use(searchRouter);

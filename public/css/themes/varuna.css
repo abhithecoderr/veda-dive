@@ -5,6 +5,7 @@
 :root {
     --color-bg-card: rgba(0, 30, 50, 0.55);
     --color-bg-body: #062033;
+    --color-bg-modal: rgba(0, 30, 50, 0.9);
 
     --color-text-primary: #d4f3ff;
     --color-text-secondary: #93d4ff;

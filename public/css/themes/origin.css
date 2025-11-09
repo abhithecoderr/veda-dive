@@ -1,6 +1,7 @@
 :root {
     --color-bg-card: rgba(10, 5, 30, 0.2);
     --color-bg-body: #0a0618;
+    --color-bg-modal: #0a0618;
 
     --color-text-primary: #e6e6ff;
     --color-text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 15px rgba(138, 43, 226, 0.3);
@@ -120,8 +121,8 @@ body.theme-nasadiya .control-tab.active {
 .stanza-core-text.interlinear {
     background: linear-gradient(
         145deg,
-        rgba(30, 15, 60, 0.7) 0%,
-        rgba(15, 5, 40, 0.7) 100%
+        rgba(30, 15, 60, 0.8) 0%,
+        rgba(15, 5, 40, 0.8) 100%
     );
     border: 1px solid rgba(157, 78, 221, 0.3);
     border-radius: 10px;
@@ -153,7 +154,7 @@ body.theme-nasadiya .control-tab.active {
     line-height: 1.6;
     border: 1px solid rgba(157, 78, 221, 0.3);
     backdrop-filter: blur(3px) saturate(160%);
-    -webkit-backdrop-filter: blur(3px) saturate(160%);
+    -webkit-backdrop-filter: blur(1px) saturate(160%);
 }
 
 /* Additional cosmic touches */

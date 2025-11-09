@@ -50,6 +50,14 @@ document.addEventListener('DOMContentLoaded', () => {
     let timeout = null;
 
     if (searchInput && suggestionList) {
+        // Position suggestions dropdown below search input
+        const positionSuggestions = () => {
+            const rect = searchInput.getBoundingClientRect();
+            suggestionList.style.top = `${rect.bottom + 5}px`;
+            suggestionList.style.left = `${rect.left}px`;
+            suggestionList.style.width = `${rect.width}px`;
+        };
+
         const fetchSuggestions = async (query) => {
             try {
                 const response = await fetch(`/api/search-suggestions?q=${encodeURIComponent(query)}`);
@@ -78,6 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         suggestionList.appendChild(li);
                     });
+                    positionSuggestions();
                     suggestionList.style.display = 'block';
                 } else {
                     suggestionList.style.display = 'none';
@@ -101,6 +110,19 @@ document.addEventListener('DOMContentLoaded', () => {
             timeout = setTimeout(() => {
                 fetchSuggestions(query);
             }, 250);
+        });
+
+        // Reposition on window resize or scroll
+        window.addEventListener('resize', () => {
+            if (suggestionList.style.display === 'block') {
+                positionSuggestions();
+            }
+        });
+        
+        window.addEventListener('scroll', () => {
+            if (suggestionList.style.display === 'block') {
+                positionSuggestions();
+            }
         });
 
         document.addEventListener('click', (e) => {

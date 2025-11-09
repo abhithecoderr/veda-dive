@@ -1,0 +1,164 @@
+/* public/css/legal.css */
+
+/*======================================================
+  1. LEGAL PAGE - HERO SECTION
+======================================================*/
+.legal-hero {
+    background-color: #bea584;
+    border-left: 5px solid var(--color-heading-warm);
+    padding: var(--spacing-lg) var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    border-radius: 4px;
+}
+
+.legal-content {
+    max-width: none;
+}
+
+.legal-hero h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--color-heading-warm);
+    margin-bottom: var(--spacing-xs);
+    letter-spacing: -0.5px;
+}
+
+.legal-hero .subtitle {
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: var(--color-text-primary);
+    letter-spacing: 0.3px;
+}
+
+/*======================================================
+  2. LEGAL PAGE - SECTIONS
+======================================================*/
+.legal-section {
+    padding: var(--spacing-lg) 0;
+}
+
+.legal-section:last-of-type {
+    border-bottom: none;
+}
+
+.legal-container {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*======================================================
+  3. LEGAL PAGE - HEADINGS
+======================================================*/
+.legal-section h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-heading-warm);
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+    letter-spacing: -0.5px;
+}
+
+.legal-section h2:first-of-type {
+    margin-top: 0;
+}
+
+/*======================================================
+  4. LEGAL PAGE - PARAGRAPHS
+======================================================*/
+.legal-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.legal-section p:last-child {
+    margin-bottom: 0;
+}
+
+/*======================================================
+  5. LEGAL LIST
+======================================================*/
+.legal-list {
+    list-style: none;
+    padding: 0;
+    margin: var(--spacing-md) 0;
+}
+
+.legal-list li {
+    padding: var(--spacing-xs) 0 var(--spacing-xs) var(--spacing-md);
+    border-left: 3px solid var(--color-heading-warm);
+    line-height: 1.6;
+    font-size: 1rem;
+    color: var(--color-text-primary);
+}
+
+.legal-list li strong {
+    color: var(--color-heading-warm);
+    font-weight: 700;
+}
+
+.legal-list li a {
+    color: var(--color-heading-warm);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid var(--color-heading-warm);
+    transition: opacity 0.2s ease;
+}
+
+.legal-list li a:hover {
+    opacity: 0.8;
+}
+
+.legal-list li:not(:last-child) {
+    margin-bottom: var(--spacing-xs);
+}
+
+/*======================================================
+  6. RESPONSIVE DESIGN
+======================================================*/
+@media (max-width: 768px) {
+    .legal-hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .legal-hero .subtitle {
+        font-size: 0.95rem;
+    }
+
+    .legal-section h2 {
+        font-size: 1.3rem;
+    }
+
+    .legal-section {
+        padding: var(--spacing-md) 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .legal-hero {
+        padding: var(--spacing-md);
+    }
+
+    .legal-hero h1 {
+        font-size: 1.3rem;
+    }
+
+    .legal-hero .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .legal-section h2 {
+        font-size: 1.2rem;
+        margin-top: var(--spacing-md);
+    }
+
+    .legal-section p {
+        font-size: 0.95rem;
+    }
+
+    .legal-list li {
+        padding: var(--spacing-xs) 0 var(--spacing-xs) var(--spacing-sm);
+    }
+}
