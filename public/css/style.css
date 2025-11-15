@@ -20,6 +20,7 @@
     --scrollbar-thumb-hover-color: #56400c;
 
     --color-icon-primary: var(--color-text-secondary);
+    --color-icon-background: #c9b99f;
     --color-accent-playing: #ff6600;
 
     /* --- 2. TYPOGRAPHY --- */

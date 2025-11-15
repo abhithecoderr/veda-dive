@@ -27,6 +27,13 @@
     --scrollbar-thumb-hover-color: #55aaff;
 }
 
+/* --- SELECT BOXES --- */
+#context-select:hover,
+#hymn-select:hover {
+    background-color: #152840;
+    box-shadow: 0 0 6px rgba(80, 150, 255, 0.4);
+}
+
 .hymn-nav-section,
 .stanza-card-item,
 .stanza-nav-footer {
@@ -35,6 +42,11 @@
     border: 1px solid var(--color-border-subtle);
     box-shadow: var(--color-card-glow);
     backdrop-filter: blur(4px) saturate(180%);
+    transition: all 0.3s ease;
+}
+
+.stanza-card-item:hover {
+    transform: translateY(-2px);
 }
 
 /* --- Sanskrit --- */
@@ -47,6 +59,67 @@
     text-shadow: 0 0 5px rgba(0, 60, 100, 0.7);
 }
 
+/* --- FILTER SELECT --- */
+.translation-filter-select {
+    color: var(--color-text-primary);
+    background-color: rgba(5, 10, 15, 0.6);
+    border-color: rgba(90, 140, 220, 0.4);
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+.translation-filter-select option {
+    background-color: var(--color-bg-body);
+    color: var(--color-text-primary);
+}
+
+/* --- TABS --- */
+body.theme-maruts .control-tab {
+    color: #e2f1ff;
+    text-shadow: 0 0 4px rgba(0, 50, 100, 0.8);
+}
+body.theme-maruts .control-tab:hover {
+    color: var(--color-heading-warm);
+}
+body.theme-maruts .control-tab.active {
+    color: var(--color-accent-gold);
+    border-bottom-color: var(--color-heading-warm);
+    text-shadow: 0 0 12px rgba(80, 150, 255, 0.6),
+                 0 0 3px rgba(0, 0, 0, 0.9);
+}
+
+/* --- BUTTONS --- */
+.play-stanza-btn,
+.global-play-btn,
+.theme-toggle-btn,
+.nav-icon-btn,
+.settings-btn,
+.mandala-nav-arrow {
+    background-color: rgba(5, 10, 20, 0.5);
+    color: var(--color-icon-primary);
+    box-shadow: 0 0 6px rgba(80, 150, 255, 0.2);
+}
+
+.play-stanza-btn:hover,
+.global-play-btn:hover,
+.theme-toggle-btn:hover,
+.nav-icon-btn:hover,
+.settings-btn:hover,
+.mandala-nav-arrow:hover {
+    background-color: rgba(80, 150, 255, 0.25);
+    color: var(--color-accent-gold);
+    box-shadow: 0 0 15px rgba(80, 150, 255, 0.6);
+}
+
+.global-play-btn.is-playing,
+.play-stanza-btn.is-playing {
+    color: var(--color-accent-playing);
+}
+
+.theme-toggle-btn.active {
+    color: var(--color-heading-warm);
+    background-color: rgba(50, 128, 255, 0.25);
+    box-shadow: 0 0 20px rgba(80, 150, 255, 0.8);
+}
+
 /* --- Interlinear --- */
 .stanza-core-text.interlinear {
     background: linear-gradient(145deg, rgba(15, 20, 35, 0.85), rgba(5, 10, 20, 0.85));
@@ -56,6 +129,13 @@
     color: #e3f2ff;
     box-shadow: 0 0 8px rgba(80, 150, 255, 0.3),
                 inset 0 0 10px rgba(0, 30, 80, 0.4);
+    transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.stanza-core-text.interlinear:hover {
+    background: linear-gradient(145deg, rgba(25, 35, 50, 0.9), rgba(10, 20, 30, 0.9));
+    box-shadow: 0 0 12px rgba(100, 170, 255, 0.4),
+                inset 0 0 12px rgba(40, 80, 140, 0.4);
 }
 
 /* --- Dynamic Content --- */

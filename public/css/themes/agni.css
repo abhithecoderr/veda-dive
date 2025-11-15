@@ -92,7 +92,10 @@ body.theme-agni .control-tab.active {
 /* --- BUTTON HOVER/ACTIVE STATES --- */
 .play-stanza-btn,
 .global-play-btn,
-.theme-toggle-btn {
+.theme-toggle-btn,
+.nav-icon-btn,
+.settings-btn,
+.mandala-nav-arrow {
     background-color: rgba(0,0,0,0.4);
     color: var(--color-icon-primary);
     box-shadow: 0 0 5px rgba(255, 165, 0, 0.1);
@@ -100,7 +103,10 @@ body.theme-agni .control-tab.active {
 
 .play-stanza-btn:hover,
 .global-play-btn:hover,
-.theme-toggle-btn:hover {
+.theme-toggle-btn:hover,
+.nav-icon-btn:hover,
+.settings-btn:hover,
+.mandala-nav-arrow:hover {
     background-color: rgba(255, 107, 0, 0.25);
     color: var(--color-accent-gold);
     box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);

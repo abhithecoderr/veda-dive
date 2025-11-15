@@ -26,6 +26,7 @@ class ThemeManager {
     );
     this.closeThemeButton = document.getElementById("close-theme-btn");
     this.themeSfxToggle = document.getElementById("theme-sfx-toggle");
+    this.sfxVolumeSlider = document.getElementById("sfx-volume-slider");
     this.themeSfxAudio = new Audio(); // For one-shot sound effects
 
     // Music UI
@@ -116,15 +117,17 @@ class ThemeManager {
   }
 
   saveState() {
-    localStorage.setItem(
-      `hymnTheme-${window.location.pathname}`,
-      this.selectedTheme
-    );
-    if (this.themeSfxToggle)
-      localStorage.setItem("themeSfxEnabled", this.themeSfxToggle.checked);
-    if (this.musicVolumeSlider)
-      localStorage.setItem("musicVolume", this.musicVolumeSlider.value);
-  }
+     localStorage.setItem(
+       `hymnTheme-${window.location.pathname}`,
+       this.selectedTheme
+     );
+     if (this.themeSfxToggle)
+       localStorage.setItem("themeSfxEnabled", this.themeSfxToggle.checked);
+     if (this.sfxVolumeSlider)
+       localStorage.setItem("sfxVolume", this.sfxVolumeSlider.value);
+     if (this.musicVolumeSlider)
+       localStorage.setItem("musicVolume", this.musicVolumeSlider.value);
+   }
 
   loadState() {
     // Theme State
@@ -158,6 +161,15 @@ class ThemeManager {
     if (this.themeSfxToggle) {
       this.themeSfxToggle.checked =
         localStorage.getItem("themeSfxEnabled") !== "false";
+    }
+
+    // SFX Volume State
+    if (this.sfxVolumeSlider) {
+      const savedSfxVolume = localStorage.getItem("sfxVolume");
+      this.sfxVolumeSlider.value =
+        savedSfxVolume !== null ? parseFloat(savedSfxVolume) : 0.4; // Default to 0.4
+      if (this.themeSfxAudio)
+        this.themeSfxAudio.volume = this.sfxVolumeSlider.value;
     }
 
     // Music Volume State
@@ -206,6 +218,15 @@ class ThemeManager {
           }
         }
       });
+
+    // SFX Volume Events
+    if (this.sfxVolumeSlider) {
+      this.sfxVolumeSlider.addEventListener("input", () => {
+        if (this.themeSfxAudio)
+          this.themeSfxAudio.volume = this.sfxVolumeSlider.value;
+        this.saveState();
+      });
+    }
 
     // Music Events
     if (this.musicToggleButton)
@@ -339,7 +360,7 @@ class ThemeManager {
 
     const sfxUrl = sfx[Math.floor(Math.random() * sfx.length)];
     this.themeSfxAudio.src = sfxUrl;
-    this.themeSfxAudio.volume = 0.4;
+    this.themeSfxAudio.volume = this.sfxVolumeSlider ? parseFloat(this.sfxVolumeSlider.value) : 0.4;
     this.themeSfxAudio.loop = true;
     this.themeSfxAudio
       .play()

@@ -15,8 +15,6 @@ const DEITY_CONFIG = {
             '/audio/sfx/fire_crackle_2.mp3'
         ],
         music: [
-            { name: 'Agni Homa Ambience', url: '/audio/music/homa_ambience.mp3' }, // This will play by default
-            { name: 'Agni Suktam Chant', url: '/audio/music/agni_suktam.mp3' }
         ]
     },
     'indra': {
@@ -33,8 +31,7 @@ const DEITY_CONFIG = {
             '/audio/indra_clipped.mp3'
         ],
         music: [
-            { name: 'Thunderstorm Meditation', url: '/audio/music/thunderstorm_meditation.mp3' }, // This will play by default
-            { name: 'Indra Stuti', url: '/audio/music/indra_stuti.mp3' }
+
         ]
     },
     'soma': {
@@ -75,7 +72,7 @@ const DEITY_CONFIG = {
             primary: '#9370DB',
             secondary: '#FFFFFF',
             accent: '#FFD700',
-            highlight: '#ae8eceff',
+            highlight: '#8f12d6',
         },
         soundEffects: [],
         music: [
@@ -102,7 +99,7 @@ const DEITY_CONFIG = {
         theme: 'default',
         video: '',
         colors: {
-            primary: '#9f6335',
+            primary: '#8d582fff',
             secondary: '#035979',
             accent: '#ddab2c',
             highlight: '#ffd700',

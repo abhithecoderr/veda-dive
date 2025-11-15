@@ -56,7 +56,7 @@
 }
 
 .translit-line-aufrecht {
-    color: #e0aaff;
+    color: #c8bfea;
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
 }
 
@@ -92,7 +92,10 @@ body.theme-nasadiya .control-tab.active {
 /* --- BUTTON HOVER/ACTIVE STATES --- */
 .play-stanza-btn,
 .global-play-btn,
-.theme-toggle-btn {
+.theme-toggle-btn,
+.nav-icon-btn,
+.settings-btn,
+.mandala-nav-arrow {
     background-color: rgba(15, 8, 40, 0.5);
     color: var(--color-icon-primary);
     box-shadow: 0 0 6px rgba(157, 78, 221, 0.2);
@@ -100,7 +103,10 @@ body.theme-nasadiya .control-tab.active {
 
 .play-stanza-btn:hover,
 .global-play-btn:hover,
-.theme-toggle-btn:hover {
+.theme-toggle-btn:hover,
+.nav-icon-btn:hover,
+.settings-btn:hover,
+.mandala-nav-arrow:hover {
     background-color: rgba(157, 78, 221, 0.25);
     color: var(--color-accent-nebula);
     box-shadow: 0 0 12px rgba(192, 132, 252, 0.5);

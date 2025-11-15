@@ -35,7 +35,7 @@
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background-color: var(--color-bg-body);
+    background-color: var(--color-icon-background);
     box-shadow: var(--box-shadow-subtle);
     flex-shrink: 0;
     padding: var(--spacing-md);
@@ -159,7 +159,7 @@
     padding: 0.5rem;
     color: var(--color-icon-primary);
     border-radius: 50%;
-    background-color: var(--color-bg-body);
+    background-color: var(--color-icon-background);
     box-shadow: var(--box-shadow-subtle);
     width: 36px;
     height: 36px;
@@ -186,7 +186,7 @@
 .settings-btn {
     background: none; border: none; cursor: pointer; font-size: 1.2rem;
     padding: 0.5rem; color: var(--color-icon-primary); border-radius: 50%;
-    background-color: var(--color-bg-body); box-shadow: var(--box-shadow-subtle);
+    background-color: var(--color-icon-background); box-shadow: var(--box-shadow-subtle);
     width: 36px; height: 36px; display: flex; align-items: center;
     justify-content: center; transition: all 0.2s ease; flex-shrink: 0;
 }
@@ -246,7 +246,7 @@ body.theme-active { background-color: transparent; }
 .nav-icon-btn {
     background: none; border: none; cursor: pointer; font-size: 1.2rem;
     padding: 0.5rem; color: var(--color-icon-primary); border-radius: 50%;
-    background-color: var(--color-bg-body); box-shadow: var(--box-shadow-subtle);
+    background-color: var(--color-icon-background); box-shadow: var(--box-shadow-subtle);
     width: 36px; height: 36px; display: flex; align-items: center;
     justify-content: center; transition: all 0.2s ease; flex-shrink: 0;
 }
@@ -313,11 +313,18 @@ body.theme-active { background-color: transparent; }
 .no-music-notice { font-style: italic; color: var(--color-text-secondary); }
 
 .music-player-controls {
-    display: flex; align-items: center; gap: var(--spacing-sm);
-    font-size: 0.9rem; border-top: 1px solid var(--color-border-subtle);
-    padding-top: var(--spacing-md);
-}
-#music-volume-slider { flex-grow: 1; cursor: pointer; }
+     display: flex; align-items: center; gap: var(--spacing-sm);
+     font-size: 0.9rem; border-top: 1px solid var(--color-border-subtle);
+     padding-top: var(--spacing-md);
+ }
+ #music-volume-slider { flex-grow: 1; cursor: pointer; }
+ 
+ .sfx-player-controls {
+     display: flex; align-items: center; gap: var(--spacing-sm);
+     font-size: 0.9rem; border-top: 1px solid var(--color-border-subtle);
+     padding-top: var(--spacing-md);
+ }
+ #sfx-volume-slider { flex-grow: 1; cursor: pointer; }
 
 /*======================================================
   STANZA NAVIGATION FOOTER

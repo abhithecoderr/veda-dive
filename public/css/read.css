@@ -183,9 +183,8 @@
 
 .card-description-box p {
     /* Adjusted font size and line height */
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: var(--color-text-description);
-    line-height: 1.5;
     margin: 0;
     /* The following properties truncate text after a few lines */
     -webkit-box-orient: vertical;

@@ -261,6 +261,7 @@ return;
 let currentStanzaIndex = 0;
 let isGlobalPlaying = false;
 let isGlobalPaused = false;
+let isPerStanzaOnly = false;
 let globalAudioLoopId = null;
 const stanzaCards = document.querySelectorAll('.stanza-card-item');
 
@@ -456,6 +457,8 @@ if (resetPosition) {
 globalPlayBtn.addEventListener('click', () => {
 document.querySelectorAll('.play-stanza-btn').forEach(button => button.classList.remove('is-playing'));
 
+isPerStanzaOnly = false; // Exit per-stanza-only mode when global button is clicked
+
 const isFreshStart = hymnAudioPlayer.currentTime === 0 && !isGlobalPaused;
 
 if (isGlobalPlaying) {
@@ -479,14 +482,45 @@ globalPlayBtn.style.display = 'none';
 
 fetch(hymnAudioPlayer.src, { method: 'HEAD' })
     .then(response => {
-        if (!response.ok) {
-            console.log(`Audio file not found: ${hymnAudioPlayer.src}`);
-        }
+         if (!response.ok) {
+             console.log(`Audio file not found: ${hymnAudioPlayer.src}`);
+         }
     })
     .catch(error => {
-        console.log('Error checking audio file:', error);
+         console.log('Error checking audio file:', error);
     });
 
+});
+
+// ==========================================================
+// QUICK PAUSE/RESUME ON STANZA CLICK - Global Audio Control
+// ==========================================================
+document.addEventListener('click', (event) => {
+    // Skip if in per-stanza-only mode
+    if (isPerStanzaOnly) {
+        return;
+    }
+    
+    // Only toggle if clicking inside a stanza card item
+    const stanzaCard = event.target.closest('.stanza-card-item');
+    if (!stanzaCard) {
+        return;
+    }
+    
+    // Exclude clicks on control tabs and translation filters within stanza card
+    const controlTab = event.target.closest('.control-tab');
+    const translationFilter = event.target.closest('.translation-filter-select');
+    
+    if (controlTab || translationFilter) {
+        return;
+    }
+    
+    // Toggle global audio on click/tap in stanza area
+    if (isGlobalPlaying) {
+        stopGlobalPlayback(false); // Pause, don't reset
+    } else {
+        playGlobal(false); // Resume
+    }
 });
 
 // ==========================================================
@@ -513,6 +547,7 @@ let data;
     const stanzaEndSeconds = stanzaEndMs / 1000;
 
     stopGlobalPlayback(false);
+    isPerStanzaOnly = true; // Enter per-stanza-only mode
 
     document.querySelectorAll('.play-stanza-btn').forEach(otherButton => {
         if (otherButton !== button) {
@@ -529,6 +564,8 @@ let data;
         button.classList.remove('is-playing');
         cancelHighlightAnimation(audioPlayer);
         clearAllHighlights();
+        isPerStanzaOnly = false;
+        isGlobalPaused = true; // Ensure global audio stays paused when manually pausing stanza
     } else {
         audioPlayer.currentTime = stanzaStartSeconds;
         button.classList.add('is-playing');
@@ -542,6 +579,7 @@ let data;
             console.error('Playback failed:', error);
             alert('Sorry, the audio file could not be loaded or played.');
             button.classList.remove('is-playing');
+            isPerStanzaOnly = false;
         });
 
         const perStanzaStopListener = () => {
@@ -554,6 +592,8 @@ let data;
 
                 audioPlayer.removeEventListener('timeupdate', audioPlayer.perStanzaListener);
                 delete audioPlayer.perStanzaListener;
+                isPerStanzaOnly = false; // Exit per-stanza-only mode when stanza finishes
+                isGlobalPaused = true; // Ensure global audio stays paused
             }
         };
 
@@ -568,6 +608,8 @@ let data;
 
                 audioPlayer.removeEventListener('timeupdate', audioPlayer.perStanzaListener);
                 delete audioPlayer.perStanzaListener;
+                isPerStanzaOnly = false; // Exit per-stanza-only mode if audio is paused
+                isGlobalPaused = true; // Ensure global audio stays paused
             }
         };
     }

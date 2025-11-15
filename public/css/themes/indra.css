@@ -89,7 +89,10 @@ body.theme-indra .control-tab.active {
 /* --- BUTTONS --- */
 .play-stanza-btn,
 .global-play-btn,
-.theme-toggle-btn {
+.theme-toggle-btn,
+.nav-icon-btn,
+.settings-btn,
+.mandala-nav-arrow {
     background-color: rgba(10, 20, 40, 0.5);
     color: var(--color-icon-primary);
     box-shadow: 0 0 6px rgba(80, 160, 255, 0.2);
@@ -97,7 +100,10 @@ body.theme-indra .control-tab.active {
 
 .play-stanza-btn:hover,
 .global-play-btn:hover,
-.theme-toggle-btn:hover {
+.theme-toggle-btn:hover,
+.nav-icon-btn:hover,
+.settings-btn:hover,
+.mandala-nav-arrow:hover {
     background-color: rgba(60, 120, 255, 0.25);
     color: var(--color-accent-gold);
     box-shadow: 0 0 15px rgba(120, 180, 255, 0.6);
